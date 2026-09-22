@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Life Insurance Riders, Explained",
+  title: "Life Insurance Riders: A Structural Reference",
   description:
-    "A professional explanation of what a rider is, how it attaches to a base policy, and a few common examples like accelerated death benefit and waiver-of-premium riders.",
-  openGraph: { title: "Life Insurance Riders, Explained", description: "A professional explanation of what a rider is, how it attaches to a base policy, and a few common examples like accelerated death benefit and waiver-of-premium riders." },
+    "A professional reference on policy riders, their attachment to a base contract, and common examples including accelerated death benefit and waiver-of-premium riders.",
+  openGraph: { title: "Life Insurance Riders: A Structural Reference", description: "A professional reference on policy riders, their attachment to a base contract, and common examples including accelerated death benefit and waiver-of-premium riders." },
 
-  twitter: { title: "Life Insurance Riders, Explained", description: "A professional explanation of what a rider is, how it attaches to a base policy, and a few common examples like accelerated death benefit and waiver-of-premium riders." },
+  twitter: { title: "Life Insurance Riders: A Structural Reference", description: "A professional reference on policy riders, their attachment to a base contract, and common examples including accelerated death benefit and waiver-of-premium riders." },
 };
 
 export default function LifeInsuranceRidersPage() {
@@ -16,72 +16,72 @@ export default function LifeInsuranceRidersPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What is a life insurance rider?
+          Life insurance riders: a structural reference
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          A rider is an optional add-on to a base life insurance policy — something that changes
-          or extends your coverage beyond what the standard policy provides on its own. Here is a
-          professional look at a few of the more common ones.
+          A rider constitutes an optional supplementary provision attached to a base life
+          insurance policy, modifying or extending coverage beyond the standard policy terms. The
+          following addresses several commonly available riders in general terms.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The basic idea
+          Structural function
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Think of your base policy as the core contract: a death benefit, a premium, and the
-          standard terms that come with it. A rider attaches to that base policy and adds
-          something to it — extra flexibility, an additional benefit, or a modification to how
-          the policy behaves in a specific situation. Some riders come at an additional cost,
-          while others are included depending on the policy. Either way, they&apos;re optional:
-          you choose whether to include one when you apply, and in some cases you can add one
-          later.
+          The base policy constitutes the core contractual arrangement: death benefit, premium,
+          and associated standard terms. A rider attaches to this base contract, introducing
+          additional flexibility, a supplementary benefit, or a modification applicable to a
+          specific circumstance. Certain riders involve additional cost; others are incorporated
+          without separate charge, depending on the policy. In all cases, riders remain
+          discretionary — selection occurs at application, with certain riders available for
+          subsequent addition.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           Accelerated death benefit (living benefit) riders
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          This is one of the more commonly known riders. It allows the policyholder to access a
-          portion of their own death benefit while they&apos;re still alive, if they&apos;re
-          diagnosed with a qualifying terminal illness — money meant to help with costs during
-          that time, rather than only reaching a beneficiary after death. Whatever amount is
-          accessed this way is generally subtracted from what&apos;s left to pay out as the
-          death benefit later.
+          Among the most widely recognized riders. This provision permits the policyholder to
+          access a portion of the death benefit during their lifetime upon diagnosis of a
+          qualifying terminal illness — funds intended to address costs associated with that
+          circumstance, rather than being reserved exclusively for post-death beneficiary
+          disbursement. Amounts accessed under this provision are generally deducted from the
+          residual death benefit.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           Waiver-of-premium riders
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          This rider addresses a different problem: staying covered if you become seriously ill
-          or disabled in a way that makes it hard to keep paying. If you qualify, a
-          waiver-of-premium rider suspends the requirement to pay premiums for a period, while
-          keeping the policy fully in force — coverage continues even though payment has paused.
+          This provision addresses continuity of coverage where serious illness or disability
+          materially impairs the policyholder's capacity to remit premium payments. Upon
+          qualification, this rider suspends the premium payment obligation for a defined period
+          while maintaining the policy in full force — coverage continues notwithstanding the
+          suspension of payment.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Riders for a child
+          Child riders
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Some base policies also offer a rider that adds a modest amount of coverage for a
-          policyholder&apos;s child, without requiring a completely separate policy. It&apos;s a
-          smaller, simpler version of the kind of{" "}
+          Certain base policies additionally offer a rider providing modest supplemental coverage
+          for a policyholder's child, obviating the need for a fully independent policy. This
+          represents a reduced-scale variant of the{" "}
           <Link href="/life-insurance-for-children" className="font-semibold text-harbor-mid hover:underline">
-            standalone children&apos;s coverage
+            standalone juvenile coverage
           </Link>{" "}
-          described elsewhere on this site, bundled into a parent&apos;s existing policy
-          instead.
+          addressed elsewhere in this reference, incorporated instead into a parent's existing
+          policy.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why it&apos;s worth asking about
+          Advisability of direct inquiry
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Riders vary a good deal from policy to policy and carrier to carrier — what&apos;s
-          automatically included, what costs extra, and what you actually qualify for. Asking
-          specifically what riders are available, and what each one would mean for your
-          premium, is a reasonable question to bring to a licensed professional before you apply,
-          not something to discover after the fact.
+          Rider availability, cost structure, and qualification requirements vary substantially
+          across policies and carriers. Direct inquiry regarding available riders and their
+          respective premium implications is advisable prior to application, rather than
+          discovery following policy issuance.
         </p>
 
         <div className="mt-14 text-center">
