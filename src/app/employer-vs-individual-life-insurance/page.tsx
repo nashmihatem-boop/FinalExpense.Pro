@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Employer Life Insurance vs. an Individual Policy",
+  title: "Employer-Sponsored vs. Individual Life Insurance: A Structural Comparison",
   description:
-    "A professional comparison: group life insurance through work is often free, but it's usually small and tied to your job. Here's how it compares to a policy you own yourself.",
-  openGraph: { title: "Employer Life Insurance vs. an Individual Policy", description: "A professional comparison: group life insurance through work is often free, but it's usually small and tied to your job. Here's how it compares to a policy you own yourself." },
+    "A professional comparison of employer-sponsored group life insurance against individually owned policies, including portability and underwriting considerations.",
+  openGraph: { title: "Employer-Sponsored vs. Individual Life Insurance: A Structural Comparison", description: "A professional comparison of employer-sponsored group life insurance against individually owned policies, including portability and underwriting considerations." },
 
-  twitter: { title: "Employer Life Insurance vs. an Individual Policy", description: "A professional comparison: group life insurance through work is often free, but it's usually small and tied to your job. Here's how it compares to a policy you own yourself." },
+  twitter: { title: "Employer-Sponsored vs. Individual Life Insurance: A Structural Comparison", description: "A professional comparison of employer-sponsored group life insurance against individually owned policies, including portability and underwriting considerations." },
 };
 
 export default function EmployerVsIndividualLifeInsurancePage() {
@@ -15,67 +15,70 @@ export default function EmployerVsIndividualLifeInsurancePage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Employer life insurance vs. a policy you own yourself
+          Employer-sponsored vs. individual life insurance: a structural comparison
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Many people&apos;s only life insurance is whatever their employer automatically
-          enrolled them in, without realizing how different that coverage is from a policy
-          they&apos;d buy on their own. Both have a place — but a professional understanding of
-          what group coverage actually promises, and when it stops, changes how you should think
-          about it.
+          A substantial proportion of individuals maintain employer-provided group life insurance
+          as their sole coverage, frequently without recognition of its material differences from
+          an independently procured policy. Both instruments serve legitimate functions; the
+          following addresses the specific commitments and limitations of group coverage relative
+          to individually owned policies.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What employer-provided coverage actually gives you
+          The scope of employer-provided coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Group life insurance through work is a real benefit, and it&apos;s usually
-          inexpensive — often provided at no cost to you, or available to add for a modest
-          payroll deduction. Because it&apos;s underwritten as a group rather than person by
-          person, most employees are accepted automatically with no individual health
-          questions, which is genuinely valuable if your own health would make an individual
-          policy harder to get. The tradeoff is size: employer coverage is typically a flat
-          amount or a multiple of your salary, set by the employer&apos;s plan rather than by
-          what your family would actually need.
+          Group life insurance constitutes a genuine and typically low-cost employment benefit —
+          frequently provided without charge, or available for supplementation through a modest
+          payroll deduction. As underwriting occurs at the group level rather than individually,
+          employees are generally accepted automatically without individual health questions, a
+          material advantage where individual health status would otherwise complicate procurement
+          of a separate policy. The corresponding limitation involves coverage magnitude:
+          employer-provided coverage typically consists of a flat amount or a multiple of salary,
+          determined by the employer's plan design rather than by the employee's actual financial
+          requirements.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          It&apos;s tied to your job, not to you
+          Employment-contingent structure
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The most important thing to understand about group life insurance is that it belongs
-          to your employer&apos;s plan, not to you personally. In most cases, it ends when your
-          employment does — whether you leave voluntarily, get laid off, or retire — regardless
-          of your health at that moment. Some employer plans offer a portability or conversion
-          option that lets you keep some form of coverage after you leave. Where that exists,
-          it&apos;s worth knowing about, but it typically comes at a higher, individually rated
-          premium than what you were paying as part of the group, and there&apos;s usually only
-          a limited window after your coverage ends to make that choice.
+          The essential characteristic of group life insurance is its attachment to the employer's
+          plan rather than to the individual employee. Coverage typically terminates upon
+          cessation of employment — whether through voluntary departure, termination, or
+          retirement — irrespective of health status at that time. Certain employer plans offer a
+          portability or conversion provision permitting continuation of some coverage form
+          post-employment. Where available, this provision generally involves a substantially
+          higher, individually rated premium relative to the group rate, with a limited election
+          window following coverage termination.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What a policy you own looks like instead
+          The structure of an individually owned policy
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          An individual final expense or life insurance policy is underwritten around you
-          specifically, at the time you apply. Once it&apos;s in place, it&apos;s yours — the
-          coverage and premium stay put regardless of what happens with your job afterward. You
-          can change employers, retire, or stop working entirely, and the policy doesn&apos;t
-          know the difference. That&apos;s the core trade being made: group coverage is often
-          cheaper or free but conditional on employment, while an individual policy usually
-          costs more out of pocket but comes with no strings attached to your career.
+          An individual final expense or life insurance policy is underwritten specifically for
+          the applicant at the point of application. Once established, the policy belongs to the
+          individual — coverage and premium remain unaffected by subsequent employment changes.
+          Career transitions, retirement, or cessation of employment do not affect the policy. This
+          represents the fundamental tradeoff between the two structures: group coverage is
+          frequently less costly or free but contingent on continued employment, whereas an
+          individual policy typically involves greater out-of-pocket cost but carries no
+          employment-related contingency.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Using both, without relying on either alone
+          Concurrent utilization rather than sole reliance
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          These two aren&apos;t really competitors — plenty of people carry both. Group coverage
-          through work can be a reasonable bonus layer while you&apos;re employed, especially if
-          it costs you nothing. The mistake is treating it as your whole plan. Because it can
-          disappear at the exact moment your life changes — a layoff, a career switch,
-          retirement — the coverage meant to stay with your family no matter what is the kind a
-          licensed professional helps you put in your own name.
+          These instruments are not mutually exclusive — many individuals maintain both
+          concurrently. Employer-provided coverage functions reasonably as a supplementary layer
+          during active employment, particularly where provided without cost. The material risk
+          lies in treating group coverage as a comprehensive solution, given its termination
+          precisely at moments of significant life transition — job loss, career change, or
+          retirement. Coverage intended to remain constant irrespective of employment
+          circumstances should accordingly be held individually.
         </p>
 
         <div className="mt-14 text-center">

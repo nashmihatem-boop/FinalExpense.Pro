@@ -2,12 +2,12 @@ import type { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Is Life Insurance Taxable?",
+  title: "Tax Treatment of Life Insurance Death Benefits",
   description:
-    "A professional explanation of the general federal tax rule for life insurance death benefits, a few well-established nuances, and why your specific situation still needs a tax professional.",
-  openGraph: { title: "Is Life Insurance Taxable?", description: "A professional explanation of the general federal tax rule for life insurance death benefits, a few well-established nuances, and why your specific situation still needs a tax professional." },
+    "A professional summary of the federal tax treatment of life insurance death benefits, applicable nuances, and the recommendation to consult a tax professional.",
+  openGraph: { title: "Tax Treatment of Life Insurance Death Benefits", description: "A professional summary of the federal tax treatment of life insurance death benefits, applicable nuances, and the recommendation to consult a tax professional." },
 
-  twitter: { title: "Is Life Insurance Taxable?", description: "A professional explanation of the general federal tax rule for life insurance death benefits, a few well-established nuances, and why your specific situation still needs a tax professional." },
+  twitter: { title: "Tax Treatment of Life Insurance Death Benefits", description: "A professional summary of the federal tax treatment of life insurance death benefits, applicable nuances, and the recommendation to consult a tax professional." },
 };
 
 export default function IsLifeInsuranceTaxablePage() {
@@ -15,62 +15,62 @@ export default function IsLifeInsuranceTaxablePage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Is life insurance taxable?
+          Tax treatment of life insurance death benefits
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          This is one of the most common questions about life insurance, and the general answer
-          is genuinely reassuring. Here&apos;s a professional explanation of the well-established
-          federal rule, a couple of nuances worth knowing, and why your own situation still
-          deserves a conversation with a tax professional.
+          This constitutes among the most frequently raised questions regarding life insurance,
+          and the general rule provides a favorable answer. The following addresses the
+          established federal rule, applicable nuances, and the rationale for individualized tax
+          consultation.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The general rule: death benefits are typically income-tax-free
+          General rule: death benefits are generally exempt from federal income tax
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
           Under federal law, life insurance death benefits are generally received by the
-          beneficiary free of federal income tax. This is one of the most well-established
-          features of life insurance in the United States, and it&apos;s a large part of why the
-          death benefit is such a reliable planning tool — in the ordinary case, the amount your
-          beneficiary receives isn&apos;t reduced by federal income tax before or after it
-          reaches them.
+          beneficiary free of federal income tax. This constitutes one of the most well-
+          established characteristics of life insurance within the United States regulatory
+          framework, and substantially underlies its function as a reliable planning instrument —
+          in the standard case, the disbursed amount is not diminished by federal income tax at
+          any point in the disbursement process.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Where interest can come into play
+          The interest-accrual exception
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          One well-known nuance involves timing. If a payout is delayed and the insurer holds
-          the funds for a period before releasing them to the beneficiary, any interest that
-          accrues during that time can be taxable, even though the underlying death benefit
-          itself is not. In other words, the death benefit stays income-tax-free — it&apos;s
-          specifically interest earned on top of it, during a delay, that can create a tax
-          event.
+          A recognized nuance concerns disbursement timing. Where payout is delayed and the
+          carrier retains funds for a period prior to disbursement, interest accruing during this
+          period may be subject to taxation, notwithstanding the tax-exempt status of the
+          underlying death benefit. The death benefit itself remains exempt from federal income
+          tax; interest accrued during a disbursement delay constitutes a distinct, potentially
+          taxable event.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Large estates are a separate question
+          Estate tax considerations for substantial estates
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          There&apos;s a second, more specific nuance: for very large estates, the value of a
-          life insurance policy can in some cases factor into estate tax considerations, separate
-          from the income tax treatment discussed above. This generally only becomes relevant
-          for a small share of estates, and it depends on federal (and sometimes state)
-          thresholds and rules that can change over time — specific enough that this page
-          won&apos;t attempt to state numbers that could be outdated or simply not apply to your
-          situation.
+          A second, more specific nuance applies to substantial estates: policy value may in
+          certain circumstances factor into estate tax calculations, a consideration distinct from
+          the income tax treatment addressed above. This consideration applies to a limited
+          proportion of estates and depends on federal, and in certain cases state, thresholds
+          subject to periodic modification — sufficiently variable that specific figures are not
+          provided here, as such figures would risk obsolescence or inapplicability to a given
+          circumstance.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold text-harbor">
-            Talk to a tax professional about your specific situation
+            Consultation with a tax professional is advisable
           </p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            The general rule above is well established and safe to rely on as a starting point,
-            but taxes are personal by nature — your state, the size of any estate involved, how
-            a policy is owned, and other individual factors can all matter. Before making
-            decisions based on the tax treatment of a policy, talk with a qualified tax
-            professional who can look at your specific situation directly.
+            The general rule above is well established and provides a reliable starting reference;
+            however, tax determinations are inherently individualized — state of residence, estate
+            magnitude, policy ownership structure, and comparable factors all bear on the
+            analysis. Prior to acting on assumptions regarding tax treatment, consultation with a
+            qualified tax professional regarding the specific circumstances is advisable.
           </p>
         </div>
 

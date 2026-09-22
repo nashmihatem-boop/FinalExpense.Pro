@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Life Insurance Glossary",
+  title: "Life Insurance Terminology: A Professional Reference",
   description:
-    "Professional, plain-language definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period.",
-  openGraph: { title: "Life Insurance Glossary", description: "Professional, plain-language definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period." },
+    "A professional reference defining the life insurance terminology used throughout this site, from beneficiary and death benefit to lapse and look-back period.",
+  openGraph: { title: "Life Insurance Terminology: A Professional Reference", description: "A professional reference defining the life insurance terminology used throughout this site, from beneficiary and death benefit to lapse and look-back period." },
 
-  twitter: { title: "Life Insurance Glossary", description: "Professional, plain-language definitions for the life insurance terms used across this site, from beneficiary and death benefit to lapse and look-back period." },
+  twitter: { title: "Life Insurance Terminology: A Professional Reference", description: "A professional reference defining the life insurance terminology used throughout this site, from beneficiary and death benefit to lapse and look-back period." },
 };
 
 const TERMS: { term: string; definition: ReactNode }[] = [
@@ -17,9 +17,10 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Beneficiary",
     definition: (
       <>
-        The person, people, or entity you name to receive your policy&apos;s death benefit.
-        Most policies let you name more than one, and you can generally change your beneficiary
-        at any time while the policy is active.
+        The party or parties designated to receive policy proceeds upon the insured's death —
+        an individual, several individuals jointly, or an organization. Subject to policy terms,
+        this designation may be revised at the policyholder's discretion throughout the
+        policy's active term.
       </>
     ),
   },
@@ -27,8 +28,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Death benefit",
     definition: (
       <>
-        The amount of money paid to your beneficiary after you pass away and the claim is
-        approved. This is the core purpose of a life insurance policy.
+        The sum disbursed to the beneficiary upon claim approval following the insured's death.
+        This payment represents the central obligation underlying the policy.
       </>
     ),
   },
@@ -36,8 +37,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Premium",
     definition: (
       <>
-        The payment you make, usually monthly, to keep your policy in force. Miss enough
-        payments and the policy can eventually lapse.
+        The recurring payment obligation, typically assessed monthly, required to sustain a
+        policy's in-force status. Extended non-payment may result in termination of coverage.
       </>
     ),
   },
@@ -45,8 +46,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Face amount",
     definition: (
       <>
-        The stated coverage amount of a policy — the figure used to calculate the death benefit
-        before any early-period adjustments, like a graded or modified payout schedule, apply.
+        The contractually specified coverage figure serving as the baseline for benefit
+        calculation, prior to application of any early-duration modification such as a graded or
+        modified payout schedule.
       </>
     ),
   },
@@ -54,12 +56,13 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Cash value",
     definition: (
       <>
-        A savings-like component that builds slowly inside a whole life or final expense policy
-        while you&apos;re alive, separate from the death benefit. See our{" "}
+        An accumulation feature embedded in whole life and final expense products, distinct from
+        the death benefit and available to the policyholder during the insured's lifetime.
+        Consult the{" "}
         <Link href="/cash-value-life-insurance" className="font-semibold text-harbor-mid hover:underline">
-          full explanation of cash value
+          detailed cash value analysis
         </Link>{" "}
-        for more.
+        for further explanation.
       </>
     ),
   },
@@ -67,11 +70,11 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Simplified issue",
     definition: (
       <>
-        An application process with no medical exam — instead, you answer a short list of
-        health questions, and the carrier checks background sources like your prescription
-        history. See how{" "}
+        An underwriting track that dispenses with medical examination in favor of a condensed
+        health questionnaire, subsequently verified against records such as prescription history.
+        For its application to specific health conditions, refer to the{" "}
         <Link href="/pre-existing-conditions" className="font-semibold text-harbor-mid hover:underline">
-          simplified issue works with pre-existing conditions
+          pre-existing conditions reference
         </Link>
         .
       </>
@@ -81,9 +84,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Guaranteed issue",
     definition: (
       <>
-        Also called guaranteed acceptance. An application process with no health questions and
-        no medical exam — anyone within the eligible age range is accepted, typically in
-        exchange for a waiting period on natural-cause death.
+        Also termed guaranteed acceptance. An underwriting track requiring neither health
+        questions nor medical examination — applicants within the eligible age band are accepted
+        unconditionally, generally subject to a waiting period applicable to natural-cause death.
       </>
     ),
   },
@@ -91,11 +94,11 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Level / graded / modified",
     definition: (
       <>
-        The three common payout structures for how much a policy pays if death occurs during
-        its early period. Level pays the full death benefit from day one. Graded pays a
-        partial, increasing amount during the early period. Modified returns paid premiums,
-        often with interest, during that same window. All three pay the full death benefit once
-        the early period has passed.
+        The three principal benefit structures governing payout during a policy's initial term.
+        Level provides the complete benefit immediately. Graded provides a partial, annually
+        increasing amount throughout the initial term. Modified returns premium payments, often
+        with accrued interest, in place of a benefit during that period. Each structure converts
+        to full benefit payment upon expiration of the initial term.
       </>
     ),
   },
@@ -103,9 +106,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Contestability period",
     definition: (
       <>
-        A window, commonly the first two years a policy is in force, during which the insurer
-        can investigate and potentially contest a claim if the application contained a material
-        misrepresentation.
+        A defined period, typically the initial two policy years, during which the carrier
+        retains authority to investigate and potentially contest a claim on grounds of material
+        misrepresentation in the original application.
       </>
     ),
   },
@@ -113,8 +116,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Underwriting",
     definition: (
       <>
-        The process a carrier uses to evaluate an applicant — health questions, prescription
-        history, and other checks — to decide whether to issue a policy, and on what terms.
+        The carrier's evaluative process — encompassing health disclosures, prescription
+        verification, and related review — culminating in a determination regarding policy
+        issuance and applicable terms.
       </>
     ),
   },
@@ -122,9 +126,9 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Look-back period",
     definition: (
       <>
-        How far back a carrier&apos;s health questions reach when asking about a past
-        diagnosis, treatment, or hospitalization. This window varies by carrier and by the
-        specific condition being asked about.
+        The temporal scope governing a carrier's inquiry into prior diagnosis, treatment, or
+        hospitalization. This duration is not standardized and varies by carrier and by the
+        specific condition under review.
       </>
     ),
   },
@@ -132,8 +136,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Free-look period",
     definition: (
       <>
-        A short window after your policy is delivered during which you can cancel it for any
-        reason and receive a full refund of any premiums paid.
+        A defined interval following policy delivery during which cancellation for any reason
+        entitles the policyholder to complete reimbursement of premiums remitted.
       </>
     ),
   },
@@ -141,8 +145,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Grace period",
     definition: (
       <>
-        A set stretch of time after a missed premium due date during which your coverage stays
-        in force while you catch up on payment, before the policy lapses.
+        A specified interval subsequent to a missed premium due date during which coverage
+        remains effective pending payment, prior to formal lapse.
       </>
     ),
   },
@@ -150,8 +154,8 @@ const TERMS: { term: string; definition: ReactNode }[] = [
     term: "Lapse",
     definition: (
       <>
-        What happens when a policy ends because a premium went unpaid, even through the grace
-        period. Once a policy lapses, coverage stops.
+        The termination event resulting from premium non-payment persisting beyond the grace
+        period. Following lapse, coverage ceases to be effective.
       </>
     ),
   },
@@ -162,12 +166,12 @@ export default function LifeInsuranceGlossaryPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Life insurance glossary
+          Life insurance terminology: a professional reference
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Final expense and life insurance come with their own vocabulary. Here&apos;s a
-          professional, plain-language reference for the terms used across this site, so nothing
-          you read here depends on jargon you haven&apos;t seen explained.
+          This industry maintains specialized terminology that may be unfamiliar to applicants
+          without prior exposure. The following reference provides precise definitions for terms
+          referenced throughout this site.
         </p>
 
         <dl className="mt-10 divide-y divide-mist border-t border-mist">
