@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "What to Know Before You Cancel a Policy",
+  title: "Policy Cancellation: A Professional Pre-Cancellation Review",
   description:
-    "A professional explanation of how canceling a life insurance policy works, what happens to any cash value, and what to check before you let coverage go.",
-  openGraph: { title: "What to Know Before You Cancel a Policy", description: "A professional explanation of how canceling a life insurance policy works, what happens to any cash value, and what to check before you let coverage go." },
+    "A professional review of how life insurance policy cancellation works, the disposition of any cash value, and the underwriting factors to verify beforehand.",
+  openGraph: { title: "Policy Cancellation: A Professional Pre-Cancellation Review", description: "A professional review of how life insurance policy cancellation works, the disposition of any cash value, and the underwriting factors to verify beforehand." },
 
-  twitter: { title: "What to Know Before You Cancel a Policy", description: "A professional explanation of how canceling a life insurance policy works, what happens to any cash value, and what to check before you let coverage go." },
+  twitter: { title: "Policy Cancellation: A Professional Pre-Cancellation Review", description: "A professional review of how life insurance policy cancellation works, the disposition of any cash value, and the underwriting factors to verify beforehand." },
 };
 
 export default function CancelPolicyPage() {
@@ -20,58 +20,58 @@ export default function CancelPolicyPage() {
           <Link href="/managing-your-policy" className="hover:text-harbor">Managing Your Policy</Link> / Cancel a Policy
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What to know before you cancel a policy
+          Policy cancellation: a professional pre-cancellation review
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Sometimes canceling is genuinely the right call. But because life insurance pricing is
-          tied closely to your age, it&apos;s worth a professional check on a few things first so
-          canceling doesn&apos;t end up costing you more than it saves.
+          Cancellation is, in certain circumstances, the appropriate course of action. However,
+          because life insurance pricing is fundamentally tied to age at issuance, a professional
+          review of the following factors is advisable before proceeding, so that cancellation
+          does not result in a net financial cost.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How canceling actually works
+          The cancellation procedure
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Canceling is usually as simple as contacting your carrier and requesting it, sometimes
-          in writing, sometimes over the phone. If your policy has cash value, this is often
-          called &quot;surrendering&quot; it instead. Either way, coverage ends as of a specific
-          date, and you&apos;re not responsible for any premiums after that point.
+          Cancellation typically requires only a request to the carrier, submitted in writing or
+          by telephone. Where the policy holds cash value, this action is generally termed
+          &quot;surrender.&quot; In either case, coverage terminates as of a specified date, with
+          no further premium obligation thereafter.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What happens to cash value, if your policy has any
+          Disposition of accumulated cash value
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A whole life policy that has accumulated cash value typically pays that value out to you
-          when you surrender it, minus anything you owe — including an outstanding{" "}
+          A whole life policy with accumulated cash value typically distributes that value upon
+          surrender, net of any outstanding obligation — including an unpaid{" "}
           <Link href="/managing-your-policy/borrow-from-policy" className="text-harbor-mid underline">
             policy loan
           </Link>
-          , if you have one. A term policy generally has no cash value to receive. Surrendered
-          cash value can carry tax implications in some situations, so it&apos;s worth confirming
-          the specifics with your carrier or a tax professional before you finalize anything.
+          . A term policy carries no cash value to distribute. Surrendered cash value may carry
+          tax consequences depending on circumstances, and confirmation with the carrier or a tax
+          professional is advisable prior to finalizing.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Other things worth checking first
+          Additional factors warranting verification
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Ask whether any balance or fees apply to the cancellation itself, and get the
-          cancellation confirmed in writing or by email so there&apos;s no ambiguity later about
-          the effective date. If anyone else — a spouse, adult child, or family member — is
-          counting on this specific policy as part of their own planning, it&apos;s worth a
-          conversation before you let it go.
+          Confirm whether any balance or fee applies to the cancellation itself, and obtain written
+          confirmation of the cancellation to eliminate ambiguity regarding the effective date. Where
+          another party — a spouse, adult child, or other family member — relies on this specific
+          policy within their own planning, a professional conversation with that party is
+          advisable prior to proceeding.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">The big question to ask first</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">The primary consideration</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Since pricing is generally based on your age — and sometimes health — at the time you
-            apply, a new policy taken out later almost always costs more than your current one did
-            when you first bought it, even if nothing about your health has changed. If
-            you&apos;re canceling to replace this policy with something better, it&apos;s usually
-            smarter to line up and confirm the new policy first, so you&apos;re never without
-            coverage in between.
+            Because pricing is generally determined by age (and in some cases health) at
+            application, a subsequently issued policy will almost invariably carry a higher
+            premium than the current one, irrespective of any change in health status. Where
+            cancellation is intended to facilitate a replacement, professional practice dictates
+            securing and confirming the replacement policy before terminating existing coverage.
           </p>
         </div>
 

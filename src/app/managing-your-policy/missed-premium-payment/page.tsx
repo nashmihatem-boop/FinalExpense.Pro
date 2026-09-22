@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "What Happens If You Miss a Premium Payment",
+  title: "Missed Premium Payments: Professional Protocol",
   description:
-    "A professional explanation of how grace periods work, what happens if a policy lapses, and what to do if you've missed a payment.",
-  openGraph: { title: "What Happens If You Miss a Premium Payment", description: "A professional explanation of how grace periods work, what happens if a policy lapses, and what to do if you've missed a payment." },
+    "A professional protocol for a missed premium payment — grace period mechanics, lapse consequences, and the reinstatement process.",
+  openGraph: { title: "Missed Premium Payments: Professional Protocol", description: "A professional protocol for a missed premium payment — grace period mechanics, lapse consequences, and the reinstatement process." },
 
-  twitter: { title: "What Happens If You Miss a Premium Payment", description: "A professional explanation of how grace periods work, what happens if a policy lapses, and what to do if you've missed a payment." },
+  twitter: { title: "Missed Premium Payments: Professional Protocol", description: "A professional protocol for a missed premium payment — grace period mechanics, lapse consequences, and the reinstatement process." },
 };
 
 export default function MissedPremiumPaymentPage() {
@@ -20,64 +20,63 @@ export default function MissedPremiumPaymentPage() {
           <Link href="/managing-your-policy" className="hover:text-harbor">Managing Your Policy</Link> / Missed Premium Payment
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What happens if you miss a premium payment
+          Missed premium payments: professional protocol
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          A missed payment is common, and it usually isn&apos;t an emergency the moment it
-          happens. Life insurance policies build in a cushion for exactly this situation —
-          here&apos;s a professional explanation of how it typically works, and what to do if
-          it&apos;s happened to you.
+          A missed premium payment is a common occurrence and does not typically constitute an
+          immediate crisis. Policies are structured with a built-in mechanism for precisely this
+          circumstance — the following is a professional review of how that mechanism operates and
+          the appropriate response.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The grace period
+          The grace period mechanism
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most policies include a grace period that starts after a missed due date — a window
-          during which your coverage generally stays fully in force even though the payment
-          hasn&apos;t been made yet. The exact length is set by your policy and state, so check
-          your policy documents or ask your carrier for your specific grace period rather than
-          assuming a number.
+          Most policies incorporate a grace period commencing upon a missed due date, during which
+          coverage generally remains fully in force notwithstanding the outstanding payment. The
+          precise duration is determined by policy terms and state regulation; the specific figure
+          should be confirmed with the carrier rather than assumed.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          If a death occurs during the grace period
+          Death occurring within the grace period
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Coverage is generally still considered active during the grace period, so a claim is
-          typically still payable. In most cases the outstanding premium is simply deducted from
-          the death benefit rather than causing a denial. Confirm this detail with your specific
-          carrier, since it&apos;s written into your policy&apos;s actual terms.
+          Coverage is generally deemed active throughout the grace period, rendering a claim
+          payable in most circumstances. The outstanding premium is typically deducted from the
+          death benefit rather than resulting in denial. This provision should be verified against
+          the specific policy's terms.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          If the grace period passes with no payment
+          Consequence of an unaddressed grace period
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Once the grace period ends without payment, the policy generally lapses — meaning
-          coverage ends and premiums are no longer being collected. This is the outcome worth
-          avoiding, since a lapse can mean starting over on new coverage later, often at a higher
-          cost simply because of age.
+          Upon expiration of the grace period without payment, the policy generally lapses,
+          terminating coverage and premium collection. This outcome carries a material
+          consequence: securing replacement coverage subsequently typically incurs a higher
+          premium, driven solely by the applicant's increased age.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          If your policy has already lapsed
+          Reinstatement following a lapse
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Many carriers offer reinstatement within a certain window after a lapse, though it can
-          require paying back premiums, answering new health questions, or providing proof of
-          insurability — ask your carrier directly what reinstatement would require for your
-          policy. If reinstatement isn&apos;t available, or your health has changed enough that it
-          no longer makes sense, a licensed professional can help you look at a new policy as the
-          more practical path forward.
+          Many carriers offer reinstatement within a defined window following lapse, subject to
+          requirements that may include payment of arrears, updated health disclosures, or
+          evidence of continued insurability. The specific requirements should be confirmed
+          directly with the carrier. Where reinstatement is unavailable, or health status renders
+          it impractical, evaluating a replacement policy is the appropriate professional
+          alternative.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">To avoid it happening again</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Preventive best practice</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Setting up autopay, keeping your payment method current after a card expires or a bank
-            account changes, and making sure your carrier has an up-to-date mailing address and
-            phone number all reduce the odds of a payment slipping through unnoticed.
+            Establishing automatic payment, maintaining current payment information following card
+            expiration or account changes, and ensuring the carrier holds current contact
+            information collectively minimize the risk of an unaddressed missed payment.
           </p>
         </div>
 
@@ -86,7 +85,7 @@ export default function MissedPremiumPaymentPage() {
             Call {siteConfig.supportPhoneDisplay}
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
-            If your policy lapsed and reinstatement isn&apos;t the right fit,{" "}
+            If reinstatement isn&apos;t the right fit,{" "}
             <Link href="/get-quote" className="font-semibold text-harbor-mid hover:underline">
               request a professional coverage review →
             </Link>

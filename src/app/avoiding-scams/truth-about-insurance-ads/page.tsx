@@ -1,109 +1,95 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "The Truth About Final Expense Insurance Ads",
+  title: "Auditing Insurance Advertising Claims: A Professional Standard",
   description:
-    "A professional read on \"as low as\" pricing, the real difference between no medical exam and no health questions, and why a familiar face in an ad isn't a recommendation.",
-  openGraph: { title: "The Truth About Final Expense Insurance Ads", description: "A professional read on \"as low as\" pricing, the real difference between no medical exam and no health questions, and why a familiar face in an ad isn't a recommendation." },
+    "A professional standard for auditing \"as low as\" pricing and \"no medical exam\" claims in final expense insurance advertising before relying on them.",
+  openGraph: { title: "Auditing Insurance Advertising Claims: A Professional Standard", description: "A professional standard for auditing \"as low as\" pricing and \"no medical exam\" claims in final expense insurance advertising before relying on them." },
 
-  twitter: { title: "The Truth About Final Expense Insurance Ads", description: "A professional read on \"as low as\" pricing, the real difference between no medical exam and no health questions, and why a familiar face in an ad isn't a recommendation." },
+  twitter: { title: "Auditing Insurance Advertising Claims: A Professional Standard", description: "A professional standard for auditing \"as low as\" pricing and \"no medical exam\" claims in final expense insurance advertising before relying on them." },
 };
 
 export default function TruthAboutInsuranceAdsPage() {
   return (
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
-        <p className="text-sm text-charcoal/50">
-          <Link href="/avoiding-scams" className="hover:text-harbor">Avoiding Scams</Link> / The Truth About Insurance Ads
-        </p>
-        <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          The truth about final expense insurance ads
+        <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
+          Auditing insurance advertising claims: a professional standard
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Insurance advertising is legal, common, and — like advertising for almost anything else
-          — built to put its best foot forward. That&apos;s not inherently dishonest, but it does
-          mean a few specific phrases show up constantly and mean something narrower than they
-          sound like. Knowing what they actually mean, professionally, is most of the skill.
+          Insurance advertising operates within ordinary legal bounds, and like advertising
+          generally, it is constructed to present the most favorable framing available. That is
+          not inherently misleading, but it does mean a recurring set of phrases carries a
+          narrower meaning than the surface language suggests. A professional audit of that
+          language is the foundation of an informed comparison.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          &quot;As low as&quot; is a best case, not your case
+          &quot;As low as&quot; reflects a best-case applicant, not a specific quote
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The headline price in most ads is the rate for the healthiest, youngest applicant the
-          insurer will cover at that coverage amount — not a quote for you specifically. Your
-          actual premium depends on your age, gender, coverage amount, tobacco use, and health, so
-          the number in the ad works more like a starting line than a promise. That&apos;s not
-          necessarily deceptive on its own — it&apos;s usually disclosed, technically accurate
-          math — but treating it as your price before you&apos;ve actually applied is where people
-          get a surprise. The only way to know your real number is to go through underwriting with
-          a specific carrier.
+          The advertised rate corresponds to the healthiest, youngest applicant the carrier will
+          underwrite at that coverage amount — it is not a personalized quote. Actual premium is a
+          function of age, gender, coverage amount, tobacco use, and health status, meaning the
+          advertised figure functions as a baseline rather than a commitment. This is not
+          necessarily deceptive; the math is typically disclosed and technically accurate. The
+          professional standard is to treat the figure as informational only until formal
+          underwriting with a specific carrier produces an actual rate.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          &quot;No medical exam&quot; and &quot;no health questions&quot; are not the same thing
+          &quot;No medical exam&quot; and &quot;no health questions&quot; denote distinct
+          underwriting classes
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          These two phrases get used almost interchangeably in ads, and they describe two
-          genuinely different products. &quot;No medical exam&quot; usually describes
-          simplified-issue underwriting — no nurse visit, no bloodwork, but you still answer a set
-          of health questions, and your answers still affect your eligibility and rate.
-          &quot;No health questions&quot; describes guaranteed-acceptance coverage, which skips
-          health questions entirely but, in exchange, carries a waiting period — typically two
-          years — before it pays the full benefit for a death from natural causes. We cover this
-          distinction in more depth in our{" "}
-          <Link
-            href="/pre-existing-conditions#the-two-paths-and-how-simplified-issue-works"
-            className="text-harbor-mid underline"
-          >
-            guide to buying with a pre-existing condition
-          </Link>
-          , but the short version for reading an ad is this: if it promises no health questions
-          and no waiting period in the same breath, that combination doesn&apos;t exist in this
-          market, and the ad is either careless or dishonest.
+          These terms are frequently used interchangeably in advertising despite describing
+          materially different products. &quot;No medical exam&quot; typically denotes
+          simplified-issue underwriting — no clinical examination, but a set of health questions
+          that determine eligibility and rate. &quot;No health questions&quot; denotes
+          guaranteed-issue coverage, which forgoes health questions entirely in exchange for a
+          waiting period — typically two years — on the full natural-cause death benefit. Our{" "}
+          <a href="/pre-existing-conditions#the-two-paths-and-how-simplified-issue-works" className="text-harbor-mid underline">
+            guide to pre-existing conditions
+          </a>{" "}
+          details this distinction further. As a professional standard: advertising that claims
+          both no health questions and no waiting period simultaneously describes a product that
+          does not exist in this market, and should be treated as unreliable.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A familiar face isn&apos;t a recommendation
+          A celebrity endorsement carries no underwriting significance
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A lot of final expense advertising uses a celebrity spokesperson or a familiar TV
-          personality. That&apos;s a marketing arrangement — the person was paid to appear, not to
-          evaluate the product against its competitors. It says nothing about whether that
-          specific company&apos;s rates, underwriting, or claims experience are actually the best
-          fit for you. Treat a celebrity endorsement the way you&apos;d treat any other paid
-          placement: as a reason the ad got your attention, not a reason to skip comparing it to
-          anything else.
+          A substantial share of final expense advertising employs a celebrity or recognizable
+          spokesperson. This reflects a paid marketing arrangement, not an independent evaluation
+          of the product relative to its competitors. It provides no information regarding whether
+          that carrier's pricing, underwriting standards, or claims-handling record are
+          appropriate for a given applicant, and should be weighted accordingly in any professional
+          comparison.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Reading an ad like an informed buyer
+          A professional's advertising-audit checklist
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          None of the questions below take long to ask, and a legitimate agent will answer all of
-          them plainly.
+          Each of the following should be answerable without hesitation by any legitimate
+          representative of the advertised product.
         </p>
         <div className="mt-6 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">A few questions worth asking</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Audit checklist</p>
           <ul className="mt-3 space-y-2 text-base leading-relaxed text-charcoal/80">
-            <li>• Is this price actually for someone my age and health, or the best case they can advertise?</li>
-            <li>• Does &quot;no exam&quot; here mean I still answer health questions?</li>
-            <li>• If there&apos;s a waiting period, how long is it, and what exactly does it apply to?</li>
-            <li>• Am I comparing this to anything else, or just responding to the first ad I saw?</li>
+            <li>• Does this price reflect my actual age and health, or the carrier's best-case scenario?</li>
+            <li>• Under &quot;no exam,&quot; am I still required to answer health questions?</li>
+            <li>• If a waiting period applies, what is its duration and precise scope?</li>
+            <li>• Has this offer been benchmarked against any alternative, or evaluated in isolation?</li>
           </ul>
         </div>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            See what you qualify for
+            Request a Professional Coverage Review
           </Button>
-          <p className="mt-4 text-sm text-charcoal/60">
-            <Link href="/avoiding-scams" className="font-semibold text-harbor-mid hover:underline">
-              ← Back to Avoiding Scams
-            </Link>
-          </p>
         </div>
       </div>
     </div>

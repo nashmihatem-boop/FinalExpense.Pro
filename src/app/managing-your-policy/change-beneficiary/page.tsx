@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "How to Change Your Life Insurance Beneficiary",
+  title: "Beneficiary Designation Updates: Professional Procedure",
   description:
-    "A professional explanation of how updating a policy's beneficiary works, and the common life events that lead people to do it.",
-  openGraph: { title: "How to Change Your Life Insurance Beneficiary", description: "A professional explanation of how updating a policy's beneficiary works, and the common life events that lead people to do it." },
+    "The professional procedure for updating a life insurance policy's beneficiary designation, and the circumstances under which a review is advisable.",
+  openGraph: { title: "Beneficiary Designation Updates: Professional Procedure", description: "The professional procedure for updating a life insurance policy's beneficiary designation, and the circumstances under which a review is advisable." },
 
-  twitter: { title: "How to Change Your Life Insurance Beneficiary", description: "A professional explanation of how updating a policy's beneficiary works, and the common life events that lead people to do it." },
+  twitter: { title: "Beneficiary Designation Updates: Professional Procedure", description: "The professional procedure for updating a life insurance policy's beneficiary designation, and the circumstances under which a review is advisable." },
 };
 
 export default function ChangeBeneficiaryPage() {
@@ -20,64 +20,66 @@ export default function ChangeBeneficiaryPage() {
           <Link href="/managing-your-policy" className="hover:text-harbor">Managing Your Policy</Link> / Change Your Beneficiary
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How to change your policy&apos;s beneficiary
+          Beneficiary designation updates: professional procedure
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Updating a beneficiary is simpler than most people expect — it doesn&apos;t touch your
-          coverage, your premium, or any other part of the policy. It&apos;s just a matter of
-          telling your carrier who you actually want listed.
+          Updating a beneficiary designation is procedurally simpler than most policyholders
+          anticipate — it has no effect on coverage, premium, or any other policy term. The
+          process consists solely of notifying the carrier of the intended designation.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          It&apos;s a form, not a new policy
+          An administrative form, not a new contract
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Changing a beneficiary is normally handled with a beneficiary-change form, submitted on
-          paper or through your carrier&apos;s online portal if they offer one. Once it&apos;s
-          processed, everything else about your policy — coverage amount, premium, terms — stays
-          exactly the same. There&apos;s no need to reapply or go through underwriting again.
+          A beneficiary-change form, submitted in writing or through the carrier's online portal
+          where available, is the standard mechanism. Upon processing, all other policy
+          terms — coverage amount, premium, duration — remain unchanged. No reapplication or
+          underwriting is required.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Primary vs. contingent beneficiaries
+          Primary and contingent designations
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Your primary beneficiary is who receives the death benefit first. A contingent
-          beneficiary is the backup, who receives it only if the primary beneficiary has already
-          died. If you&apos;re updating one, it&apos;s worth reviewing both at the same time — see{" "}
+          The primary beneficiary receives the death benefit in the first instance. A contingent
+          beneficiary receives it only where the primary designation is no longer valid. Where one
+          designation is being updated, a professional review of both simultaneously is advisable —
+          see{" "}
           <Link href="/managing-your-policy/beneficiary-dies-before-you" className="text-harbor-mid underline">
             what happens if a beneficiary dies before you do
           </Link>{" "}
-          for why the contingent choice matters.
+          for the professional rationale behind the contingent designation.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Common reasons people update it
+          Circumstances that typically warrant an update
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Divorce or remarriage, the death of the person currently listed, the arrival of a new
-          child or grandchild, or simply a change in who you want to receive the benefit are the
-          most common triggers. Some people also update it years after originally naming a parent
-          who has since passed away, shifting the benefit to a spouse or child instead.
+          Divorce, remarriage, the death of the currently designated party, the birth of a child
+          or grandchild, or a change in intended recipient are the most commonly documented
+          triggers. Policyholders also frequently update a designation years after initially
+          naming a parent who has since died, redirecting the benefit to a spouse or child.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">A note on ex-spouses</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">A note regarding former spouses</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Some states have laws that automatically revoke an ex-spouse&apos;s beneficiary status
-            after a divorce, but this varies and isn&apos;t something to rely on. If you want an
-            ex-spouse removed — or, in some cases, intentionally kept — submitting a
-            beneficiary-change form yourself is the reliable way to make sure the policy actually
-            reflects your wishes.
+            Certain states automatically revoke a former spouse's beneficiary status upon divorce,
+            but this varies by jurisdiction and should not be relied upon in isolation. Whether the
+            intent is to remove or intentionally retain a former spouse's designation, submitting a
+            formal beneficiary-change form is the reliable method of ensuring the policy reflects
+            current intent.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How often to review it
+          Recommended review frequency
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          There&apos;s no fixed schedule. Tying a review to major life events, or simply checking
-          every few years, is a reasonable habit that only takes a few minutes with your carrier.
+          No fixed schedule is mandated. Tying a review to major life events, or conducting one on
+          a multi-year interval, is a professionally reasonable practice requiring only a brief
+          call with the carrier.
         </p>
 
         <div className="mt-14 text-center">

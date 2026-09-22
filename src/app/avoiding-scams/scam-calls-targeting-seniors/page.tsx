@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "How to Recognize a Scam Call Targeting Seniors",
+  title: "Evaluating Inbound Insurance Calls: A Professional Checklist",
   description:
-    "A professional breakdown of the specific differences between a legitimate final expense insurance call and a scam, and exactly what to do if you're on a suspicious call.",
-  openGraph: { title: "How to Recognize a Scam Call Targeting Seniors", description: "A professional breakdown of the specific differences between a legitimate final expense insurance call and a scam, and exactly what to do if you're on a suspicious call." },
+    "A professional checklist for distinguishing a legitimate final expense insurance call from a fraudulent one, and the correct protocol if a call is already in progress.",
+  openGraph: { title: "Evaluating Inbound Insurance Calls: A Professional Checklist", description: "A professional checklist for distinguishing a legitimate final expense insurance call from a fraudulent one, and the correct protocol if a call is already in progress." },
 
-  twitter: { title: "How to Recognize a Scam Call Targeting Seniors", description: "A professional breakdown of the specific differences between a legitimate final expense insurance call and a scam, and exactly what to do if you're on a suspicious call." },
+  twitter: { title: "Evaluating Inbound Insurance Calls: A Professional Checklist", description: "A professional checklist for distinguishing a legitimate final expense insurance call from a fraudulent one, and the correct protocol if a call is already in progress." },
 };
 
 export default function ScamCallsTargetingSeniorsPage() {
@@ -19,65 +19,65 @@ export default function ScamCallsTargetingSeniorsPage() {
           <Link href="/avoiding-scams" className="hover:text-harbor">Avoiding Scams</Link> / Scam Calls Targeting Seniors
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How to recognize a scam call targeting seniors
+          Evaluating inbound insurance calls: a professional checklist
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Phone calls are still one of the most common ways final expense insurance gets sold —
-          and one of the most common ways it gets scammed. The two can sound similar in the first
-          ten seconds, which is exactly why it helps to know the specific differences in advance,
-          before you&apos;re actually on the call.
+          Telephone remains one of the primary distribution channels for this product — and,
+          correspondingly, one of the primary vectors for fraud targeting this demographic. The
+          opening moments of a legitimate call and a fraudulent one are often indistinguishable, so
+          a professional evaluation depends on a fixed set of criteria established in advance, not
+          judgment formed in the moment.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What a legitimate call looks like
+          The professional standard for a legitimate call
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A licensed agent calling you — whether because you requested a quote or because
-          they&apos;re following up on an existing policy — will identify themselves by name, name
-          the company or agency they&apos;re calling from, and give you a license number if asked.
-          They&apos;ll explain the specific product they&apos;re discussing in plain terms, they
-          won&apos;t rush you into a decision on the first call, and any policy you agree to will
-          show up in writing afterward — an actual application and policy documents you can read,
-          keep, and reread before your first payment is ever due.
+          A licensed professional initiating contact — whether in response to a requested quote or
+          as follow-up on an existing policy — identifies themselves by name, states the
+          represented company, and produces a license number on request without hesitation. They
+          explain the product being discussed in plain terms, do not solicit a same-call decision,
+          and follow the call with documented paperwork available for review well before any
+          payment obligation arises.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Signs a call isn&apos;t legitimate
+          Documented indicators of a fraudulent call
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A few specific behaviors are reliable warning signs, regardless of how friendly or
-          confident the caller sounds.
+          The following behaviors are reliable indicators regardless of the caller's apparent
+          professionalism or confidence.
         </p>
         <div className="mt-6 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">Watch for</p>
           <ul className="mt-3 space-y-2 text-base leading-relaxed text-charcoal/80">
-            <li>• Demanding immediate payment over the phone, especially by gift card, wire transfer, or cryptocurrency.</li>
-            <li>• Pressuring you to decide before you hang up, often with urgency like &quot;this rate expires today.&quot;</li>
-            <li>• Refusing to send anything in writing, or staying vague about the actual insurance company involved.</li>
-            <li>• Asking for a bank account, Social Security, or Medicare number early, before any legitimate reason to need it.</li>
-            <li>• Already seeming to know a lot about your finances or health from a source they won&apos;t explain.</li>
+            <li>• A demand for immediate payment, particularly by gift card, wire transfer, or cryptocurrency.</li>
+            <li>• Applied urgency intended to force a decision before the call ends.</li>
+            <li>• Refusal to provide written documentation, or evasiveness regarding the represented carrier.</li>
+            <li>• A request for a bank account, Social Security, or Medicare number without adequate justification.</li>
+            <li>• Prior knowledge of financial or health details from an unexplained source.</li>
           </ul>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What to do if you&apos;re on a suspicious call right now
+          Protocol for a call already in progress
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Hang up. You don&apos;t owe a caller an explanation, a polite exit, or a chance to
-          counter your objection — a legitimate company loses nothing from you calling back later
-          through a number you looked up yourself. Don&apos;t confirm or give out personal or
-          financial information, even just to &quot;verify&quot; who you are, since scammers often
-          use small confirmed details to make the next call more convincing. If you want to check
-          whether the company they claimed actually exists, look it up separately, using your
-          state&apos;s insurance department — not a number or link the caller gave you.
+          Terminate the call. No explanation or courtesy is required — a legitimate organization
+          loses nothing from a callback initiated later through independently verified contact
+          information. Do not confirm or disclose personal or financial information, even for
+          stated identity verification, as confirmed details are frequently used to lend
+          credibility to a subsequent contact attempt. If verification of the company's legitimacy
+          is desired, conduct that verification independently through the relevant state insurance
+          department, not through contact information supplied by the caller.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Reporting it afterward
+          Post-call reporting obligations
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Once you&apos;re off the call, it&apos;s worth reporting it. The Federal Trade
-          Commission takes reports of exactly this kind of call at{" "}
+          Reporting the incident remains appropriate even after the call concludes. The Federal
+          Trade Commission accepts reports of this nature at{" "}
           <a
             href="https://reportfraud.ftc.gov"
             target="_blank"
@@ -86,15 +86,15 @@ export default function ScamCallsTargetingSeniorsPage() {
           >
             reportfraud.ftc.gov
           </a>
-          , and reporting helps regulators track patterns even when a single report doesn&apos;t
-          lead to an individual investigation. If money changed hands, contacting your bank or
-          card issuer promptly matters too — the sooner a fraudulent transaction is reported, the
-          better the odds of stopping or reversing it.
+          , and aggregated reporting assists regulators in identifying patterns even where an
+          individual report does not initiate a discrete investigation. Where funds have already
+          been transferred, immediate contact with the financial institution is advisable — the
+          probability of recovery correlates directly with reporting speed.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            See what you qualify for
+            Request a Professional Coverage Review
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/avoiding-scams" className="font-semibold text-harbor-mid hover:underline">

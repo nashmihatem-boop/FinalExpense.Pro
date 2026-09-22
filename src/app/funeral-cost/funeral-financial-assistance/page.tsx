@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Financial Assistance for Funeral Costs",
+  title: "Funeral Financial Assistance: A Professional Assessment",
   description:
-    "A professional overview of the real categories of help available when a family can't cover a funeral — and why having final expense coverage in place means you never have to rely on them.",
-  openGraph: { title: "Financial Assistance for Funeral Costs", description: "A professional overview of the real categories of help available when a family can't cover a funeral — and why having final expense coverage in place means you never have to rely on them." },
+    "A professional assessment of the documented assistance categories available when a family faces a funeral without coverage in place, and their material limitations.",
+  openGraph: { title: "Funeral Financial Assistance: A Professional Assessment", description: "A professional assessment of the documented assistance categories available when a family faces a funeral without coverage in place, and their material limitations." },
 
-  twitter: { title: "Financial Assistance for Funeral Costs", description: "A professional overview of the real categories of help available when a family can't cover a funeral — and why having final expense coverage in place means you never have to rely on them." },
+  twitter: { title: "Funeral Financial Assistance: A Professional Assessment", description: "A professional assessment of the documented assistance categories available when a family faces a funeral without coverage in place, and their material limitations." },
 };
 
 export default function FuneralFinancialAssistancePage() {
@@ -19,84 +19,73 @@ export default function FuneralFinancialAssistancePage() {
           <Link href="/funeral-cost" className="hover:text-harbor">Funeral Cost</Link> / Financial Assistance
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Help paying for a funeral when money is tight
+          Funeral financial assistance: a professional assessment
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          When a death happens without final expense coverage already in place, families are
-          often left scrambling to cover a bill that can&apos;t wait. Real help does exist for
-          some situations — but it&apos;s narrower, slower, and less certain than most people
-          expect. Here&apos;s a professional look at what&apos;s actually out there, and why the
-          honest point of this guide is that coverage arranged ahead of time is what keeps a
-          family from needing any of it.
+          Where a death occurs absent existing final expense coverage, families frequently face an
+          immediate and unplanned financial obligation. Legitimate assistance mechanisms exist for
+          certain circumstances, though each carries material limitations relative to advance
+          coverage. The following is a professional assessment of the available categories.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          When a death was accidental or the result of a crime
+          Crime victim and accidental death compensation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Every state runs its own crime victim compensation program, and most will cover funeral
-          expenses, up to a set limit, when a death resulted from a violent crime. Some states
-          extend similar help to certain accidental deaths through separate funds. These programs
-          are real and worth pursuing when they apply, but they come with real limits: you
-          typically need a police report on file, have to apply within a defined window after the
-          death, and then wait through a claims process that can take weeks or months. They were
-          built for specific circumstances, not as a general safety net for funeral costs.
+          Every state administers a crime victim compensation program, typically covering funeral
+          expenses up to a defined limit where death resulted from a violent crime; certain states
+          extend comparable provisions to specific accidental deaths. These programs are
+          legitimate but circumscribed: a filed police report, an application deadline, and a
+          claims process extending weeks to months are typically required. These mechanisms are
+          designed for defined circumstances rather than functioning as a general safety net.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
           Crowdfunding
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Online fundraising has become a common way families try to close the gap quickly, and
-          it can genuinely help. It also comes with trade-offs worth knowing before you start one:
-          platforms typically take a processing fee out of what&apos;s raised, the amount that
-          actually comes in is unpredictable and often falls short of the goal, and campaigns
-          usually take days to gain momentum — time a family facing an immediate bill may not
-          have. It also means asking your community for money during one of the hardest weeks of
-          your life, which carries its own emotional weight on top of the loss itself.
+          Online fundraising has become a common mechanism for addressing an immediate shortfall,
+          with genuine utility in certain cases. Material considerations include platform
+          processing fees, unpredictable and often insufficient fundraising outcomes, and a
+          multi-day ramp-up period inconsistent with an immediate payment obligation. This approach
+          also requires soliciting funds from one's network during an acute period of loss.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Payment plans through the funeral home
+          Funeral home payment arrangements
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Many funeral homes will let a family pay over time instead of all at once, either
-          directly or through a third-party financing arrangement. This can make an immediate
-          bill manageable, but it&apos;s worth being clear about what it actually does: it spreads
-          the cost out, it doesn&apos;t reduce it, and financing arrangements often carry interest
-          on top. A payment plan solves a timing problem, not a cost problem — the family still
-          owes the full amount, now with monthly payments attached during a period that&apos;s
-          already difficult.
+          Many providers offer installment payment options, either directly or through third-party
+          financing. This addresses a timing constraint rather than a cost constraint — the total
+          obligation remains unchanged, and financing arrangements frequently include interest. The
+          family retains the full financial obligation, now structured as ongoing payments during
+          an already difficult period.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold text-harbor">A modest federal benefit</p>
+          <p className="text-sm font-bold text-harbor">Social Security lump-sum benefit</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Social Security pays a one-time lump-sum payment to certain eligible survivors —
-            typically a spouse who was living with the deceased, or in some cases an eligible
-            child. It&apos;s a real, federal program, but an intentionally modest one: the payment
-            has stayed fixed for a long stretch of time and was never designed to cover a funeral
-            on its own, just to help with immediate costs. Because it&apos;s a government-set
-            figure that can change, the Social Security Administration is the right place to
-            confirm current eligibility rules and amount for a given family.
+            A one-time payment is available to certain eligible survivors, typically a spouse who
+            resided with the deceased. This is a legitimate federal benefit, though deliberately
+            modest and not designed to fund a funeral independently. Current eligibility criteria
+            and payment amounts should be confirmed directly with the Social Security
+            Administration.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What this list is really telling you
+          Professional conclusion
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Look at the pattern across everything above: each option depends on specific
-          circumstances, requires an application and a wait, or simply shifts the bill into the
-          future instead of covering it. None of it is something you can count on before you need
-          it — it&apos;s what&apos;s left to reach for when there wasn&apos;t a plan in place. A
-          final expense policy works differently. It&apos;s arranged in advance, it pays directly
-          to whoever you name as beneficiary, generally within days of an approved claim, and it
-          doesn&apos;t depend on how the death happened or whether a fundraiser catches on.
-          That&apos;s the real value in having it, and exactly why a licensed professional will
-          tell you it&apos;s worth arranging before it&apos;s needed — not that it&apos;s the only
-          source of help out there, but that it&apos;s the one your family can count on no matter
-          the circumstances.
+          A consistent pattern emerges across each mechanism: eligibility is contingent on specific
+          circumstances, an application process with associated delay is required, or the
+          obligation is merely deferred rather than resolved. None represents a reliable
+          pre-established resource. A final expense policy operates on materially different
+          terms — established in advance, disbursed directly to the named beneficiary typically
+          within days of an approved claim, and independent of the circumstances of death. This
+          represents the professional rationale for advance coverage: a resource the family can
+          rely upon under any circumstance, rather than one contingent on specific conditions being
+          met.
         </p>
 
         <div className="mt-14 text-center">

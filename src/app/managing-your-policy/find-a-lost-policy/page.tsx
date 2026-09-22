@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "How to Find a Lost Life Insurance Policy",
+  title: "Locating an Undocumented Policy: A Systematic Approach",
   description:
-    "Professional, practical steps for tracking down a policy you believe exists but can't find paperwork for, including free lookup resources.",
-  openGraph: { title: "How to Find a Lost Life Insurance Policy", description: "Professional, practical steps for tracking down a policy you believe exists but can't find paperwork for, including free lookup resources." },
+    "A systematic, professional approach to locating a life insurance policy believed to exist without accessible documentation, including free lookup resources.",
+  openGraph: { title: "Locating an Undocumented Policy: A Systematic Approach", description: "A systematic, professional approach to locating a life insurance policy believed to exist without accessible documentation, including free lookup resources." },
 
-  twitter: { title: "How to Find a Lost Life Insurance Policy", description: "Professional, practical steps for tracking down a policy you believe exists but can't find paperwork for, including free lookup resources." },
+  twitter: { title: "Locating an Undocumented Policy: A Systematic Approach", description: "A systematic, professional approach to locating a life insurance policy believed to exist without accessible documentation, including free lookup resources." },
 };
 
 export default function FindALostPolicyPage() {
@@ -20,80 +20,79 @@ export default function FindALostPolicyPage() {
           <Link href="/managing-your-policy" className="hover:text-harbor">Managing Your Policy</Link> / Find a Lost Policy
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Finding a policy you can&apos;t locate paperwork for
+          Locating an undocumented policy: a systematic approach
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Whether you&apos;ve misplaced your own policy documents or you believe a family member
-          had coverage but can&apos;t find proof, there are concrete places to look before
-          assuming a policy doesn&apos;t exist.
+          Whether personal records have been misplaced or a policy is believed to exist for a
+          family member without accessible documentation, a systematic review of the following
+          sources should be completed before concluding that no policy exists.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Start with financial records
+          Begin with financial records
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Bank and checking account statements are often the fastest lead — look for a recurring
-          withdrawal to an insurance carrier, especially one that shows up monthly, quarterly, or
-          annually. Also check for canceled checks, credit card statements, a filing cabinet, or a
-          safe deposit box, all common places people keep policy paperwork.
+          Bank and checking account statements are typically the most efficient starting point —
+          review for a recurring disbursement to an insurance carrier, whether monthly, quarterly,
+          or annually. Canceled checks, credit card statements, and physical filing systems,
+          including safe deposit boxes, are common repositories for this documentation.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Check email and mail
+          Review email and physical correspondence
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Carriers typically send annual statements, premium due notices, or policy anniversary
-          letters. Search email for the carrier&apos;s name if you have any idea who it might be,
-          or general terms like &quot;premium,&quot; &quot;policy,&quot; or
-          &quot;statement.&quot; Physical mail piles and old filing folders are worth a look too.
+          Carriers routinely issue annual statements, premium notices, and policy anniversary
+          correspondence. Search email using any known carrier name, or general terms such as
+          &quot;premium,&quot; &quot;policy,&quot; or &quot;statement.&quot; Physical mail and
+          filing systems should also be reviewed.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Ask their agent, if you know who it was
+          Contact the originating agent, where identifiable
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If you know which agent or agency originally sold the policy, reach out — agencies often
-          keep records well beyond the sale date and may be able to confirm a policy exists even
-          if you can&apos;t find your own copy.
+          Where the originating agent or agency is known, direct contact is advisable — agencies
+          typically retain records well beyond the point of sale and may be able to confirm the
+          existence of a policy independent of personal documentation.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Consider employer coverage too
+          Verify potential employer-sponsored coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If the person worked full-time, it&apos;s worth checking whether an employer offered
-          group or supplemental life insurance. That&apos;s a different category of coverage from
-          an individually owned final expense policy, but it&apos;s a common source people forget
-          to check.
+          Where the individual was employed full-time, group or supplemental life insurance
+          through an employer should be verified. This represents a distinct category from an
+          individually owned final expense policy and is a commonly overlooked source.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Check your state&apos;s unclaimed property office
+          Query the state unclaimed property registry
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Every state maintains an unclaimed property database, and life insurance proceeds can
-          end up there if a carrier was ever unable to locate a beneficiary. Search &quot;[your
-          state] unclaimed property&quot; to find your state&apos;s official lookup tool —
-          it&apos;s free, and worth checking under every name and past address the person used.
+          Every state maintains an unclaimed property database, and life insurance proceeds are
+          routed there where a carrier was unable to locate a beneficiary. A search for &quot;[your
+          state] unclaimed property&quot; will identify the appropriate official lookup tool, at
+          no cost, and should be checked against every name and prior address associated with the
+          individual.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Try the NAIC&apos;s policy locator service
+          Utilize the NAIC policy locator service
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The National Association of Insurance Commissioners (NAIC) — the organization that
-          coordinates state insurance regulators — runs a free life insurance policy locator
-          service. You submit a request with some basic information about the person, and
-          it&apos;s forwarded to participating carriers to check for a matching policy. It&apos;s
-          a legitimate, no-cost resource built specifically for this situation.
+          The National Association of Insurance Commissioners administers a complimentary life
+          insurance policy locator service. A request containing basic identifying information is
+          submitted and forwarded to participating carriers for verification of a matching policy —
+          a legitimate resource specifically designed for this circumstance.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">A note on patience</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">A note on process</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Finding a lost policy often takes checking several of these sources together rather
-            than one lookup solving it immediately. It&apos;s frustrating, but it&apos;s rarely a
-            dead end — keep working down the list.
+            Locating an undocumented policy frequently requires querying several of these sources
+            in combination rather than resolution through a single inquiry. This is a common
+            outcome, not an indication of a dead end.
           </p>
         </div>
 

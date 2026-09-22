@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Modified Benefit Final Expense Insurance Explained",
+  title: "Modified Benefit Coverage: A Structural Analysis",
   description:
-    "A professional explanation of how the return-of-premium-plus-interest structure works during the waiting window, how it differs from graded, and who typically lands here.",
-  openGraph: { title: "Modified Benefit Final Expense Insurance Explained", description: "A professional explanation of how the return-of-premium-plus-interest structure works during the waiting window, how it differs from graded, and who typically lands here." },
+    "A professional analysis of the return-of-premium-with-interest structure, its distinction from graded classification, and the associated health profile.",
+  openGraph: { title: "Modified Benefit Coverage: A Structural Analysis", description: "A professional analysis of the return-of-premium-with-interest structure, its distinction from graded classification, and the associated health profile." },
 
-  twitter: { title: "Modified Benefit Final Expense Insurance Explained", description: "A professional explanation of how the return-of-premium-plus-interest structure works during the waiting window, how it differs from graded, and who typically lands here." },
+  twitter: { title: "Modified Benefit Coverage: A Structural Analysis", description: "A professional analysis of the return-of-premium-with-interest structure, its distinction from graded classification, and the associated health profile." },
 };
 
 export default function ModifiedBenefitPage() {
@@ -19,98 +19,99 @@ export default function ModifiedBenefitPage() {
           <Link href="/level-vs-graded-vs-modified" className="hover:text-harbor">Level vs. Graded vs. Modified</Link> / Modified Benefit
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Modified benefit coverage: what return-of-premium-plus-interest means
+          Modified benefit coverage: the return-of-premium-with-interest structure
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Modified coverage uses a different mechanism than graded to handle the same basic
-          problem — a health history that carries more near-term risk than a level policy is
-          priced for. Instead of a partial, step-up death benefit, a modified policy returns what
-          you&apos;ve paid in, plus interest, during its initial window. Here&apos;s a
-          professional look at how that works, how it&apos;s different from graded, and who
-          typically lands here.
+          Modified classification addresses the same underlying underwriting challenge as graded
+          classification — a health history presenting greater near-term risk than level pricing
+          accommodates — through a distinct mechanism. Rather than a partial, incrementally
+          increasing death benefit, a modified policy returns premiums paid, with interest, during
+          its initial period. The following addresses the precise mechanics of this structure, its
+          distinction from graded classification, and the associated health profile.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What &quot;modified&quot; actually means
+          The precise meaning of "modified" classification
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Like any other final expense policy, a modified policy is active from the day it&apos;s
-          issued, and premiums are due right away. The difference shows up only if death occurs
-          from natural causes during the policy&apos;s initial waiting window — commonly the
-          first two years, though the exact length is set by the individual contract. Instead of
-          any portion of the death benefit, your beneficiary receives the premiums you&apos;ve
-          paid into the policy back, plus interest. Once that window closes, the policy converts
-          and behaves exactly like a level policy for the rest of its life: 100% of the face
-          amount, for any covered cause of death.
+          Consistent with any final expense policy, a modified policy is active from its issue
+          date, with premiums due immediately. The distinction arises specifically in the event of
+          natural-cause death during the policy's initial waiting period — commonly the first two
+          years, with the precise duration determined by the individual contract. Rather than any
+          portion of the death benefit, the beneficiary receives the premiums paid into the policy,
+          returned with interest. Upon expiration of this period, the policy converts and functions
+          identically to a level policy for its remaining duration: 100% of the face amount, for
+          any covered cause of death.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold text-harbor">Accidental death works the same as graded</p>
+          <p className="text-sm font-bold text-harbor">Accidental death provisions parallel graded classification</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            Accidental death is generally paid in full immediately, regardless of how new the
-            policy is. The return-of-premium structure applies specifically to natural-cause death
-            during the window — it doesn&apos;t change how the policy treats an accident.
+            Accidental death is generally compensated in full immediately, irrespective of policy
+            tenure. The return-of-premium structure applies specifically to natural-cause death
+            during the waiting period — it does not alter treatment of accidental death.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How it&apos;s different from graded
+          Distinction from graded classification
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The distinction is exactly what each policy pays if the worst happens during the
-          window. A{" "}
+          The distinction lies precisely in the amount disbursed should death occur during the
+          waiting period. A{" "}
           <Link href="/level-vs-graded-vs-modified/graded-benefit" className="text-harbor-mid underline">
             graded policy
           </Link>{" "}
-          still pays a portion of the actual death benefit — a real, if partial, insurance payout
-          that grows every year. A modified policy pays no portion of the death benefit during
-          that same window; what your family receives instead is essentially a refund of what was
-          paid in, with interest added rather than a true insurance benefit. Both convert to the
-          full death benefit once the window closes — the difference is entirely about what
-          happens if death occurs during those first couple of years, not about what happens
-          afterward.
+          continues to disburse a portion of the actual death benefit — a genuine, if partial,
+          insurance payout that increases annually. A modified policy disburses no portion of the
+          death benefit during this period; the beneficiary instead receives what functions as a
+          refund of premiums paid, with interest, rather than a genuine insurance benefit. Both
+          structures convert to the full death benefit upon expiration of the waiting period — the
+          distinction pertains exclusively to the outcome during the initial years, not to
+          subsequent treatment.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why the interest is included
+          Rationale for the interest component
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The interest component exists so a family isn&apos;t simply handed back the same dollar
-          amount that was paid in, with none of the time value recognized. The exact rate and how
-          it&apos;s calculated are set by the individual carrier and contract, so it&apos;s worth
-          confirming the specifics in your policy illustration rather than assuming a figure — but
-          structurally, it&apos;s built to be more than a flat refund, even though it still
-          isn&apos;t the full death benefit.
+          The interest component exists to ensure the beneficiary does not receive merely the
+          nominal amount paid in, without recognition of time value. The specific rate and
+          calculation methodology are established by the individual carrier and contract, warranting
+          confirmation of the precise terms within the policy illustration rather than assumption
+          of a specific figure — structurally, however, the provision is designed to exceed a flat
+          refund, notwithstanding that it remains distinct from the full death benefit.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What kind of health profile typically lands here
+          Health profile typically associated with this classification
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Modified tends to apply one notch further along the same spectrum as graded — a health
-          history a carrier sees as carrying somewhat more near-term risk than what typically
-          lands at graded, without crossing into knockout territory that would mean a decline
-          instead. Chronic pancreatitis is a useful example of how this plays out in practice:
-          managed well, with infrequent flare-ups, it often lands at graded; more frequent
-          flare-ups or a related hospitalization, and the same underlying condition often shifts
-          toward modified instead. The pattern is less about which specific diagnosis is on the
-          application and more about how much recent activity or instability sits behind it.
+          Modified classification typically applies one increment further along the same risk
+          spectrum as graded classification — a health history a carrier assesses as presenting
+          somewhat greater near-term risk than typical graded presentations, without meeting the
+          threshold for an outright decline. Chronic pancreatitis illustrates this distinction in
+          practice: when well-managed with infrequent exacerbations, it frequently qualifies for
+          graded classification; with more frequent exacerbations or associated hospitalization,
+          the identical underlying condition frequently shifts to modified classification instead.
+          The determining factor relates less to the specific diagnosis than to the degree of
+          recent clinical activity or instability.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How to know if you&apos;d land here
+          Determining applicability
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The most reliable way to find out is to have your specific health history checked
-          against multiple carriers before you apply, since the line each one draws between
-          graded, modified, and guaranteed acceptance is theirs alone to set. A licensed
-          professional can do that matching for you. And if it turns out your history points
-          toward something with even less near-term flexibility, guaranteed acceptance — covered
-          in the{" "}
+          The most reliable method for determination involves evaluation of a specific health
+          history against multiple carriers prior to formal application, as the threshold each
+          carrier establishes between graded, modified, and guaranteed-acceptance classifications
+          is independently determined. An independent agent can perform this evaluation. Where a
+          history indicates reduced near-term flexibility beyond this threshold, guaranteed
+          acceptance — addressed comprehensively in{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
-            full pre-existing conditions guide
+            the complete pre-existing conditions reference
           </Link>{" "}
-          — is always available as a backstop.
+          — remains available as a structural backstop.
         </p>
 
         <div className="mt-14 text-center">
@@ -119,7 +120,7 @@ export default function ModifiedBenefitPage() {
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/level-vs-graded-vs-modified" className="font-semibold text-harbor-mid hover:underline">
-              ← Back to the comparison guide
+              ← Return to the comparative analysis
             </Link>
           </p>
         </div>

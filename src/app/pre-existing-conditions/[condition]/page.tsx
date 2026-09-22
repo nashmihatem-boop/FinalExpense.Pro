@@ -12,8 +12,8 @@ export async function generateMetadata(props: PageProps<"/pre-existing-condition
   const { condition: slug } = await props.params;
   const condition = findCondition(slug);
   if (!condition) return {};
-  const title = `Final Expense Insurance with ${condition.name}`;
-  const description = `A professional breakdown of how simplified-issue final expense insurance typically treats ${condition.name}, what tier to expect, and how to get a free quote.`;
+  const title = `${condition.name}: Underwriting Classification for Final Expense Insurance`;
+  const description = `A professional analysis of how simplified-issue underwriting classifies ${condition.name}, the applicable outcome tier, and next steps toward a formal quote.`;
   return {
     title,
     description,
@@ -37,7 +37,7 @@ export default async function ConditionPage(props: PageProps<"/pre-existing-cond
           <Link href="/pre-existing-conditions" className="hover:text-harbor">Pre-Existing Conditions</Link> / {condition.name}
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance with {condition.name}
+          {condition.name}: underwriting classification for final expense insurance
         </h1>
 
         <div className="mt-6 inline-flex items-center gap-2 rounded-full bg-canvas-alt px-4 py-2">
@@ -49,27 +49,29 @@ export default async function ConditionPage(props: PageProps<"/pre-existing-cond
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">{condition.note}</p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Keep in mind</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Material considerations</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            This is a general, typical pattern — not a promise. Every carrier sets its own health
-            questions and look-back periods, so the same condition can land in a better (or
-            worse) tier depending on which one reviews your application. A decline from one
-            carrier is not a verdict on your insurability elsewhere.
+            The following represents a general, typical pattern rather than a guaranteed
+            determination. Each carrier establishes independent health questions and look-back
+            periods, such that identical conditions may receive divergent classifications across
+            carriers. A decline from a single carrier does not constitute a determination of
+            ineligibility elsewhere.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Where {condition.name.toLowerCase()} typically lands
+          Typical classification for {condition.name.toLowerCase()}
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The outcome usually comes down to severity and timing, not the diagnosis alone:
+          The determination generally depends on severity and chronology rather than the diagnosis
+          in isolation:
         </p>
         <div className="mt-5 overflow-x-auto rounded-2xl border border-mist">
           <table className="w-full min-w-[480px] border-collapse text-left">
             <thead>
               <tr className="border-b border-mist bg-canvas-alt">
-                <th className="px-5 py-3 text-sm font-semibold text-charcoal/60">If your situation is…</th>
-                <th className="px-5 py-3 font-display text-sm font-extrabold text-harbor">Typical outcome</th>
+                <th className="px-5 py-3 text-sm font-semibold text-charcoal/60">Presenting circumstances</th>
+                <th className="px-5 py-3 font-display text-sm font-extrabold text-harbor">Typical determination</th>
               </tr>
             </thead>
             <tbody>
@@ -84,33 +86,34 @@ export default async function ConditionPage(props: PageProps<"/pre-existing-cond
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How underwriting actually works
+          Underwriting methodology
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Simplified-issue applications don&apos;t require a medical exam — instead, you answer a
-          short set of health questions, and the carrier checks your prescription history and a
-          shared industry database (the MIB) to confirm your answers. Based on that, you land in
-          one of four outcomes: <strong className="text-harbor">level</strong> (full coverage
-          from day one), <strong className="text-harbor">graded</strong> (a partial benefit that
-          steps up over the first couple of years), <strong className="text-harbor">modified</strong>{" "}
-          (your premiums returned with interest during that window), or a{" "}
-          <strong className="text-harbor">decline</strong> that points you toward guaranteed
-          acceptance instead. See the{" "}
+          A simplified-issue application does not require a medical examination. The applicant
+          instead responds to a defined set of health questions, and the carrier separately
+          verifies prescription history and cross-references the MIB, a shared industry database,
+          to confirm the accuracy of disclosed information. This process resolves to one of four
+          classifications: <strong className="text-harbor">level</strong> (full coverage from
+          policy inception), <strong className="text-harbor">graded</strong> (a partial benefit
+          increasing incrementally across the initial years), <strong className="text-harbor">modified</strong>{" "}
+          (premiums returned with interest during that period), or a{" "}
+          <strong className="text-harbor">decline</strong>, which directs the applicant toward
+          guaranteed acceptance. Refer to the{" "}
           <Link href="/pre-existing-conditions#tiers" className="text-harbor-mid underline">
-            full tiering guide
+            complete classification reference
           </Link>{" "}
-          for how each works.
+          for further detail.
         </p>
 
         <h3 className="mt-8 font-display text-lg font-extrabold text-harbor">
-          What carriers commonly ask about {condition.name.toLowerCase()}
+          Standard inquiries regarding {condition.name.toLowerCase()}
         </h3>
         <div className="mt-4 overflow-x-auto rounded-2xl border border-mist">
           <table className="w-full min-w-[480px] border-collapse text-left">
             <thead>
               <tr className="border-b border-mist bg-canvas-alt">
-                <th className="px-5 py-3 text-sm font-semibold text-charcoal/60">What they ask</th>
-                <th className="px-5 py-3 font-display text-sm font-extrabold text-harbor">Why it matters</th>
+                <th className="px-5 py-3 text-sm font-semibold text-charcoal/60">Inquiry</th>
+                <th className="px-5 py-3 font-display text-sm font-extrabold text-harbor">Underwriting rationale</th>
               </tr>
             </thead>
             <tbody>
@@ -124,18 +127,18 @@ export default async function ConditionPage(props: PageProps<"/pre-existing-cond
           </table>
         </div>
         <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
-          Exact wording and look-back windows vary by carrier — general categories, not any one
-          company&apos;s specific application.
+          Exact phrasing and look-back periods vary by carrier; the categories above are general
+          rather than representative of any specific carrier's application.
         </p>
 
         {condition.medications && condition.medications.length > 0 && (
           <>
             <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-              Medications to know
+              Relevant medications
             </h2>
             <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-              Carriers check your prescription history, so what you take can matter as much as
-              the diagnosis itself:
+              Carriers verify prescription history, such that the specific medication regimen may
+              carry weight comparable to the diagnosis itself:
             </p>
             <div className="mt-5 space-y-3">
               {condition.medications.map((m) => (
@@ -146,33 +149,33 @@ export default async function ConditionPage(props: PageProps<"/pre-existing-cond
               ))}
             </div>
             <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
-              See the full{" "}
+              Refer to the complete{" "}
               <Link href="/pre-existing-conditions/prescriptions" className="text-harbor-mid underline">
-                prescription history guide
+                prescription history reference
               </Link>{" "}
-              for how medications factor into underwriting more broadly.
+              for broader context on medication-based underwriting.
             </p>
           </>
         )}
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What to do next
+          Recommended next step
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The most reliable way to know exactly where you&apos;d land is to talk to a licensed
-          professional who can match your specific health history to the carriers whose rules fit
-          it best — rather than applying cold to one company and hoping. There&apos;s no cost to
-          ask.
+          The most reliable method for determining a specific outcome is consultation with a
+          licensed agent capable of matching an applicant's health profile to the carriers whose
+          criteria are most favorable — rather than submitting an application to a single carrier
+          without comparison. This consultation carries no cost.
         </p>
 
         <div className="mt-10 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            See what you qualify for
+            Request a Professional Coverage Review
           </Button>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Other conditions
+          Additional conditions
         </h2>
         <ul className="mt-4 grid gap-x-6 gap-y-2 sm:grid-cols-2">
           {others.map((c) => (
@@ -185,7 +188,7 @@ export default async function ConditionPage(props: PageProps<"/pre-existing-cond
         </ul>
         <p className="mt-6 text-sm text-charcoal/60">
           <Link href="/pre-existing-conditions" className="font-semibold text-harbor-mid hover:underline">
-            ← See the full A–Z guide
+            ← Return to the complete reference
           </Link>
         </p>
       </div>

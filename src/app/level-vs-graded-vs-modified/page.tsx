@@ -3,35 +3,35 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Level vs. Graded vs. Modified Life Insurance",
+  title: "Level, Graded, and Modified Benefit Structures: A Comparative Analysis",
   description:
-    "A professional, side-by-side look at the three ways a final expense death benefit can be structured, plus what happens when none of them fit.",
-  openGraph: { title: "Level vs. Graded vs. Modified Life Insurance", description: "A professional, side-by-side look at the three ways a final expense death benefit can be structured, plus what happens when none of them fit." },
+    "A professional, comparative analysis of the three death-benefit structures in final expense insurance, and the classification pathway when none apply.",
+  openGraph: { title: "Level, Graded, and Modified Benefit Structures: A Comparative Analysis", description: "A professional, comparative analysis of the three death-benefit structures in final expense insurance, and the classification pathway when none apply." },
 
-  twitter: { title: "Level vs. Graded vs. Modified Life Insurance", description: "A professional, side-by-side look at the three ways a final expense death benefit can be structured, plus what happens when none of them fit." },
+  twitter: { title: "Level, Graded, and Modified Benefit Structures: A Comparative Analysis", description: "A professional, comparative analysis of the three death-benefit structures in final expense insurance, and the classification pathway when none apply." },
 };
 
 const OUTCOMES = [
   {
     slug: "level-benefit",
     name: "Level",
-    duringWindow: "No waiting window — 100% of the benefit applies from day one",
-    after: "No change. It's already full.",
-    summary: "The full death benefit, in place immediately, at the lowest cost of the three.",
+    duringWindow: "No waiting period applicable — 100% of the benefit from policy inception",
+    after: "No change; the benefit is already complete.",
+    summary: "The full death benefit, effective immediately, at the lowest cost of the three structures.",
   },
   {
     slug: "graded-benefit",
     name: "Graded",
-    duringWindow: "A partial benefit that increases every year",
+    duringWindow: "A partial benefit that increases incrementally on an annual basis",
     after: "100% of the benefit",
-    summary: "A real, growing payout from day one that reaches full value on a schedule.",
+    summary: "A genuine, increasing payout from policy inception, reaching full value on a defined schedule.",
   },
   {
     slug: "modified-benefit",
     name: "Modified",
-    duringWindow: "Premiums paid back, plus interest — not a death benefit",
+    duringWindow: "Premiums returned with interest — not a death benefit",
     after: "100% of the benefit",
-    summary: "Your premiums returned with interest during the window, then full coverage after.",
+    summary: "Premiums refunded with interest during the waiting period, followed by full coverage.",
   },
 ];
 
@@ -43,32 +43,33 @@ export default function LevelVsGradedVsModifiedPage() {
           Level vs. Graded vs. Modified
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Level vs. graded vs. modified: the three ways your payout can be structured
+          Level, graded, and modified: three structural approaches to your death benefit
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          When you apply for final expense coverage, the health questions on your application
-          sort you into one of a small number of outcomes — and that outcome decides when your
-          family actually receives the full death benefit. Here&apos;s a professional,
-          side-by-side breakdown of the three main outcomes, plus the fourth path that exists for
-          health histories none of them fit.
+          Health disclosures on a final expense application determine assignment to one of a
+          defined set of classification outcomes, which in turn determines the timing of full
+          death-benefit availability. The following provides a comparative analysis of the three
+          principal outcomes, along with the fourth pathway applicable when none of the three
+          apply.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The three outcomes, side by side
+          The three outcomes, compared
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Every simplified-issue policy — meaning no medical exam, just health questions — is
-          structured one of these three ways. The difference only matters if death occurs from
-          natural causes during a carrier-set initial window, commonly the first two years of the
-          policy; after that window, all three pay the exact same thing.
+          Every simplified-issue policy — requiring health questions but no medical examination —
+          is structured according to one of these three frameworks. The distinction is material
+          only in the event of natural-cause death during a carrier-established initial period,
+          commonly the first two years; following this period, all three structures provide
+          identical benefits.
         </p>
         <div className="mt-6 overflow-x-auto rounded-2xl border border-mist">
           <table className="w-full min-w-[560px] border-collapse text-left">
             <thead>
               <tr className="border-b border-mist bg-canvas-alt">
-                <th className="px-5 py-3.5 text-sm font-semibold text-charcoal/60">Outcome</th>
-                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-harbor">During the window, natural death</th>
-                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-charcoal/60">After the window</th>
+                <th className="px-5 py-3.5 text-sm font-semibold text-charcoal/60">Structure</th>
+                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-harbor">During period, natural-cause death</th>
+                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-charcoal/60">Following the period</th>
               </tr>
             </thead>
             <tbody>
@@ -88,71 +89,72 @@ export default function LevelVsGradedVsModifiedPage() {
         </div>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold text-harbor">One thing all three share</p>
+          <p className="text-sm font-bold text-harbor">A common provision across all three</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            For a death by accident, the full benefit is generally paid immediately under any of
-            the three outcomes, no matter how new the policy is. The waiting window only ever
-            applies to death from natural causes — it isn&apos;t a delay on the policy as a
-            whole.
+            Accidental death is generally compensated in full immediately under any of the three
+            structures, irrespective of policy tenure. The waiting period applies exclusively to
+            natural-cause death — it does not constitute a delay applicable to the policy broadly.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What decides which one you get
+          Determinants of classification
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Underwriters are mainly weighing two things: how stable and well-managed your health is
-          right now, and how recent or severe anything more serious in your history is. A
-          condition that&apos;s controlled, treated, and hasn&apos;t required a recent
-          hospitalization tends to move toward level. Something more recent, or still being
-          stabilized, tends to move toward graded or modified. On top of that, every carrier sets
-          its own health questions and its own look-back period for how far back it asks about a
-          diagnosis — so the same person can land in a different tier depending entirely on which
-          carrier reviews the application.
+          Underwriters primarily evaluate two factors: the current stability and management of the
+          applicant's health, and the recency or severity of any more complex elements within the
+          medical history. A condition that is controlled, actively treated, and free of recent
+          hospitalization typically results in level classification. A more recent or still-
+          stabilizing condition typically results in graded or modified classification instead.
+          Additionally, each carrier establishes independent health questions and look-back
+          periods governing how far into the past a diagnosis is considered — such that an
+          identical applicant may receive differing classifications depending exclusively on which
+          carrier conducts the review.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The fourth outcome: when none of the three fit
+          The fourth pathway: when none of the three structures apply
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Some health histories fall outside what a given carrier is willing to offer through
-          simplified issue at all — that&apos;s a decline, and it&apos;s specific to that one
-          carrier, not a verdict on your eligibility everywhere. Guaranteed acceptance exists
-          specifically as the backstop for this situation: it skips health questions entirely and
-          takes applicants within the eligible age range regardless of health history, in exchange
-          for a two-year waiting period on natural-cause death. It&apos;s a different track from
-          the three outcomes above, and it&apos;s covered in full in{" "}
+          Certain health histories fall outside the parameters a given carrier is willing to
+          underwrite through simplified issue in any capacity — this constitutes a decline,
+          specific to that individual carrier rather than a determination of ineligibility
+          broadly. Guaranteed acceptance functions as the structural backstop for this
+          circumstance: it dispenses with health questions entirely and accepts applicants within
+          the eligible age range irrespective of health history, in exchange for a two-year
+          waiting period applicable to natural-cause death. This represents a distinct framework
+          from the three structures addressed above and is detailed comprehensively in{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
-            the full pre-existing conditions guide
+            the complete pre-existing conditions reference
           </Link>
           .
         </p>
 
         <div className="mt-14 rounded-2xl bg-canvas-alt p-7">
-          <h2 className="font-display text-xl font-extrabold text-harbor">Go deeper on each outcome</h2>
+          <h2 className="font-display text-xl font-extrabold text-harbor">Detailed analysis of each structure</h2>
           <ul className="mt-4 space-y-4">
             <li>
               <Link href="/level-vs-graded-vs-modified/level-benefit" className="font-semibold text-harbor-mid hover:underline">
-                Level benefit coverage, explained →
+                Level benefit coverage: a detailed analysis →
               </Link>
               <p className="mt-1 text-sm text-charcoal/70">
-                Why it&apos;s the lowest-cost tier, and what health profile typically qualifies.
+                The basis for its lower cost, and the typical qualifying health profile.
               </p>
             </li>
             <li>
               <Link href="/level-vs-graded-vs-modified/graded-benefit" className="font-semibold text-harbor-mid hover:underline">
-                Graded benefit coverage, explained →
+                Graded benefit coverage: a detailed analysis →
               </Link>
               <p className="mt-1 text-sm text-charcoal/70">
-                How the step-up payout works, and why it&apos;s real, valid coverage.
+                The mechanics of the step-up structure, and its validity as coverage.
               </p>
             </li>
             <li>
               <Link href="/level-vs-graded-vs-modified/modified-benefit" className="font-semibold text-harbor-mid hover:underline">
-                Modified benefit coverage, explained →
+                Modified benefit coverage: a detailed analysis →
               </Link>
               <p className="mt-1 text-sm text-charcoal/70">
-                How the return-of-premium-plus-interest structure works, and how it differs from graded.
+                The return-of-premium-with-interest structure, and its distinction from graded.
               </p>
             </li>
           </ul>
@@ -164,7 +166,7 @@ export default function LevelVsGradedVsModifiedPage() {
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/pre-existing-conditions" className="font-semibold text-harbor-mid hover:underline">
-              ← Back to the full pre-existing conditions guide
+              ← Return to the complete pre-existing conditions reference
             </Link>
           </p>
         </div>

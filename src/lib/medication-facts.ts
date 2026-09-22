@@ -11,33 +11,33 @@ export const MEDICATIONS: MedicationFact[] = [
     slug: "anti-seizure-medication",
     name: "Anti-Seizure Medication",
     examples: "e.g., Keppra, Dilantin, Lamictal",
-    summary: "Usually read as a marker for epilepsy or a seizure history rather than a concern on its own.",
+    summary: "Typically interpreted as an indicator of an epilepsy or seizure history rather than as an independent concern.",
     detail:
-      "Carriers care less about the medication itself and more about what it tells them: how long you've been seizure-free, and whether the seizures are controlled. A long stretch without a seizure while on a stable dose commonly clears for level coverage. A recent seizure, or a recent change in medication, is more likely to prompt extra questions or a graded outcome.",
+      "Carriers attach less significance to the medication itself than to what it indicates: the duration of seizure-free status, and whether the underlying condition is controlled. An extended period without a seizure while maintained on a stable dose commonly qualifies for level coverage. A recent seizure, or a recent adjustment to the medication regimen, is more likely to prompt additional underwriting questions or a graded classification.",
   },
   {
     slug: "antidepressants",
     name: "Antidepressants",
     examples: "e.g., Zoloft, Lexapro, Wellbutrin",
-    summary: "One of the most common prescriptions carriers see, and rarely a barrier by itself.",
+    summary: "Among the most frequently encountered prescriptions in underwriting, and rarely an obstacle on its own.",
     detail:
-      "Depression and anxiety are extremely common, and most carriers treat a stable antidepressant prescription as routine rather than a red flag. What tends to matter more is stability — how long you've been on the medication, whether there have been recent dosage changes, and whether there's a history of hospitalization. A well-managed, long-standing prescription is usually a non-issue.",
+      "Depression and anxiety are extremely common diagnoses, and most carriers treat a stable antidepressant prescription as routine rather than as cause for concern. Underwriting weight falls more heavily on stability: the length of time on the medication, whether the dosage has changed recently, and whether a history of hospitalization exists. A well-managed, long-standing prescription is generally a non-issue.",
   },
   {
     slug: "blood-thinners",
     name: "Blood Thinners",
     examples: "e.g., Eliquis, Xarelto, Warfarin",
-    summary: "The reason you're prescribed one matters more than the medication itself.",
+    summary: "The underlying reason for the prescription carries more underwriting weight than the medication itself.",
     detail:
-      "Blood thinners are prescribed for a wide range of reasons — AFib, a past blood clot, a mechanical heart valve — and carriers look past the prescription to the underlying condition. A blood thinner tied to a well-managed condition like AFib is often fine at level rates; one tied to a more serious recent cardiac event may point toward a graded outcome instead.",
+      "Blood thinners are prescribed for a wide range of underlying reasons, among them AFib, a prior blood clot, or a mechanical heart valve, and carriers look past the prescription itself to that underlying condition. A blood thinner associated with a well-managed condition such as AFib frequently remains eligible at level rates, whereas one associated with a more serious, recent cardiac event may instead point toward a graded classification.",
   },
   {
     slug: "opioid-pain-medication",
     name: "Opioid Pain Medication",
     examples: "e.g., Oxycodone, Hydrocodone, Tramadol",
-    summary: "The most scrutinized medication category, since carriers are specifically checking for signs of dependency.",
+    summary: "The most closely scrutinized medication category, as carriers are specifically screening for indications of dependency.",
     detail:
-      "Occasional or short-term use tied to a specific event — a past surgery, for example — is treated very differently from an ongoing, long-term prescription. Carriers are mainly trying to rule out substance dependency and the more serious chronic pain conditions opioids are sometimes prescribed for. A long-standing, stable prescription for a known condition fares better than a recent or open-ended one.",
+      "Occasional or short-term use associated with a specific event, a past surgery, for example, is evaluated very differently from an ongoing, long-term prescription. Carriers are primarily seeking to rule out substance dependency, along with the more serious chronic pain conditions for which opioids are sometimes prescribed. A long-standing, stable prescription tied to a known condition fares better than one that is recent or open-ended.",
   },
 ];
 

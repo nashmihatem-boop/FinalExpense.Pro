@@ -3,15 +3,15 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "No Waiting Period Final Expense Insurance",
-  description: "A professional guide to qualifying for day-one final expense coverage with no waiting period, even with a health condition.",
+  title: "Qualifying for Day-One Coverage Without a Waiting Period",
+  description: "A professional analysis of the criteria for qualifying for day-one final expense coverage without a waiting period, notwithstanding a health condition.",
   openGraph: {
-    title: "No Waiting Period Final Expense Insurance",
-    description: "A professional guide to qualifying for day-one final expense coverage with no waiting period, even with a health condition.",
+    title: "Qualifying for Day-One Coverage Without a Waiting Period",
+    description: "A professional analysis of the criteria for qualifying for day-one final expense coverage without a waiting period, notwithstanding a health condition.",
   },
   twitter: {
-    title: "No Waiting Period Final Expense Insurance",
-    description: "A professional guide to qualifying for day-one final expense coverage with no waiting period, even with a health condition.",
+    title: "Qualifying for Day-One Coverage Without a Waiting Period",
+    description: "A professional analysis of the criteria for qualifying for day-one final expense coverage without a waiting period, notwithstanding a health condition.",
   },
 };
 
@@ -23,71 +23,73 @@ export default function NoWaitingPeriodPage() {
           <Link href="/pre-existing-conditions" className="hover:text-harbor">Pre-Existing Conditions</Link> / No Waiting Period Coverage
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Getting day-one coverage with no waiting period
+          Qualifying for day-one coverage without a waiting period
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          A policy with no waiting period means your family receives the full death benefit from
-          the day your first payment is processed — for any covered cause of death. It&apos;s
-          the outcome most people want, and for a lot of applicants with a health condition,
-          it&apos;s genuinely reachable.
+          A policy without a waiting period provides the full death benefit from the effective
+          date of the first premium payment, applicable to any covered cause of death. This
+          represents the preferred outcome for most applicants and remains attainable for a
+          substantial proportion of applicants presenting a health condition.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Who typically qualifies
+          Applicant profile typically qualifying
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Day-one, no-wait coverage (what carriers call a &quot;level&quot; outcome) comes through
-          simplified-issue underwriting — the path with health questions but no medical exam. The
-          key factor isn&apos;t whether you have a diagnosis on paper; it&apos;s whether the
-          condition is stable, controlled, and being actively managed. Well-controlled high blood
-          pressure, treated high cholesterol, stable type 2 diabetes, and sleep apnea managed with
-          a CPAP machine are all common examples of conditions that regularly still land at level.
+          Day-one, no-waiting-period coverage — designated "level" classification by carriers — is
+          obtained through simplified-issue underwriting, which incorporates health questions
+          without a medical examination. The determinative factor is not the presence of a
+          diagnosis but whether the condition is stable, controlled, and under active management.
+          Well-controlled hypertension, treated hyperlipidemia, stable type 2 diabetes, and
+          CPAP-managed sleep apnea are representative conditions that routinely qualify for level
+          classification.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What usually rules it out
+          Factors typically precluding this outcome
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          More serious or recent health events — a heart attack or stroke in the last year or two,
-          an active cancer treatment, or a progressive condition like COPD requiring oxygen — tend
-          to push an application toward a graded or modified outcome instead, which phases in the
-          full benefit over the first couple of years rather than paying it immediately. That
-          isn&apos;t a dead end; it&apos;s simply a different, still-real form of coverage. See
-          our{" "}
+          More severe or recent health events — myocardial infarction or stroke within the
+          preceding one to two years, active cancer treatment, or a progressive condition such as
+          COPD requiring supplemental oxygen — generally result in graded or modified
+          classification instead, under which the full benefit phases in over the initial years
+          rather than applying immediately. This does not constitute a disqualification from
+          coverage broadly, but rather a distinct, equally valid coverage structure. Refer to the{" "}
           <Link href="/pre-existing-conditions#tiers" className="text-harbor-mid underline">
-            guide to how carriers tier applicants
+            complete classification reference
           </Link>{" "}
-          for the full breakdown.
+          for further detail.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          One important distinction
+          A material distinction
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Don&apos;t confuse &quot;no waiting period&quot; with &quot;no health questions.&quot;
-          Guaranteed-acceptance policies skip health questions entirely, but they always carry a
-          two-year waiting period for natural-cause death in exchange. A policy that claims both
-          no health questions and no waiting period at once doesn&apos;t exist in this market —
-          treat that combination as a red flag.
+          "No waiting period" should not be conflated with "no health questions." Guaranteed-
+          acceptance policies dispense with health questions entirely but invariably carry a
+          two-year waiting period applicable to natural-cause death. A product represented as
+          offering both simultaneously does not exist within this market and should be regarded
+          as a significant warning sign.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How to find out where you&apos;d land
+          Determining the applicable outcome
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Since every carrier sets its own rules for what qualifies as &quot;stable&quot; or
-          &quot;controlled,&quot; the most reliable way to know your actual outcome is to talk to
-          a licensed professional who can match your specific health history against multiple
-          carriers, rather than guessing or applying to just one and hoping.
+          Because each carrier independently defines the criteria for "stable" or "controlled,"
+          the most reliable method for determining an actual outcome is consultation with a
+          licensed agent capable of evaluating a specific health history against multiple carriers
+          concurrently, rather than proceeding by assumption or submitting to a single carrier
+          without comparison.
         </p>
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            See what you qualify for
+            Request a Professional Coverage Review
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/pre-existing-conditions" className="font-semibold text-harbor-mid hover:underline">
-              ← Back to the full guide
+              ← Return to the complete reference
             </Link>
           </p>
         </div>

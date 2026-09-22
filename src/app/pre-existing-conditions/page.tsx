@@ -5,50 +5,50 @@ import { CONDITIONS, TIER_INFO, type Tier } from "@/lib/condition-facts";
 import { CarrierComparisonGraphic } from "@/components/pre-existing/carrier-comparison-graphic";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance with Pre-Existing Conditions",
+  title: "Final Expense Insurance Underwriting for Pre-Existing Conditions",
   description:
-    "A professional breakdown of how simplified-issue underwriting treats common health conditions, what level/graded/modified/guaranteed-acceptance actually mean, and how to find your likely path before you apply.",
-  openGraph: { title: "Final Expense Insurance with Pre-Existing Conditions", description: "A professional breakdown of how simplified-issue underwriting treats common health conditions, what level/graded/modified/guaranteed-acceptance actually mean, and how to find your likely path before you apply." },
+    "A professional reference on how simplified-issue underwriting treats common health conditions, the level/graded/modified/guaranteed-acceptance classifications, and how to determine your likely outcome before applying.",
+  openGraph: { title: "Final Expense Insurance Underwriting for Pre-Existing Conditions", description: "A professional reference on how simplified-issue underwriting treats common health conditions, the level/graded/modified/guaranteed-acceptance classifications, and how to determine your likely outcome before applying." },
 
-  twitter: { title: "Final Expense Insurance with Pre-Existing Conditions", description: "A professional breakdown of how simplified-issue underwriting treats common health conditions, what level/graded/modified/guaranteed-acceptance actually mean, and how to find your likely path before you apply." },
+  twitter: { title: "Final Expense Insurance Underwriting for Pre-Existing Conditions", description: "A professional reference on how simplified-issue underwriting treats common health conditions, the level/graded/modified/guaranteed-acceptance classifications, and how to determine your likely outcome before applying." },
 };
 
 const TOC = [
-  { id: "the-two-paths-and-how-simplified-issue-works", label: "The two paths, and how simplified issue works" },
-  { id: "tiers", label: "How carriers tier you — level, graded, modified, or decline" },
-  { id: "where-conditions-land", label: "Where common conditions land" },
-  { id: "a-z", label: "Eligibility by health condition (A–Z)" },
-  { id: "why-carriers-differ", label: "Why the same condition gets different answers" },
-  { id: "how-to-prepare", label: "How to figure out your path before you apply" },
+  { id: "the-two-paths-and-how-simplified-issue-works", label: "The two underwriting paths" },
+  { id: "tiers", label: "Classification outcomes — level, graded, modified, decline" },
+  { id: "where-conditions-land", label: "Typical classification by condition" },
+  { id: "a-z", label: "Condition reference (A–Z)" },
+  { id: "why-carriers-differ", label: "Why outcomes vary by carrier" },
+  { id: "how-to-prepare", label: "Pre-application preparation" },
   { id: "faq", label: "Frequently asked questions" },
 ];
 
 const TIER_GROUPS: { tier: Tier; heading: string }[] = [
-  { tier: "level", heading: "Conditions that usually qualify for level rates" },
-  { tier: "graded-modified", heading: "Conditions that often land in graded or modified" },
-  { tier: "guaranteed", heading: "Conditions that often need guaranteed acceptance" },
+  { tier: "level", heading: "Conditions typically qualifying for level classification" },
+  { tier: "graded-modified", heading: "Conditions typically resulting in graded or modified classification" },
+  { tier: "guaranteed", heading: "Conditions typically requiring guaranteed-acceptance coverage" },
 ];
 
 const FAQS = [
   {
-    q: "I take several medications every day. Will that stop me from getting coverage?",
-    a: "No. Taking medications doesn't automatically disqualify you. Carriers mainly check your prescription history to confirm your health answers match your records — plenty of people on multiple daily medications still qualify for full, day-one coverage.",
+    q: "Does a multi-medication regimen preclude qualification?",
+    a: "No. Multiple concurrent medications do not automatically preclude qualification. Carriers primarily use prescription history to verify the accuracy of health disclosures — a substantial proportion of applicants on multiple daily medications still qualify for full, day-one coverage.",
   },
   {
-    q: "One company turned me down. Does that mean nobody will cover me?",
-    a: "Not usually. Carriers set their own rules and look-back periods, so a decline from one often isn't a decline everywhere. Guaranteed acceptance is also always available as a backstop, since it doesn't ask health questions at all.",
+    q: "Does a decline from one carrier indicate universal ineligibility?",
+    a: "Generally, no. Underwriting rules and look-back periods vary independently by carrier, such that a decline at one company frequently does not extend to others. Guaranteed acceptance additionally functions as a categorical backstop, as it does not incorporate health questions.",
   },
   {
-    q: "What's the difference between “no exam” and “no health questions”?",
-    a: "“No exam” almost always means simplified issue — no physical or bloodwork, but you still answer health questions. “No health questions” means guaranteed acceptance, which always comes with a two-year waiting period. Be cautious of anyone promising both no health questions and no waiting period — that combination doesn't exist in this market.",
+    q: "What distinguishes \"no exam\" from \"no health questions\"?",
+    a: "\"No exam\" denotes simplified issue: no physical examination or laboratory work is required, though health questions remain applicable. \"No health questions\" denotes guaranteed acceptance, which invariably carries a two-year waiting period. A product represented as offering both simultaneously does not exist within this market and should be regarded with skepticism.",
   },
   {
-    q: "Will I have to wait two years to be covered if I have a common condition like diabetes?",
-    a: "Not necessarily. Many common, well-managed conditions — including a lot of diabetes cases — qualify for simplified issue with day-one coverage. The two-year wait is specifically a feature of guaranteed acceptance, which is a different, separate path.",
+    q: "Does a diabetes diagnosis necessitate a two-year waiting period?",
+    a: "Not necessarily. A substantial proportion of stable, well-managed diabetes cases, including many involving complications, continue to qualify for simplified issue with day-one coverage. The two-year waiting period is specific to the guaranteed-acceptance category, a distinct underwriting track.",
   },
   {
-    q: "Do I need to disclose a condition if I'm feeling fine now?",
-    a: "Yes — answer every health question honestly regardless of how you feel today. Carriers cross-check your answers against your prescription history and a shared industry database, and a mismatch discovered during the early contestability period can put your family's claim at risk.",
+    q: "Is disclosure required for a condition that is currently asymptomatic?",
+    a: "Yes. All health questions must be answered accurately regardless of current symptomatic status. Carriers cross-reference disclosures against prescription history and a shared industry database, and any discrepancy identified during the contestability period may jeopardize claim payment.",
   },
 ];
 
@@ -65,19 +65,19 @@ export default function PreExistingConditionsPage() {
           Pre-Existing Conditions
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance with a pre-existing condition
+          Final expense insurance underwriting for pre-existing conditions
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Having a health condition doesn&apos;t mean you&apos;re out of options. Most people
-          with pre-existing conditions still qualify for final expense insurance — sometimes at
-          the best available rate, sometimes through a plan built for a harder health history.
-          This professionally researched guide explains how carriers actually evaluate your
-          health, where common conditions typically land, and how to figure out your likely path
-          before you apply.
+          A pre-existing health condition does not categorically preclude qualification for final
+          expense coverage. The majority of applicants with a documented health history qualify —
+          in some cases for the most favorable available rate, in others through a product
+          structured for a more complex medical profile. This reference details the underwriting
+          methodology carriers apply, the typical classification outcomes for common conditions,
+          and a framework for determining a likely outcome prior to application.
         </p>
 
         <nav aria-label="Guide contents" className="mt-8 rounded-2xl border border-mist p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">What&apos;s in this guide</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Contents</p>
           <ol className="mt-3 space-y-2">
             {TOC.map((item, i) => (
               <li key={item.id}>
@@ -90,93 +90,96 @@ export default function PreExistingConditionsPage() {
         </nav>
 
         <h2 id="the-two-paths-and-how-simplified-issue-works" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          The two paths, and how simplified issue works
+          The two underwriting paths
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Almost every application with a health condition comes down to one fork: simplified
-          issue or guaranteed acceptance. Simplified issue is the path most people start on, and
-          it&apos;s the focus of this guide — guaranteed acceptance works on a different, simpler
-          set of rules and is covered on its own.
+          Applications involving a health condition are almost universally resolved through one of
+          two frameworks: simplified issue or guaranteed acceptance. Simplified issue is the
+          framework the majority of applicants engage with initially and is the primary subject of
+          this reference; guaranteed acceptance operates under a distinct, more straightforward
+          rule set addressed independently.
         </p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Simplified issue means no medical exam — no nurse visit, no bloodwork. Instead, you
-          answer a short list of yes-or-no health questions, typically under a dozen. The carrier
-          also runs a couple of quiet background checks to confirm your answers — a look at your
-          prescription history, and a check against the MIB, a shared industry database of past
-          insurance applications. A decision often comes back the same day or within a few
-          business days.
+          Simplified issue requires no medical examination — no clinical visit, no laboratory
+          testing. The applicant instead responds to a limited set of yes-or-no health questions,
+          generally fewer than twelve. The carrier additionally conducts supplementary verification:
+          a review of prescription history, and a cross-reference against the MIB, a shared
+          industry database of prior insurance applications. A determination is frequently issued
+          the same day or within several business days.
         </p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          It&apos;s worth aiming for: when your answers clear, coverage is &quot;level&quot; —
-          the full death benefit is in place from day one, and simplified issue typically costs
-          less than guaranteed acceptance for the same amount of coverage.
+          The optimal outcome under this framework is "level" classification — full death benefit
+          in effect from policy inception — and simplified issue is typically priced more favorably
+          than guaranteed acceptance for an equivalent coverage amount.
         </p>
         <div className="mt-6 rounded-2xl border border-mist bg-canvas-alt p-6">
-          <p className="text-sm font-bold text-harbor">A word of caution</p>
+          <p className="text-sm font-bold text-harbor">An important distinction</p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            &quot;No exam&quot; and &quot;no health questions&quot; are not the same thing. &quot;No
-            exam&quot; usually means simplified issue — health questions still apply. &quot;No
-            health questions&quot; means guaranteed acceptance, which always carries a two-year
-            waiting period. Be cautious of anyone promising both no health questions and no
-            waiting period at once — that combination doesn&apos;t exist in this market.
+            "No examination" and "no health questions" are not equivalent terms. "No examination"
+            typically denotes simplified issue, under which health questions remain applicable.
+            "No health questions" denotes guaranteed acceptance, which invariably carries a
+            two-year waiting period. Any representation combining both no health questions and no
+            waiting period should be treated with skepticism, as this combination is not offered
+            within this market.
           </p>
         </div>
 
         <h2 id="tiers" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          How carriers tier you — level, graded, modified, or decline
+          Classification outcomes — level, graded, modified, decline
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Reviewing your health answers isn&apos;t a simple yes-or-no — carriers sort applicants
-          into one of a few outcomes that decide when your family actually receives the full
-          death benefit.
+          Evaluation of health disclosures does not resolve to a binary determination — carriers
+          assign applicants to one of several classification outcomes, which determines the timing
+          of full death-benefit availability.
         </p>
         <div className="mt-6 overflow-x-auto rounded-2xl border border-mist">
           <table className="w-full min-w-[560px] border-collapse text-left">
             <thead>
               <tr className="border-b border-mist bg-canvas-alt">
-                <th className="px-5 py-3.5 text-sm font-semibold text-charcoal/60">Outcome</th>
-                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-harbor">Years 1–2, natural death</th>
-                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-charcoal/60">After the wait</th>
+                <th className="px-5 py-3.5 text-sm font-semibold text-charcoal/60">Classification</th>
+                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-harbor">Years 1–2, natural-cause death</th>
+                <th className="px-5 py-3.5 font-display text-sm font-extrabold text-charcoal/60">Following the waiting period</th>
               </tr>
             </thead>
             <tbody>
               <tr className="border-b border-mist">
                 <td className="px-5 py-4 text-sm font-semibold text-charcoal/70">Level</td>
-                <td className="px-5 py-4 text-sm text-charcoal">100% of the death benefit, from day one</td>
+                <td className="px-5 py-4 text-sm text-charcoal">100% of the death benefit, from policy inception</td>
                 <td className="px-5 py-4 text-sm text-charcoal/70">100%</td>
               </tr>
               <tr className="border-b border-mist">
                 <td className="px-5 py-4 text-sm font-semibold text-charcoal/70">Graded</td>
-                <td className="px-5 py-4 text-sm text-charcoal">A partial payout that steps up each year</td>
+                <td className="px-5 py-4 text-sm text-charcoal">A partial benefit increasing incrementally each year</td>
                 <td className="px-5 py-4 text-sm text-charcoal/70">100%</td>
               </tr>
               <tr className="border-b border-mist">
                 <td className="px-5 py-4 text-sm font-semibold text-charcoal/70">Modified</td>
-                <td className="px-5 py-4 text-sm text-charcoal">Premiums paid back, plus interest — not the full amount</td>
+                <td className="px-5 py-4 text-sm text-charcoal">Premiums returned with interest — not the full benefit amount</td>
                 <td className="px-5 py-4 text-sm text-charcoal/70">100%</td>
               </tr>
               <tr>
                 <td className="px-5 py-4 text-sm font-semibold text-charcoal/70">Decline</td>
-                <td className="px-5 py-4 text-sm text-charcoal">No simplified policy offered by that carrier</td>
+                <td className="px-5 py-4 text-sm text-charcoal">No simplified-issue policy offered by that specific carrier</td>
                 <td className="px-5 py-4 text-sm text-charcoal/70">—</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p className="mt-4 text-sm leading-relaxed text-charcoal/60">
-          Accidental death is generally paid in full immediately under graded or modified plans —
-          the waiting period applies to natural-cause death only. A decline from one carrier
-          usually just means guaranteed acceptance (or a different carrier) is the next step, not
-          that coverage is out of reach entirely.
+          Accidental death is generally compensated in full immediately, even under graded or
+          modified classifications — the waiting period applies exclusively to natural-cause
+          death. A decline from a given carrier typically indicates that guaranteed acceptance, or
+          application to a different carrier, represents the appropriate next step, rather than
+          categorical ineligibility.
         </p>
 
         <h2 id="where-conditions-land" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          Where common conditions land
+          Typical classification by condition
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          These are general, typical patterns — not guarantees. Every carrier draws its own
-          lines, which is exactly why the same condition can get a different answer from a
-          different company.
+          The following reflects general, typical patterns rather than guaranteed outcomes. Each
+          carrier establishes independent underwriting criteria, which accounts for differential
+          classification of an identical condition across carriers.
         </p>
         {grouped.map((g) => (
           <div key={g.tier} className="mt-8">
@@ -201,18 +204,19 @@ export default function PreExistingConditionsPage() {
         ))}
 
         <h2 id="a-z" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          Eligibility by health condition (A–Z)
+          Condition reference (A–Z)
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A quick-reference index of the conditions we cover — tap any of them for a closer look.
-          As above, these are typical outcomes, not promises.
+          A comprehensive reference index of conditions addressed in this guide — select any entry
+          for detailed analysis. As noted above, these represent typical outcomes rather than
+          guaranteed determinations.
         </p>
         <div className="mt-6 overflow-x-auto rounded-2xl border border-mist">
           <table className="w-full min-w-[560px] border-collapse text-left">
             <thead>
               <tr className="border-b border-mist bg-canvas-alt">
                 <th className="px-5 py-3 text-sm font-semibold text-charcoal/60">Condition</th>
-                <th className="px-5 py-3 font-display text-sm font-extrabold text-harbor">Typical tier</th>
+                <th className="px-5 py-3 font-display text-sm font-extrabold text-harbor">Typical classification</th>
               </tr>
             </thead>
             <tbody>
@@ -230,51 +234,54 @@ export default function PreExistingConditionsPage() {
           </table>
         </div>
         <p className="mt-4 text-sm leading-relaxed text-charcoal/60">
-          Don&apos;t see your exact situation, or been declined before? That doesn&apos;t mean
-          you&apos;re out of options — a different carrier&apos;s rules, or the guaranteed-issue
-          path, very often still has a place for you.
+          Where a specific circumstance is not represented, or a prior application resulted in
+          decline, this does not indicate categorical ineligibility — an alternative carrier's
+          criteria, or the guaranteed-acceptance framework, frequently remains applicable.
         </p>
 
         <h2 id="why-carriers-differ" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          Why the same condition gets different answers from different carriers
+          Why outcomes vary by carrier
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Two carriers can look at the exact same person and reach different conclusions — one
-          says level, another says graded. That&apos;s not a glitch; it&apos;s how this market is
-          built, and it works in your favor when a professional knows how to use it.
+          Identical applicant profiles frequently yield divergent determinations across carriers —
+          one classifying level, another graded. This is not an inconsistency in the system but a
+          structural feature of the market, one that can be leveraged advantageously with
+          appropriate guidance.
         </p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Carriers don&apos;t share one rulebook. Each sets its own health questions, its own
-          look-back periods (how far back it asks about a diagnosis or treatment), and its own
-          list of medications it will and won&apos;t accept. A treatment from three years ago
-          might fall outside one carrier&apos;s two-year look-back but inside another&apos;s
-          four-year window — and that single difference can decide your tier.
+          No uniform underwriting standard governs the industry. Each carrier independently
+          establishes its health questions, look-back periods (the interval preceding application
+          during which a diagnosis or treatment is considered), and accepted-medication criteria. A
+          treatment occurring three years prior may fall outside one carrier's two-year look-back
+          period while remaining within another's four-year period — this distinction alone can
+          determine classification.
         </p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Because of this, applying to just one carrier and accepting its answer can leave real
-          money — or a better tier — on the table. This is exactly where working with an
-          independent agency, backed by a professional review, helps: matching your specific
-          history to the carrier whose rules are friendliest to it, before an application ever
-          gets submitted.
+          Consequently, applying to a single carrier and accepting its determination without
+          comparison may result in forfeited value — either in premium or classification tier.
+          This is the specific function an independent agency serves: matching an applicant's
+          health profile to the carrier whose underwriting criteria are most favorable, prior to
+          formal application.
         </p>
 
         <CarrierComparisonGraphic />
 
         <h2 id="how-to-prepare" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          How to figure out your path before you apply
+          Pre-application preparation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A little preparation goes a long way. Before you apply, it helps to have a clear
-          picture ready: each condition and when it was diagnosed, when you were last treated or
-          hospitalized for it, and a complete, current medication list. Carriers check your
-          prescription history against your answers, so an accurate list avoids surprises.
+          Adequate preparation materially improves the application process. Prior to applying,
+          compiling the following is advisable: each condition and its diagnosis date, the date of
+          most recent treatment or hospitalization, and a complete, current medication list.
+          Carriers verify prescription history against disclosed information, so accuracy in this
+          list mitigates the risk of discrepancy.
         </p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Answer every question honestly. A mismatch between your answers and your records —
-          discovered during the early contestability period — can put your family&apos;s claim
-          at risk later. If a knockout condition like current oxygen use, dialysis, or active
-          cancer treatment applies to you, guaranteed acceptance is likely the more direct path,
-          not a last resort.
+          All questions should be answered accurately. A discrepancy between disclosed information
+          and medical records, identified during the contestability period, may jeopardize claim
+          payment. Where a knockout condition applies — current oxygen dependency, dialysis, or
+          active cancer treatment — guaranteed acceptance represents the appropriate initial path
+          rather than a secondary option.
         </p>
 
         <h2 id="faq" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
@@ -295,21 +302,21 @@ export default function PreExistingConditionsPage() {
         </div>
 
         <div className="mt-14 rounded-2xl bg-canvas-alt p-7">
-          <h2 className="font-display text-xl font-extrabold text-harbor">Two more things worth reading</h2>
+          <h2 className="font-display text-xl font-extrabold text-harbor">Related references</h2>
           <ul className="mt-3 space-y-2 text-sm">
             <li>
               <Link href="/pre-existing-conditions/can-you-be-denied" className="font-semibold text-harbor-mid hover:underline">
-                Can you be denied? What actually causes a decline →
+                Application decline: causes and determinants →
               </Link>
             </li>
             <li>
               <Link href="/pre-existing-conditions/no-waiting-period" className="font-semibold text-harbor-mid hover:underline">
-                How to qualify for day-one coverage with no waiting period →
+                Qualifying for day-one coverage without a waiting period →
               </Link>
             </li>
             <li>
               <Link href="/pre-existing-conditions/prescriptions" className="font-semibold text-harbor-mid hover:underline">
-                How your prescription history affects your application →
+                The role of prescription history in underwriting →
               </Link>
             </li>
           </ul>
@@ -317,7 +324,7 @@ export default function PreExistingConditionsPage() {
 
         <div className="mt-14 text-center">
           <Button as="link" href="/get-quote" size="lg">
-            See what you qualify for
+            Request a Professional Coverage Review
           </Button>
         </div>
       </div>
