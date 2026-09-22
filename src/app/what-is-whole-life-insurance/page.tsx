@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "What Is Whole Life Insurance?",
+  title: "Whole Life Insurance: A Structural Overview",
   description:
-    "A professional, foundational explainer: permanent coverage for your entire life, level premiums that never increase, a guaranteed death benefit, and built-in cash value.",
-  openGraph: { title: "What Is Whole Life Insurance?", description: "A professional, foundational explainer: permanent coverage for your entire life, level premiums that never increase, a guaranteed death benefit, and built-in cash value." },
+    "A professional overview of whole life insurance: permanent coverage duration, level premium structure, guaranteed death benefit, and cash value accumulation.",
+  openGraph: { title: "Whole Life Insurance: A Structural Overview", description: "A professional overview of whole life insurance: permanent coverage duration, level premium structure, guaranteed death benefit, and cash value accumulation." },
 
-  twitter: { title: "What Is Whole Life Insurance?", description: "A professional, foundational explainer: permanent coverage for your entire life, level premiums that never increase, a guaranteed death benefit, and built-in cash value." },
+  twitter: { title: "Whole Life Insurance: A Structural Overview", description: "A professional overview of whole life insurance: permanent coverage duration, level premium structure, guaranteed death benefit, and cash value accumulation." },
 };
 
 export default function WhatIsWholeLifeInsurancePage() {
@@ -16,77 +16,75 @@ export default function WhatIsWholeLifeInsurancePage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-3xl px-5 py-16 sm:px-8 sm:py-20">
         <h1 className="font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          What is whole life insurance?
+          Whole life insurance: a structural overview
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Whole life insurance is a type of permanent life insurance — coverage designed to last
-          for your entire life, rather than expiring after a set number of years the way term
-          insurance does. In exchange for a level premium, it guarantees a death benefit for as
-          long as the policy stays in force, and it builds cash value along the way.
+          Whole life insurance constitutes a category of permanent life insurance, structured to
+          remain in force for the insured&apos;s entire life rather than expiring after a defined
+          term, as with term insurance. In exchange for a level premium, the policy guarantees a
+          death benefit for the duration the policy remains active, while concurrently accumulating
+          cash value.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Coverage that lasts your whole life
+          Duration of coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The defining feature is right in the name. As long as premiums are paid, a whole life
-          policy doesn&apos;t expire at the end of a term and doesn&apos;t require renewal or
-          re-qualification later in life. It stays in force for as long as you live, which is
-          precisely why it&apos;s the structure used for coverage meant to be there whenever
-          it&apos;s eventually needed, rather than coverage meant to protect a specific stretch of
-          years like a mortgage term or a child&apos;s upbringing.
+          The defining characteristic is structural permanence. Provided premiums are remitted, a
+          whole life policy does not terminate at a term&apos;s conclusion and does not require
+          renewal or re-underwriting at a later date. Coverage remains in force for the
+          insured&apos;s lifetime, which accounts for its use in contexts requiring indefinite
+          coverage, as distinct from coverage addressing a defined period such as a mortgage term.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Level premiums that don&apos;t increase
+          Level premium structure
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Your premium is set when the policy is issued and stays the same for the life of the
-          policy — it doesn&apos;t rise as you get older, even though your risk of death naturally
-          increases with age. That&apos;s possible because the insurer prices the policy using
-          your age at issue and spreads the cost evenly over time, rather than charging more each
-          year the way some other insurance products do. The result is a payment that&apos;s
-          predictable for as long as you own the policy.
+          The premium established at policy issuance remains fixed for the policy&apos;s duration,
+          notwithstanding the insured&apos;s increasing age-related mortality risk. This is achieved
+          through pricing based on issue age, with cost distributed evenly across the policy term
+          rather than escalating periodically, as occurs with certain other insurance structures.
+          The result is a predictable, unchanging payment obligation.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Cash value that builds over time
+          Cash value accumulation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Part of every whole life premium goes toward a cash value component that accumulates on
-          a guaranteed schedule set out in the policy. This cash value is a savings-like feature
-          built into the contract — depending on the policy, it may be accessible while
-          you&apos;re still living, though tapping it can reduce the death benefit if it
-          isn&apos;t repaid. It&apos;s a genuine feature of the product, but it&apos;s a secondary
-          one for most people who buy a smaller policy — the primary purpose is still the
-          guaranteed death benefit.
+          A portion of each premium payment is allocated to a cash value component, which
+          accumulates according to a guaranteed schedule specified within the policy contract. This
+          constitutes a savings-like feature integral to the contract structure; depending on
+          policy terms, it may be accessible during the insured&apos;s lifetime, though withdrawal
+          may reduce the eventual death benefit absent repayment. This feature, while legitimate, is
+          generally secondary to the guaranteed death benefit for policies of modest face value.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A guaranteed death benefit
+          Death benefit guarantee
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          As long as the policy remains in force, the death benefit is guaranteed — a fixed amount
-          your beneficiary receives, set when you bought the policy and not subject to change
-          based on investment performance or market conditions. That guarantee is the central
-          reason people choose whole life over other permanent options: it&apos;s not the amount
-          you might get, it&apos;s the amount you will get.
+          Throughout the policy&apos;s active duration, the death benefit remains guaranteed at a
+          fixed amount established at issuance, independent of investment performance or market
+          conditions. This guarantee constitutes the primary rationale for selecting whole life over
+          alternative permanent structures: the benefit represents a certain, rather than projected,
+          amount.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Final expense insurance: a smaller, specific type of whole life
+          Final expense insurance as a whole life subcategory
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense insurance isn&apos;t a separate category from whole life insurance — it is
-          whole life insurance, just sized and underwritten for a specific purpose: covering
-          end-of-life costs rather than replacing decades of income. It typically comes in smaller
-          coverage amounts, uses simpler underwriting, and is easier to qualify for than a large
-          whole life policy, while keeping the same core guarantees — a level premium and a
-          guaranteed death benefit. See{" "}
+          Final expense insurance does not constitute a distinct category from whole life insurance;
+          rather, it is whole life insurance structured and underwritten for a specific application
+          — addressing end-of-life expenses rather than long-term income replacement. It typically
+          involves reduced face amounts, simplified underwriting, and more accessible qualification
+          relative to larger whole life policies, while retaining the same core guarantees of level
+          premium and guaranteed death benefit. See{" "}
           <Link href="/final-expense-insurance" className="font-semibold text-harbor-mid hover:underline">
             how final expense insurance works
           </Link>{" "}
-          for the details specific to that product.
+          for further detail specific to this application.
         </p>
 
         <div className="mt-14 text-center">
