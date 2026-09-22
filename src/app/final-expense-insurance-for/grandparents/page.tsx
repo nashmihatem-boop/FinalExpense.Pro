@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance for a Grandparent",
+  title: "Final Expense Insurance for a Grandparent: A Coordination Guide",
   description:
-    "A professional guide to how grandchildren and extended family typically arrange final expense coverage for a grandparent, and how to coordinate with the rest of the family.",
-  openGraph: { title: "Final Expense Insurance for a Grandparent", description: "A professional guide to how grandchildren and extended family typically arrange final expense coverage for a grandparent, and how to coordinate with the rest of the family." },
+    "A professional guide to extended-family-initiated grandparent coverage, insurable interest at one generation removed, and family coordination.",
+  openGraph: { title: "Final Expense Insurance for a Grandparent: A Coordination Guide", description: "A professional guide to extended-family-initiated grandparent coverage, insurable interest at one generation removed, and family coordination." },
 
-  twitter: { title: "Final Expense Insurance for a Grandparent", description: "A professional guide to how grandchildren and extended family typically arrange final expense coverage for a grandparent, and how to coordinate with the rest of the family." },
+  twitter: { title: "Final Expense Insurance for a Grandparent: A Coordination Guide", description: "A professional guide to extended-family-initiated grandparent coverage, insurable interest at one generation removed, and family coordination." },
 };
 
 export default function GrandparentsPage() {
@@ -19,69 +19,71 @@ export default function GrandparentsPage() {
           <Link href="/final-expense-insurance-for" className="hover:text-harbor">Final Expense Insurance For</Link> / Grandparents
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Buying final expense insurance for a grandparent
+          Final expense insurance for a grandparent: a coordination guide
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Grandchildren and extended family arrange final expense coverage more often than you
-          might think — especially when a grandparent&apos;s own children aren&apos;t in a
-          position to, or when a grandchild has simply grown closest to them. Here&apos;s a
-          professional rundown of what to know if that&apos;s your situation.
+          Coverage initiated by a grandchild or other extended family member occurs with greater
+          frequency than commonly assumed — particularly where a grandparent's own children are
+          not positioned to act, or where a specific grandchild maintains the closest relationship.
+          The following addresses the relevant considerations.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why grandchildren and extended family step in
+          Rationale for extended-family initiation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Family circumstances don&apos;t always follow the tidy version. A grandparent&apos;s
-          children may live far away, be dealing with their own health or financial stretch, or
-          simply not be the ones with the closest day-to-day relationship. A grandchild — often an
-          adult with more financial stability and a strong bond with their grandparent — sometimes
-          ends up the natural person to notice the gap and do something about it. It can also come
-          up after a scare: a fall, a diagnosis, or a hospital stay that makes the lack of coverage
-          suddenly feel urgent instead of hypothetical.
+          Family structures do not uniformly conform to a standard configuration. A grandparent's
+          children may reside at a distance, be managing independent health or financial
+          circumstances, or simply not maintain the closest day-to-day relationship. A grandchild —
+          frequently an adult with greater financial stability and a strong relational bond — may
+          consequently be the individual best positioned to identify the coverage gap and initiate
+          resolution. This determination is also frequently precipitated by a specific event: a
+          fall, a diagnosis, or a hospitalization that renders the absence of coverage immediately
+          material rather than hypothetical.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Insurable interest across a generation
+          Insurable interest at one generation removed
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The same rule that applies to every relationship on this site applies here: you need
-          insurable interest — a genuine financial or emotional stake in your grandparent&apos;s
-          life — to buy a policy on them, and your grandparent still has to consent and answer the
-          health questions themselves. A grandchild-grandparent relationship is generally
-          recognized the same way a sibling relationship is: real, but one step further from the
-          most obvious cases like a spouse or a parent and child, so a carrier may ask a few
-          clarifying questions about the relationship and why you&apos;re the one applying. Our{" "}
+          The insurable-interest standard applicable throughout this reference applies equally
+          here: a genuine financial or emotional stake in the grandparent's continued life is
+          required, and the grandparent must independently consent and respond to health questions
+          personally. A grandchild-grandparent relationship is generally recognized on terms
+          comparable to a sibling relationship — valid, though one degree removed from the most
+          immediately recognized cases (spouse, parent-child), such that a carrier may pose
+          additional clarifying questions regarding the relationship and the basis for the
+          application. The{" "}
           <Link href="/final-expense-insurance-for/sibling" className="text-harbor-mid underline">
-            guide to buying coverage for a sibling
+            sibling coverage reference
           </Link>{" "}
-          goes deeper on how insurable interest works in practice, and it applies here in much the
-          same way.
+          addresses the practical application of insurable interest in comparable detail, and the
+          same principles apply here.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Coordinating with the rest of the family
+          Coordination with other family members
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Because a grandparent typically has multiple children and grandchildren who could
-          reasonably be involved, it&apos;s worth a quick family conversation before you apply —
-          mainly so you don&apos;t end up with two relatives independently arranging overlapping
-          coverage, or disagreement later about who the beneficiary should be. Clarify up front
-          whether you&apos;re buying this to relieve the burden from your grandparent&apos;s own
-          children specifically, to be reimbursed by the family after the fact, or simply because
-          you want to be the one who handles it. None of those reasons need anyone&apos;s
-          permission, but naming the reason out loud tends to prevent confusion later.
+          Given that a grandparent typically has multiple children and grandchildren who could
+          reasonably initiate coverage, preliminary family discussion prior to application is
+          advisable — primarily to avoid duplicate coverage arranged independently by separate
+          relatives, or subsequent disagreement regarding beneficiary designation. Clarifying in
+          advance whether the objective is relieving the grandparent's own children of this
+          responsibility, seeking reimbursement from the broader family, or simply assuming
+          ownership of the task, is advisable. None of these rationales requires family consent,
+          though articulating the rationale explicitly tends to prevent subsequent misunderstanding.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What your grandparent needs to do
+          Required grandparent participation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          As with any adult being insured, your grandparent has to be part of the process — giving
-          consent, answering health questions honestly and in their own words, and signing the
-          application. You can absolutely lead on research, comparing options, and handling the
-          logistics with a licensed professional, but plan for your grandparent to be present, even
-          briefly, when the application actually happens.
+          Consistent with any insured adult, the grandparent must participate directly in the
+          process — providing consent, responding to health questions accurately and personally,
+          and executing the application. Research, comparison, and administrative logistics may be
+          managed by the grandchild; however, the grandparent's presence, even briefly, during the
+          formal application should be anticipated.
         </p>
 
         <div className="mt-14 text-center">

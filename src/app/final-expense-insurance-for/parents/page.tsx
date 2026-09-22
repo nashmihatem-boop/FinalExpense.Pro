@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance for a Parent",
+  title: "Final Expense Insurance for a Parent: A Procedural Guide",
   description:
-    "A professional guide to how adult children typically start the conversation, what a parent needs to be involved in, and how payment and ownership commonly work.",
-  openGraph: { title: "Final Expense Insurance for a Parent", description: "A professional guide to how adult children typically start the conversation, what a parent needs to be involved in, and how payment and ownership commonly work." },
+    "A professional guide to initiating parental coverage, the parent's required role, and typical ownership and payment structures.",
+  openGraph: { title: "Final Expense Insurance for a Parent: A Procedural Guide", description: "A professional guide to initiating parental coverage, the parent's required role, and typical ownership and payment structures." },
 
-  twitter: { title: "Final Expense Insurance for a Parent", description: "A professional guide to how adult children typically start the conversation, what a parent needs to be involved in, and how payment and ownership commonly work." },
+  twitter: { title: "Final Expense Insurance for a Parent: A Procedural Guide", description: "A professional guide to initiating parental coverage, the parent's required role, and typical ownership and payment structures." },
 };
 
 export default function ParentsPage() {
@@ -19,92 +19,90 @@ export default function ParentsPage() {
           <Link href="/final-expense-insurance-for" className="hover:text-harbor">Final Expense Insurance For</Link> / Parents
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Buying final expense insurance for your parents
+          Final expense insurance for a parent: a procedural guide
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          This is, by a wide margin, the most common version of this conversation. An adult child
-          notices their parent doesn&apos;t have coverage in place, or has let an old policy
-          lapse, and decides to do something about it before it becomes urgent. If that&apos;s
-          where you are, here&apos;s a professional walkthrough of how it usually goes.
+          This scenario constitutes, by a substantial margin, the most frequently encountered
+          version of this arrangement. An adult child identifies an absence of coverage, or a
+          lapsed prior policy, and initiates corrective action proactively. The following addresses
+          the typical procedural sequence.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why adult children take this on
+          Rationale for adult-child initiation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          It rarely starts as a planned project. More often it&apos;s prompted by something —
-          a parent&apos;s recent health scare, helping settle another relative&apos;s funeral and
-          realizing how fast the costs and decisions pile up, or simply a parent mentioning they
-          &quot;never got around to it.&quot; Sometimes a parent genuinely can&apos;t manage the
-          process alone anymore, whether that&apos;s researching options, understanding the
-          paperwork, or just making the call. And sometimes it&apos;s simpler than any of that: an
-          adult child wants the certainty of knowing it&apos;s handled, rather than hoping their
-          parent gets to it eventually.
+          This action is infrequently the product of advance planning. More commonly, it is
+          prompted by a specific event — a parent's recent health event, direct experience
+          settling a relative's funeral arrangements and observing the associated administrative
+          burden, or a parent's own acknowledgment of prior inaction. In certain circumstances, a
+          parent may be unable to independently manage the research or application process. In
+          others, the motivation is straightforward: securing certainty of resolution rather than
+          continued deferral.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Starting the conversation with your parent
+          Initiating the discussion with a parent
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          This is usually the hardest part, not the paperwork. It helps to frame it around peace
-          of mind rather than mortality — you&apos;re not asking your parent to dwell on dying,
-          you&apos;re offering to take one thing permanently off their plate. It also helps to
-          treat your parent as a full partner in the decision rather than someone the decision is
-          being made about. Ask what they&apos;d actually want for a funeral or service, whether
-          they have any preferences you don&apos;t know about, and whether they&apos;ve looked
-          into coverage before. Some parents have been putting it off out of discomfort and are
-          quietly relieved someone else brought it up; others want to feel in control of the
-          decision, not just informed of it after the fact. Either way, going in ready to listen
-          tends to go better than going in with a plan already decided.
+          This conversation typically presents greater difficulty than the subsequent
+          administrative process. Framing the discussion around peace of mind rather than
+          mortality is advisable — the objective is relieving a parent of an ongoing
+          responsibility, not prompting reflection on mortality. Treating the parent as a full
+          participant in the decision, rather than a passive subject of it, is similarly advisable.
+          Relevant inquiries include preferences regarding service arrangements and prior research
+          into coverage options. Certain parents will regard the initiative favorably, having
+          deferred the matter themselves; others will prioritize maintaining decision-making
+          authority rather than passive notification. Approaching the conversation with openness
+          to parental input, rather than a predetermined outcome, generally produces a more
+          favorable result.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What your parent needs to consent to and be involved in
+          Required parental participation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          You can do most of the legwork — researching options, talking to a licensed
-          professional, comparing what&apos;s available — but your parent is the one being
-          insured, and that comes with requirements that can&apos;t be skipped. They&apos;ll need
-          to consent to the policy themselves, answer the health questions in their own words
-          (since only they actually know their medical history and current medications), and sign
-          the application. This isn&apos;t just a formality — it&apos;s both a legal requirement
-          rooted in insurable interest and consent, and a practical safeguard, since an
-          application filled out on a parent&apos;s behalf without their accurate input risks a
-          mismatch between what was answered and what&apos;s in their medical or prescription
-          records. That kind of mismatch is exactly what can put a claim at risk later. Plan for
-          your parent to be present, even briefly, for the actual application call.
+          An adult child may appropriately conduct research, carrier comparison, and agent
+          consultation; however, certain requirements attach specifically to the insured party and
+          cannot be satisfied by proxy. The parent must independently consent to the policy,
+          respond to health questions directly (given that only the parent possesses accurate
+          knowledge of their medical history and current medications), and execute the application
+          personally. This requirement reflects both the legal principle of insurable interest and
+          consent, and a practical safeguard — responses provided on a parent's behalf risk
+          inconsistency with actual medical or prescription records, a discrepancy capable of
+          jeopardizing claim payment. Parental presence, even briefly, during the formal
+          application should be anticipated.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          How payment and ownership commonly work
+          Typical ownership and payment structure
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          It&apos;s very common for the adult child to be the one who owns the policy and pays the
-          premium, while the parent remains the insured. Ownership is what gives you control — the
-          ability to manage the policy, keep it current, and update details later — while your
-          parent&apos;s role is limited to being the person the coverage is on. The beneficiary is
-          a separate decision entirely: many families name the adult child who&apos;s paying, some
-          split it evenly among siblings, and some let the parent choose regardless of who&apos;s
-          footing the bill. If you have siblings, it&apos;s worth agreeing on this together ahead
-          of time rather than assuming everyone&apos;s on the same page — beneficiary and payment
-          responsibility don&apos;t have to match, but confusion about who&apos;s doing what is an
-          easy, avoidable source of family friction later.
+          A common arrangement involves the adult child serving as policy owner and premium payor,
+          with the parent remaining solely the insured party. Ownership confers administrative
+          control — the capacity to maintain the policy and modify details subsequently — while
+          the parent's role is limited to that of the insured individual. Beneficiary designation
+          constitutes an independent determination: some families designate the paying child,
+          others allocate the benefit among siblings, and others defer entirely to parental
+          preference regardless of payment source. Where multiple siblings are involved, advance
+          agreement on this structure is advisable — beneficiary designation and payment
+          responsibility need not align, but unresolved assumptions regarding either represent an
+          avoidable source of subsequent family conflict.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          If a health condition is part of the picture
+          Applicability of pre-existing health conditions
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most parents in the age range where this conversation comes up have at least one
-          diagnosed health condition, and that&apos;s normal — it doesn&apos;t mean they&apos;re
-          out of options. Simplified-issue underwriting is built around a short list of health
-          questions rather than a medical exam, and plenty of common conditions still qualify for
-          full, day-one coverage. Our{" "}
+          The majority of parents within the relevant age demographic present at least one
+          diagnosed health condition; this is statistically typical and does not preclude
+          qualification. Simplified-issue underwriting is structured around a defined set of
+          health questions rather than a medical examination, and numerous common conditions
+          continue to qualify for full, immediate coverage. The{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
-            guide to pre-existing conditions
+            pre-existing conditions reference
           </Link>{" "}
-          walks through how carriers typically evaluate specific conditions, and what to expect if
-          your parent has one.
+          addresses carrier evaluation of specific conditions in detail.
         </p>
 
         <div className="mt-14 text-center">

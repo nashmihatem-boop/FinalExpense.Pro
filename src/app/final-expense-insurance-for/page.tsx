@@ -4,43 +4,43 @@ import { Button } from "@/components/ui/button";
 import { TopicCard } from "@/components/topic-card";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance for a Family Member",
+  title: "Final Expense Insurance Applied on Behalf of a Family Member",
   description:
-    "A professional guide to buying final expense insurance for someone else — a spouse, sibling, parent, grandparent, or child — and how it works for each relationship.",
-  openGraph: { title: "Final Expense Insurance for a Family Member", description: "A professional guide to buying final expense insurance for someone else — a spouse, sibling, parent, grandparent, or child — and how it works for each relationship." },
+    "A professional reference on final expense applications submitted by one family member on behalf of another — spouse, sibling, parent, grandparent, or child.",
+  openGraph: { title: "Final Expense Insurance Applied on Behalf of a Family Member", description: "A professional reference on final expense applications submitted by one family member on behalf of another — spouse, sibling, parent, grandparent, or child." },
 
-  twitter: { title: "Final Expense Insurance for a Family Member", description: "A professional guide to buying final expense insurance for someone else — a spouse, sibling, parent, grandparent, or child — and how it works for each relationship." },
+  twitter: { title: "Final Expense Insurance Applied on Behalf of a Family Member", description: "A professional reference on final expense applications submitted by one family member on behalf of another — spouse, sibling, parent, grandparent, or child." },
 };
 
 const RELATIONSHIPS: { href: string; title: string; description: string; image: string }[] = [
   {
     href: "/final-expense-insurance-for/spouse",
     title: "Your spouse",
-    description: "Covering each other so the survivor never has to pay final costs out of pocket.",
+    description: "Reciprocal coverage structured so the surviving spouse bears no direct final-cost burden.",
     image: "/photos/family-caregiving-hands.jpg",
   },
   {
     href: "/final-expense-insurance-for/sibling",
     title: "A sibling",
-    description: "What insurable interest means when you're buying coverage on a brother or sister.",
+    description: "The insurable-interest standard as applied to sibling-on-sibling coverage.",
     image: "/photos/family-siblings-together.jpg",
   },
   {
     href: "/final-expense-insurance-for/parents",
     title: "Your parents",
-    description: "The most common version of this — starting the conversation and getting it set up.",
+    description: "The most frequently encountered scenario — initiating the discussion and structuring the policy.",
     image: "/photos/family-parent-adult-child-documents.jpg",
   },
   {
     href: "/final-expense-insurance-for/grandparents",
     title: "A grandparent",
-    description: "How grandchildren and extended family typically step in, and how to coordinate.",
+    description: "How extended family typically initiates and coordinates coverage across a generation.",
     image: "/photos/family-grandparent-grandchild.jpg",
   },
   {
     href: "/final-expense-insurance-for/child",
     title: "A child",
-    description: "A different, much smaller product than senior final expense coverage — explained honestly.",
+    description: "A structurally distinct, smaller product relative to senior final expense coverage.",
     image: "/photos/family-multigenerational-group.jpg",
   },
 ];
@@ -53,59 +53,61 @@ export default function FinalExpenseInsuranceForPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Who It&apos;s For
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Buying final expense insurance for someone else
+          Final expense insurance applied on behalf of a family member
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Most of what we publish on this site assumes you&apos;re shopping for your own coverage.
-          In practice, a large share of final expense applications start a different way — one
-          family member picks up the phone, starts the conversation, or requests the first review
-          on behalf of someone else. If that&apos;s you, you&apos;re not doing anything unusual.
-          Here&apos;s a professional breakdown of how it typically works, and what changes
-          depending on who you&apos;re buying for.
+          The majority of content on this site presumes the reader is procuring coverage for
+          themselves. In practice, a substantial proportion of applications originate differently —
+          one family member initiates contact or completes the initial application on behalf of
+          another individual entirely. This is a standard, unremarkable pattern within the
+          industry. The following addresses the typical procedure and the specific
+          considerations applicable to each family relationship.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Why it&apos;s so often one family member handling it for another
+          Rationale for family-member-initiated applications
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense insurance protects the people left behind, which means the person with the
-          most urgency about getting it in place often isn&apos;t the person it covers. An aging
-          parent might mean to get around to it and simply never has. A spouse who handles the
-          household&apos;s paperwork and bills is the natural one to start the process for both of
-          them. An adult child who just helped plan a funeral for someone else&apos;s parent
-          suddenly doesn&apos;t want to leave the same scramble to their own siblings. A sibling
-          without kids of their own may not have anyone else positioned to think about it. The
-          relationship changes, but the reason is almost always the same: nobody wants a death in
-          the family to also become an unplanned financial emergency.
+          Final expense insurance is structured to protect survivors, which explains why the
+          individual demonstrating the greatest urgency regarding coverage is frequently not the
+          individual the policy insures. An aging parent may intend to obtain coverage without
+          taking action. A spouse managing household financial administration is positioned to
+          initiate the process on behalf of both parties. An adult child who recently assisted in
+          settling a relative's funeral arrangements may seek to preclude an identical burden for
+          their own siblings. A sibling without dependents may be the only family member positioned
+          to address the matter. The specific relationship varies; the underlying rationale is
+          consistent across cases — preventing a death from constituting an unplanned financial
+          obligation.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          The legal basics: insurable interest and consent
+          Legal foundation: insurable interest and consent
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          You can&apos;t buy a life insurance policy on just anyone. Every application is built
-          around a principle called &quot;insurable interest&quot; — the person applying for or
-          owning the policy has to have a genuine financial or emotional stake in the insured
-          person&apos;s continued life. It&apos;s a long-standing concept across the entire
-          insurance industry, not a rule specific to any one company, and it exists to keep life
-          insurance from being used as a way to bet on someone else&apos;s death. Close family —
-          a spouse, a parent, a child, a sibling, a grandparent — is generally recognized as having
-          insurable interest in each other without much question.
+          Life insurance cannot be procured on an arbitrary individual. Every application is
+          predicated on the principle of "insurable interest" — the applicant or policy owner must
+          possess a genuine financial or emotional stake in the continued life of the insured
+          party. This principle is foundational to insurance law generally, not a carrier-specific
+          requirement, and exists to prevent life insurance from functioning as a mechanism for
+          wagering against another individual's survival. Immediate family relationships — spouse,
+          parent, child, sibling, grandparent — are generally recognized as satisfying insurable
+          interest without substantial scrutiny.
         </p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          What insurable interest doesn&apos;t do is remove the insured person from the process.
-          With very few exceptions, the adult whose life is being covered still has to consent to
-          the policy, answer the health questions themselves, and sign the application. How that
-          plays out — and how closely a carrier looks at the relationship — varies a bit depending
-          on who&apos;s involved, which is exactly what each guide below walks through.
+          Insurable interest does not eliminate the insured party's role in the process. With
+          limited exceptions, the adult whose life is insured must independently consent to the
+          policy, respond to health questions personally, and execute the application directly.
+          The specific procedural requirements, and the degree of carrier scrutiny applied to the
+          relationship, vary by relationship type — addressed individually in the references
+          below.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Find your situation
+          Relationship-specific guidance
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The core process is similar across every relationship. The details worth knowing ahead
-          of time are different for each one.
+          The core procedural framework is consistent across relationships. The specific
+          considerations warranting advance attention differ by relationship type.
         </p>
         <div className="mt-6 grid gap-5 sm:grid-cols-2">
           {RELATIONSHIPS.map((r) => (
@@ -114,22 +116,23 @@ export default function FinalExpenseInsuranceForPage() {
         </div>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          How to get started
+          Procedural starting point
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Whoever you&apos;re buying for, the process starts the same way: an honest conversation
-          about wanting to do this and why (skip this only when you&apos;re insuring your own
-          young child). From there, gather the basics — age, general health, and state of
-          residence, since licensing and coverage details work state by state. A licensed
-          professional can then walk you both through what you&apos;d actually qualify for,
-          including price and whether coverage would start immediately or phase in over time.
+          Regardless of the specific relationship, the process begins identically: a direct
+          conversation regarding the intent to procure coverage and the underlying rationale
+          (this step is inapplicable when insuring one's own minor child). Subsequently, compile
+          foundational information — age, general health status, and state of residence, as
+          licensing and coverage parameters are state-specific. A licensed agent can then provide
+          both parties with qualification details, including pricing and whether coverage takes
+          effect immediately or is subject to a phase-in period.
         </p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Curious how coverage works specifically where you live?{" "}
+          For jurisdiction-specific coverage details,{" "}
           <Link href="/coverage-by-state" className="text-harbor-mid underline">
-            See coverage by state
+            review coverage by state
           </Link>
-          , or request a professional review below.
+          , or proceed directly to a formal quote.
         </p>
 
         <div className="mt-14 text-center">

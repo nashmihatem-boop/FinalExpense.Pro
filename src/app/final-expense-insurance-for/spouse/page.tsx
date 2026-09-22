@@ -3,12 +3,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance for a Spouse",
+  title: "Final Expense Insurance for a Spouse: Structural Considerations",
   description:
-    "A professional guide to why couples often buy final expense coverage for each other, who should apply, how beneficiaries typically work, and how to get started.",
-  openGraph: { title: "Final Expense Insurance for a Spouse", description: "A professional guide to why couples often buy final expense coverage for each other, who should apply, how beneficiaries typically work, and how to get started." },
+    "A professional analysis of spousal final expense coverage — applicant and ownership structure, beneficiary designation, and underwriting independence.",
+  openGraph: { title: "Final Expense Insurance for a Spouse: Structural Considerations", description: "A professional analysis of spousal final expense coverage — applicant and ownership structure, beneficiary designation, and underwriting independence." },
 
-  twitter: { title: "Final Expense Insurance for a Spouse", description: "A professional guide to why couples often buy final expense coverage for each other, who should apply, how beneficiaries typically work, and how to get started." },
+  twitter: { title: "Final Expense Insurance for a Spouse: Structural Considerations", description: "A professional analysis of spousal final expense coverage — applicant and ownership structure, beneficiary designation, and underwriting independence." },
 };
 
 export default function SpousePage() {
@@ -19,72 +19,71 @@ export default function SpousePage() {
           <Link href="/final-expense-insurance-for" className="hover:text-harbor">Final Expense Insurance For</Link> / Spouse
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Buying final expense insurance for your spouse
+          Final expense insurance for a spouse: structural considerations
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Of all the relationships on this site, a spouse is the most straightforward. You share a
-          household, you likely share bills, and you almost certainly share the consequences if
-          one of you passes away without coverage in place. Here&apos;s a professional look at how
-          couples typically approach it.
+          Among the relationships addressed in this reference, spousal coverage presents the most
+          straightforward structural profile. A shared household, shared financial obligations, and
+          shared consequences in the absence of coverage collectively simplify the arrangement. The
+          following addresses the typical structural approach.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why couples take this on for each other
+          Rationale for reciprocal spousal coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          When you&apos;ve built a life together, a funeral isn&apos;t just a loss — it&apos;s
-          also a bill, and often one that lands during an already difficult stretch. Buying
-          coverage for each other is less about anticipating tragedy and more about making sure
-          neither of you is ever left sorting out money on top of grief. It&apos;s also simply
-          convenient: most couples review their finances together anyway, so final expense
-          coverage tends to come up alongside other household planning, not as its own separate
-          project.
+          Within an established shared household, a death constitutes both a personal loss and a
+          financial obligation, frequently arising during an already difficult period. Reciprocal
+          coverage addresses this obligation directly, ensuring neither party bears financial
+          administration alongside bereavement. This arrangement also aligns naturally with
+          existing financial planning practices, as couples routinely conduct joint financial
+          review, into which final expense coverage integrates as a standard component rather than
+          a discrete undertaking.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Who applies, and who owns the policy
+          Applicant and ownership structure
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A spouse is about as clear an example of &quot;insurable interest&quot; as exists in
-          insurance — the shared financial and emotional stake is automatic, so there&apos;s
-          rarely any question about whether one spouse can buy a policy on the other. The more
-          practical question is how you want to structure it. Most couples simply take out two
-          separate policies, one on each spouse&apos;s life, with each spouse as their own
-          applicant and insured. Some couples instead have one spouse own a policy that insures
-          the other — useful if one of you handles the household&apos;s finances and paperwork and
-          would rather keep that responsibility centralized. Either approach is common; it&apos;s
-          a matter of preference, not a rule, and a licensed professional can help you weigh which
-          structure fits your household.
+          Spousal relationships represent among the clearest satisfactions of the insurable-
+          interest standard — the shared financial and emotional stake is inherent, such that
+          spousal coverage rarely invites scrutiny. The substantive determination concerns
+          structural preference. Many couples elect two independent policies, with each spouse
+          serving as both applicant and insured on their respective policy. Alternatively, one
+          spouse may serve as owner of a policy insuring the other — an arrangement often preferred
+          where one party manages household financial administration and prefers centralized
+          control. Both structures are standard industry practice, reflecting preference rather
+          than regulatory requirement.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Setting up your beneficiary
+          Beneficiary designation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Most spouses simply name each other as primary beneficiary, which keeps things simple:
-          the surviving spouse receives the death benefit directly and can use it for the funeral
-          or anything else that comes up. It&apos;s worth also naming a contingent beneficiary —
-          often an adult child — in case the primary beneficiary predeceases you or you were to
-          pass away together. If your circumstances change later, whether through divorce, a new
-          marriage, or simply wanting to add someone, beneficiaries can typically be updated at any
-          time, so it&apos;s worth revisiting the designation after any major life change rather
-          than assuming it&apos;s locked in.
+          Most spouses designate each other as primary beneficiary, a straightforward structure
+          under which the surviving spouse receives the death benefit directly, applicable toward
+          funeral costs or other purposes as needed. Designation of a contingent beneficiary — often
+          an adult child — is advisable in the event the primary beneficiary predeceases the
+          insured or both spouses pass concurrently. Beneficiary designations can typically be
+          modified at any point subsequent to policy issuance; accordingly, review following
+          divorce, remarriage, or other material life changes is advisable rather than assuming the
+          original designation remains appropriate indefinitely.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Applying together vs. separately
+          Joint application, independent underwriting
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Even when a couple decides together to get covered, the underwriting happens
-          individually — your health, age, and habits are evaluated on their own, so it&apos;s
-          entirely normal for one spouse to qualify for a different rate or outcome than the
-          other. Don&apos;t be discouraged if your results don&apos;t match; it doesn&apos;t
-          reflect anything other than two separate health histories. If one of you has a health
-          condition that complicates things, our{" "}
+          Notwithstanding a joint decision to obtain coverage, underwriting is conducted on an
+          individual basis — health, age, and lifestyle factors are evaluated independently for
+          each applicant, such that differing rate classifications or outcomes between spouses are
+          entirely standard. A disparity in outcomes reflects independent health histories rather
+          than any procedural irregularity. Where a health condition affects one spouse's
+          application, the{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
-            guide to pre-existing conditions
+            pre-existing conditions reference
           </Link>{" "}
-          covers how that&apos;s typically handled.
+          addresses typical carrier treatment of such conditions.
         </p>
 
         <div className="mt-14 text-center">
