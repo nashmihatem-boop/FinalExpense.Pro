@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance in Your 70s",
+  title: "Final Expense Insurance in Your 70s: The Modal Applicant Age",
   description:
-    "A professional look at why your 70s are one of the most common ages to buy final expense insurance, and how to handle health questions when a condition applies to you.",
-  openGraph: { title: "Final Expense Insurance in Your 70s", description: "A professional look at why your 70s are one of the most common ages to buy final expense insurance, and how to handle health questions when a condition applies to you." },
+    "A professional analysis of the 70s as the modal application age for final expense insurance, and the appropriate handling of health disclosures.",
+  openGraph: { title: "Final Expense Insurance in Your 70s: The Modal Applicant Age", description: "A professional analysis of the 70s as the modal application age for final expense insurance, and the appropriate handling of health disclosures." },
 
-  twitter: { title: "Final Expense Insurance in Your 70s", description: "A professional look at why your 70s are one of the most common ages to buy final expense insurance, and how to handle health questions when a condition applies to you." },
+  twitter: { title: "Final Expense Insurance in Your 70s: The Modal Applicant Age", description: "A professional analysis of the 70s as the modal application age for final expense insurance, and the appropriate handling of health disclosures." },
 };
 
 export default function FinalExpenseInsuranceInYour70sPage() {
@@ -20,7 +20,7 @@ export default function FinalExpenseInsuranceInYour70sPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Your 70s
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance in your 70s
+          Final expense insurance in your 70s: the modal applicant age
         </h1>
         <div className="relative mt-8 aspect-[16/7] overflow-hidden rounded-2xl">
           <Image
@@ -32,63 +32,66 @@ export default function FinalExpenseInsuranceInYour70sPage() {
           />
         </div>
         <p className="mt-8 text-lg leading-relaxed text-charcoal/80">
-          If there&apos;s a single decade this product is built around, it&apos;s this one. More
-          people apply for final expense insurance in their 70s than any other age group — which
-          also means carriers have more experience underwriting this decade than any other, and a
-          licensed professional has more precedent to draw on when matching you to the right one.
+          If a single decade defines the core market for this product, it is this one. Applicants
+          in their seventies represent the largest single age cohort for final expense insurance,
+          resulting in correspondingly extensive carrier underwriting experience with this
+          demographic relative to any other.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The core buying age for this product
+          The primary demographic for this product
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Your 70s are where the largest share of final expense applicants land. Both simplified
-          and guaranteed issue are actively used at this age, and most carriers&apos;
-          simplified-issue questionnaires are written with exactly this age band in mind. If
-          you&apos;re in your 70s and just starting to look into this, you&apos;re not behind —
-          you&apos;re squarely in the group this coverage was designed for.
+          Applicants in their seventies constitute the largest proportion of final expense
+          policyholders. Both simplified-issue and guaranteed-issue products see substantial
+          utilization at this age, and the majority of simplified-issue questionnaires are
+          specifically calibrated to this demographic. Applicants initiating inquiry at this age
+          are not disadvantaged by timing — this cohort represents the product's principal target
+          market.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why more applicants have something to disclose
+          Increased prevalence of disclosable conditions
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Naturally, by your 70s more people are managing at least one diagnosed condition — heart
-          history, diabetes, a past cancer diagnosis, COPD, arthritis. That&apos;s common, not
-          disqualifying, and it&apos;s exactly what our{" "}
+          By the seventh decade, a greater proportion of applicants present at least one diagnosed
+          condition — cardiac history, diabetes, prior cancer diagnosis, COPD, or arthritis. This
+          prevalence is statistically typical rather than disqualifying, and constitutes the
+          specific subject matter addressed by the{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
-            pre-existing conditions guide
-          </Link>{" "}
-          is built to help with. It covers how carriers evaluate common conditions and where each
-          one typically lands.
+            pre-existing conditions reference
+          </Link>
+          , which details typical carrier evaluation methodology and associated classification
+          outcomes.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          A condition doesn&apos;t automatically mean guaranteed issue
+          Disclosure does not necessitate guaranteed issue
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          It&apos;s easy to assume that having something to disclose means skipping straight to
-          guaranteed acceptance, but that&apos;s often not the case, and it&apos;s exactly the
-          kind of assumption a professional review is meant to catch. Level and graded outcomes
-          through simplified issue are still very reachable in your 70s, depending on how stable
-          and well-managed the condition is. See{" "}
+          A common misconception holds that any disclosable condition necessitates guaranteed-
+          acceptance coverage; this is frequently inaccurate. Level and graded classifications
+          through simplified issue remain readily attainable at this age, contingent on condition
+          stability and management quality. The{" "}
           <Link href="/pre-existing-conditions#tiers" className="text-harbor-mid underline">
-            how carriers sort applicants into level, graded, modified, or guaranteed
+            classification reference
           </Link>{" "}
-          before assuming which one applies to you.
+          addresses the level, graded, modified, and guaranteed-acceptance framework in detail
+          prior to assuming a specific outcome.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why comparing carriers matters even more here
+          Heightened importance of carrier comparison
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Every carrier sets its own health questions and look-back periods, and since more
-          70-year-olds have something to disclose than 50- or 60-year-olds do, the gap between a
-          well-matched carrier and a random first pick tends to widen at this age.{" "}
+          Each carrier independently establishes health questions and look-back periods, and given
+          the elevated prevalence of disclosable conditions among seventy-year-old applicants
+          relative to younger cohorts, the differential between an appropriately matched carrier
+          and an arbitrarily selected one widens materially at this age. The{" "}
           <Link href="/pre-existing-conditions#why-carriers-differ" className="text-harbor-mid underline">
-            See why the same condition can get different answers from different carriers
+            analysis of inter-carrier variation
           </Link>{" "}
-          before settling on one.
+          addresses this dynamic prior to carrier selection.
         </p>
 
         <div className="mt-14 text-center">
@@ -97,12 +100,12 @@ export default function FinalExpenseInsuranceInYour70sPage() {
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance-in-your-80s" className="font-semibold text-harbor-mid hover:underline">
-              What changes in your 80s →
+              Considerations applicable to your 80s →
             </Link>
           </p>
           <p className="mt-2 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance-in-your-60s" className="font-semibold text-harbor-mid hover:underline">
-              ← What was different in your 60s
+              ← Considerations applicable to your 60s
             </Link>
           </p>
         </div>

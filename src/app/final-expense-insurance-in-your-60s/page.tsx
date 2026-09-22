@@ -4,12 +4,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance in Your 60s",
+  title: "Final Expense Insurance in Your 60s: Underwriting Considerations",
   description:
-    "A professional look at what changes when you apply for final expense insurance in your 60s, including how pre-existing conditions start to factor into your rate.",
-  openGraph: { title: "Final Expense Insurance in Your 60s", description: "A professional look at what changes when you apply for final expense insurance in your 60s, including how pre-existing conditions start to factor into your rate." },
+    "A professional analysis of underwriting factors applicable in one's 60s, including the increasing relevance of pre-existing conditions.",
+  openGraph: { title: "Final Expense Insurance in Your 60s: Underwriting Considerations", description: "A professional analysis of underwriting factors applicable in one's 60s, including the increasing relevance of pre-existing conditions." },
 
-  twitter: { title: "Final Expense Insurance in Your 60s", description: "A professional look at what changes when you apply for final expense insurance in your 60s, including how pre-existing conditions start to factor into your rate." },
+  twitter: { title: "Final Expense Insurance in Your 60s: Underwriting Considerations", description: "A professional analysis of underwriting factors applicable in one's 60s, including the increasing relevance of pre-existing conditions." },
 };
 
 export default function FinalExpenseInsuranceInYour60sPage() {
@@ -20,7 +20,7 @@ export default function FinalExpenseInsuranceInYour60sPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Your 60s
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance in your 60s
+          Final expense insurance in your 60s: underwriting considerations
         </h1>
         <div className="relative mt-8 aspect-[16/7] overflow-hidden rounded-2xl">
           <Image
@@ -32,62 +32,65 @@ export default function FinalExpenseInsuranceInYour60sPage() {
           />
         </div>
         <p className="mt-8 text-lg leading-relaxed text-charcoal/80">
-          A lot of people specifically start requesting a professional review of final expense
-          insurance in their 60s — often around retirement, a first grandchild, or after helping
-          settle a parent&apos;s or friend&apos;s final expenses firsthand. It&apos;s still a
-          strong decade to apply, with a few things that start to look different from your 50s.
+          A substantial proportion of applicants initiate final expense coverage during their
+          sixties, frequently coinciding with retirement, the arrival of a first grandchild, or
+          direct experience settling a parent's or associate's final expenses. This remains a
+          favorable decade for application, notwithstanding certain distinctions from the
+          preceding decade.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          One of the most common decades to apply
+          A frequently represented application age
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Retirement tends to be when a lot of people first sit down and think seriously about
-          fixed costs, what they&apos;re leaving behind, and what they&apos;d rather have handled
-          in advance. Your 60s are still comfortably within every carrier&apos;s typical age
-          window, with the full range of coverage amounts and both policy types on the table.
-          Carriers also have deep experience underwriting this age band specifically, since
-          it&apos;s one of the most common ages people actually apply.
+          Retirement frequently prompts serious consideration of fixed costs, legacy planning, and
+          advance resolution of end-of-life financial matters. Applicants in their sixties remain
+          comfortably within standard carrier age parameters, with the complete range of coverage
+          amounts and both principal policy structures available. Carriers additionally maintain
+          substantial underwriting experience specific to this age cohort, given its frequency of
+          representation among applicants.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Where pre-existing conditions start to matter more
+          Increasing relevance of pre-existing conditions
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Compared with your 50s, more applicants in their 60s are managing at least one ongoing
-          condition — blood pressure, cholesterol, a joint replacement, sleep apnea, early
-          diabetes. None of that rules out a strong outcome. Most of these, when stable and
-          well-managed, still qualify for simplified issue and often land at level, day-one
-          coverage. Our{" "}
+          Relative to the fifties, a greater proportion of applicants in their sixties manage at
+          least one ongoing condition — hypertension, hyperlipidemia, joint replacement, sleep
+          apnea, or early-stage diabetes. This does not preclude a favorable outcome. The majority
+          of these conditions, when stable and appropriately managed, continue to qualify for
+          simplified issue and frequently result in level, day-one coverage. The{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
-            pre-existing conditions guide
+            pre-existing conditions reference
           </Link>{" "}
-          covers how carriers typically treat conditions like these and where they tend to land.
+          addresses typical carrier evaluation of these conditions and associated classification
+          outcomes.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The cost of waiting still adds up
+          The continuing cost of deferral
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Final expense pricing is set by the age you are on the day you apply, then locked for
-          the life of the policy. That means a rate secured in your 60s will typically run higher
-          than the same coverage would have cost in your 50s — but it still beats waiting until
-          your 70s for the identical policy. If the last decade has already passed, the next best
-          time to lock in a rate is simply now, rather than later.
+          Final expense pricing is established at the applicant's age on the date of application
+          and subsequently fixed for the policy's duration. Consequently, a rate secured during
+          one's sixties will typically exceed the cost of equivalent coverage secured during one's
+          fifties, though it remains preferable to deferral into one's seventies for identical
+          coverage. Where the prior decade has already elapsed, immediate application represents
+          the more favorable course relative to further deferral.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Getting ready to apply
+          Preparation prior to application
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Before you apply, it helps to have a clear list ready: any diagnoses and roughly when
-          they happened, your current medications, and your general treatment history. Carriers
-          check your prescription history against your answers, so accuracy upfront avoids
-          surprises later. See{" "}
+          Prior to application, compiling the following is advisable: diagnosed conditions and
+          approximate onset dates, current medications, and general treatment history. Carriers
+          verify prescription history against disclosed information, such that accuracy at the
+          outset mitigates the risk of subsequent discrepancy. The{" "}
           <Link href="/pre-existing-conditions#how-to-prepare" className="text-harbor-mid underline">
-            how to prepare before you apply
+            pre-application preparation reference
           </Link>{" "}
-          for the full rundown.
+          provides comprehensive guidance.
         </p>
 
         <div className="mt-14 text-center">
@@ -96,12 +99,12 @@ export default function FinalExpenseInsuranceInYour60sPage() {
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance-in-your-70s" className="font-semibold text-harbor-mid hover:underline">
-              What changes in your 70s →
+              Considerations applicable to your 70s →
             </Link>
           </p>
           <p className="mt-2 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance-in-your-50s" className="font-semibold text-harbor-mid hover:underline">
-              ← What was different in your 50s
+              ← Considerations applicable to your 50s
             </Link>
           </p>
         </div>
