@@ -20,8 +20,8 @@ export async function generateMetadata(props: PageProps<"/coverage-by-state/[sta
   const { state: slug } = await props.params;
   const state = findState(slug);
   if (!state) return {};
-  const title = `Final Expense Insurance in ${state.name} | Costs, Regulations & Quotes`;
-  const description = `Final expense insurance in ${state.name}: how coverage works, what affects your rate, state regulations, veteran burial benefits, and how to get a professionally reviewed quote from a licensed agent.`;
+  const title = `Final Expense Insurance in ${state.name}: A Regulatory and Cost Analysis`;
+  const description = `A professional analysis of final expense insurance in ${state.name}: underwriting mechanics, premium determinants, state regulation, veteran benefits, and next steps.`;
   return {
     title,
     description,
@@ -32,12 +32,12 @@ export async function generateMetadata(props: PageProps<"/coverage-by-state/[sta
 
 const TOC = [
   { id: "costs", label: (s: string) => `Funeral and Cremation Costs in ${s}` },
-  { id: "how-it-works", label: () => "How Final Expense Insurance Works" },
-  { id: "policy-types", label: () => "Policy Types Available" },
-  { id: "regulations", label: (s: string) => `Final Expense Insurance Regulations in ${s}` },
-  { id: "burial-laws", label: (s: string) => `Funeral and Burial Laws in ${s}` },
-  { id: "regions", label: (s: string) => `Regions and Major Metros in ${s}` },
-  { id: "counties", label: (s: string) => `Counties We Serve in ${s}` },
+  { id: "how-it-works", label: () => "Underwriting and Policy Mechanics" },
+  { id: "policy-types", label: () => "Available Policy Structures" },
+  { id: "regulations", label: (s: string) => `Regulatory Framework in ${s}` },
+  { id: "burial-laws", label: (s: string) => `Funeral and Burial Statutes in ${s}` },
+  { id: "regions", label: (s: string) => `Regional Coverage in ${s}` },
+  { id: "counties", label: (s: string) => `County-Level Coverage in ${s}` },
   { id: "veterans", label: () => "Veterans' Burial Benefits" },
   { id: "faq", label: () => "Frequently Asked Questions" },
 ];
@@ -46,32 +46,32 @@ function faqsFor(stateName: string, isDC: boolean) {
   const locality = isDC ? "the District" : stateName;
   return [
     {
-      q: `Is final expense insurance available in ${stateName}?`,
-      a: `Yes. Multiple carriers are licensed to sell final expense insurance to ${locality} residents. Which specific carriers and plans are available to you depends on your age, health, and the coverage amount you're looking for — a licensed agent can tell you exactly what you qualify for.`,
+      q: `Is final expense insurance available to ${stateName} residents?`,
+      a: `Affirmatively. Multiple carriers hold licensure to underwrite final expense coverage for ${locality} residents. Specific carrier and product availability depends on age, health status, and desired coverage amount — a licensed agent can provide precise qualification details.`,
     },
     {
-      q: `Does final expense insurance cost more in ${stateName} than other states?`,
-      a: `Insurance is regulated state by state, so pricing and product availability aren't identical everywhere. Within ${locality}, though, your premium is still driven mainly by your age, gender, tobacco use, health, and coverage amount, not by your specific address.`,
+      q: `Does premium pricing differ materially in ${stateName}?`,
+      a: `Insurance regulation occurs at the state level, resulting in variation in product availability by jurisdiction. Within ${locality}, however, premium determination remains primarily a function of age, gender, tobacco use, health status, and coverage amount, rather than specific address.`,
     },
     {
-      q: `Will my policy still work if I move out of ${stateName}?`,
-      a: `Yes. Once your policy is issued, it's tied to you, not your state of residence — coverage and premium stay the same if you move.`,
+      q: `Does relocation from ${stateName} affect existing coverage?`,
+      a: `No. The policy is attached to the insured individual rather than a specific jurisdiction — coverage and premium remain unchanged following relocation.`,
     },
     {
-      q: "Do I need a medical exam to qualify?",
-      a: "Most final expense policies don't require one. Simplified-issue policies ask a short set of health questions instead, and guaranteed-issue policies skip health questions entirely (in exchange for a waiting period before the full benefit applies).",
+      q: "Is a medical examination required for qualification?",
+      a: "The majority of final expense policies do not require one. Simplified-issue products require a limited health questionnaire; guaranteed-issue products eliminate health questions entirely in exchange for a waiting period prior to full benefit applicability.",
     },
     {
-      q: "How much coverage should I choose?",
-      a: "Most people size their policy to cover a funeral or burial plus any bills they don't want to leave behind. There's no single right number — a licensed agent can walk through your specific situation and recommend an amount, at no cost.",
+      q: "What coverage amount is appropriate?",
+      a: "Most applicants size coverage to address funeral or burial costs plus any outstanding obligations they prefer not to leave unaddressed. No universally applicable figure exists — a licensed agent can provide a recommendation specific to individual circumstances, without charge.",
     },
     {
-      q: "Can I name more than one beneficiary?",
-      a: "Yes. You can typically name multiple beneficiaries and set what percentage of the payout each one receives, and update that list later if your situation changes.",
+      q: "May multiple beneficiaries be designated?",
+      a: "Yes. Multiple beneficiaries may typically be designated with specified percentage allocations, and this designation may be modified subsequently as circumstances change.",
     },
     {
-      q: `Do veterans in ${stateName} get any special burial benefits?`,
-      a: "Many veterans and their spouses are eligible for federal burial benefits through the VA, including a burial allowance and, in some cases, a plot in a VA national cemetery, regardless of which state they live in. Final expense insurance is separate from these benefits and can cover costs the VA benefit doesn't, like a service, viewing, or headstone beyond what's provided.",
+      q: `Do veterans in ${stateName} receive supplementary burial benefits?`,
+      a: "Many veterans, and in certain cases their spouses, qualify for federal burial benefits administered through the VA, including a burial allowance and potential eligibility for interment in a VA national cemetery, irrespective of state of residence. Final expense insurance operates independently of these benefits and frequently addresses costs the VA benefit does not cover, such as a service, viewing, or supplementary headstone costs.",
     },
   ];
 }
@@ -107,42 +107,42 @@ export default async function StateCoveragePage(props: PageProps<"/coverage-by-s
           {state.name}
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          Final expense insurance in {state.name}
+          Final expense insurance in {state.name}: a regulatory and cost analysis
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
           {isDC ? (
             <>
-              Final expense insurance is available to residents of Washington, D.C. through
-              carriers licensed to do business in the District.
+              Residents of Washington, D.C. may procure final expense coverage through carriers
+              holding District licensure.
             </>
           ) : (
             <>
-              Final expense insurance is available to residents across {state.name} — from{" "}
-              {facts.capital}, the state capital, to {formatMetros(facts.metros)} — through
-              carriers licensed to do business in the state.
+              Residents throughout {state.name} — encompassing {facts.capital}, the state
+              capital, and extending to {formatMetros(facts.metros)} — may procure coverage
+              through carriers licensed within the state.
             </>
           )}{" "}
-          Like all insurance, it&apos;s regulated at the state level: {possessive} Department of
-          Insurance oversees which carriers and policies can be sold locally, which is part of
-          why the right fit can vary depending on where you live. This professionally researched
-          guide covers how coverage works for {displayName} residents specifically — costs,
-          regulations, and how to get matched with a licensed local agent.
+          Consistent with insurance generally, regulation occurs at the state level: {possessive}{" "}
+          Department of Insurance determines which carriers and products may be offered locally,
+          which accounts for jurisdictional variation in available options. This reference
+          addresses cost considerations, applicable regulations, and the process for obtaining a
+          referral to a licensed local agent for {displayName} residents specifically.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">
-            What this means for {displayName} residents
+            Summary considerations for {displayName} residents
           </p>
           <ul className="mt-3 space-y-2 text-base leading-relaxed text-charcoal/80">
-            <li>• Agents you talk to are licensed specifically to sell insurance in {isDC ? "the District" : state.name}.</li>
-            <li>• Your premium is still based mainly on your age, health, and coverage amount.</li>
-            <li>• Most applicants qualify without a medical exam.</li>
-            <li>• Coverage stays in force if you later move to another state.</li>
+            <li>• All agents hold licensure specific to {isDC ? "the District" : state.name}.</li>
+            <li>• Premium determination remains primarily age-, health-, and coverage-amount-driven.</li>
+            <li>• The substantial majority of applicants qualify absent medical examination.</li>
+            <li>• Coverage remains effective following relocation to another jurisdiction.</li>
           </ul>
         </div>
 
         <nav aria-label="Guide contents" className="mt-8 rounded-2xl border border-mist p-6">
-          <p className="text-sm font-bold tracking-wide text-harbor uppercase">What&apos;s in this guide</p>
+          <p className="text-sm font-bold tracking-wide text-harbor uppercase">Contents</p>
           <ol className="mt-3 grid gap-2 sm:grid-cols-2">
             {TOC.map((item, i) => (
               <li key={item.id}>
@@ -158,99 +158,102 @@ export default async function StateCoveragePage(props: PageProps<"/coverage-by-s
           Funeral and cremation costs in {state.name}
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Funeral and cremation costs vary significantly depending on the services chosen and
-          where you live — we won&apos;t guess at region-specific numbers we can&apos;t verify,
-          but broadly, a simple direct cremation costs a fraction of a traditional funeral with a
-          viewing, casket, vault, and burial plot. The{" "}
+          Funeral and cremation costs vary considerably based on selected services and specific
+          geographic location; this reference does not present unverified regional estimates, but
+          notes generally that direct cremation typically represents a fraction of the cost
+          associated with a complete traditional funeral inclusive of viewing, casket, vault, and
+          burial plot. The{" "}
           <a href="https://nfda.org" className="text-harbor-mid underline">National Funeral Directors Association</a>{" "}
-          publishes national median cost data each year as a starting reference point; your local
-          funeral home is the best source for current pricing in {displayName}. The coverage
-          amount you choose should reflect the kind of service your family actually plans, not a
-          generic number — that&apos;s exactly what a licensed agent can help you work through.
+          publishes annual national median cost data as a reference point, though local funeral
+          homes remain the authoritative source for current {displayName}-specific pricing.
+          Coverage amount determination should reflect the specific arrangement contemplated
+          rather than a generic figure — a licensed agent can assist in this determination.
         </p>
 
         <h2 id="how-it-works" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          How final expense insurance works
+          Underwriting and policy mechanics
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          You apply with a coverage amount that fits your needs, answer a short set of health
-          questions (or skip them entirely with a guaranteed-issue plan), and — if approved — pay
-          a fixed monthly premium for the life of the policy. When you pass away, your named
-          beneficiary receives the full death benefit in cash, tax-free, usually within days of
-          the claim being filed. They can use it for funeral costs, medical bills, or anything
-          else — the payout isn&apos;t restricted to a specific funeral home or package the way a
-          prepaid funeral plan often is.
+          The applicant selects a coverage amount appropriate to anticipated need, completes a
+          limited health questionnaire (waived entirely under guaranteed-issue products), and,
+          upon approval, remits a fixed monthly premium for the policy's duration. Upon the
+          insured's death, the designated beneficiary receives the complete death benefit in cash,
+          on a tax-free basis, typically within days of claim submission, with full discretion
+          regarding fund allocation — funeral costs, medical obligations, or other purposes — as
+          this structure does not restrict proceeds to a specific provider, unlike a prepaid
+          funeral arrangement.
         </p>
 
         <h2 id="policy-types" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          Policy types available
+          Available policy structures
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Nearly every final expense policy sold in {displayName} falls into one of two
-          categories. Neither is objectively better — the right one depends on your health and
-          how soon you need full coverage in place.
+          The substantial majority of policies sold to {displayName} residents fall within one of
+          the two structures below. Neither structure is categorically superior — the appropriate
+          selection depends on health status and the urgency of establishing full coverage.
         </p>
         <PolicyTypesTable />
         <p className="mt-4 text-sm leading-relaxed text-charcoal/60">
-          Exact carriers and pricing available in {displayName} vary — a licensed agent can tell
-          you precisely what you qualify for, at no cost.
+          Specific carrier availability and pricing in {displayName} vary — a licensed agent can
+          provide precise qualification information without charge.
         </p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A simplified-issue policy that accepts your health answers typically provides full
-          coverage from day one. Guaranteed-issue policies, since they skip health questions
-          entirely, usually include a two-year waiting period — if you pass away from natural
-          causes during those first two years, the policy typically refunds the premiums you paid
-          rather than the full benefit (accidental death is often covered immediately either
-          way). After the waiting period ends, you have full coverage for life.
+          A simplified-issue policy, upon acceptance of health disclosures, generally provides
+          full coverage from policy inception. Guaranteed-issue policies, given the absence of
+          health questions, typically incorporate a two-year waiting period — natural-cause death
+          within this period generally results in premium reimbursement rather than full benefit
+          disbursement (accidental death is typically covered immediately under either structure).
+          Following expiration of the waiting period, full coverage applies for the policy's
+          remaining duration.
         </p>
 
         <h2 id="regulations" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          Final expense insurance regulations in {state.name}
+          Regulatory framework in {state.name}
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Like every state, {isDC ? "D.C." : state.name} regulates which insurance carriers and
-          policies can be sold to its residents through its Department of Insurance. Agents must
-          hold a state-specific license to sell you a policy, and carriers have to get their
-          policy forms and rates approved before offering them locally. Your policy will also
-          include a free-look period — commonly between 10 and 30 days, depending on the
-          state — during which you can cancel for a full refund if you change your mind; your
-          policy documents will show the exact number that applies to yours. Because these rules
-          are set at the state level, not every plan available nationally is necessarily approved
-          for sale in {displayName} — a licensed agent will only show you options that are.
+          {isDC ? "D.C." : state.name}, consistent with every jurisdiction, determines through its
+          Department of Insurance which carriers and products may be sold to residents. Agents
+          must hold jurisdiction-specific licensure, and carriers must obtain approval of policy
+          forms and rates prior to local distribution. Policies additionally incorporate a
+          free-look period — typically between 10 and 30 days, varying by jurisdiction — during
+          which cancellation for full refund remains available; specific policy documentation will
+          reflect the applicable duration. As these requirements are jurisdiction-specific, a
+          product available nationally is not necessarily approved for {displayName} — a licensed
+          agent will present only options confirmed available in this jurisdiction.
         </p>
 
         <h2 id="burial-laws" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          Funeral and burial laws in {state.name}
+          Funeral and burial statutes in {state.name}
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Funeral and burial practices are also regulated at the state level. In general, state
-          law establishes who has the legal right to make funeral and burial decisions (usually a
-          spouse or next of kin, unless you&apos;ve designated someone else), requires funeral
-          homes to be licensed, and sets consumer-protection rules for how prices are disclosed.
-          The specifics vary by state, so it&apos;s worth a conversation with a local funeral home
-          or an elder law attorney if you want the details that apply to your situation — final
-          expense insurance is there to make sure the money is available regardless of how those
-          decisions get made.
+          Funeral and burial practices are similarly subject to state-level regulation. Generally,
+          state statute establishes the party holding legal authority over funeral and burial
+          determinations (typically a spouse or next of kin, absent alternative designation),
+          mandates funeral home licensure, and establishes consumer protection requirements
+          regarding price disclosure. Given jurisdictional variation in these requirements,
+          consultation with a local funeral home or an elder law attorney is advisable for
+          jurisdiction-specific guidance — final expense insurance functions to ensure funds are
+          available irrespective of the specific determinations made.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          What affects your rate
+          Premium determinants
         </h2>
         <CostFactorsGrid />
 
         <h2 id="regions" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          Regions and major metros in {state.name}
+          Regional coverage in {state.name}
         </h2>
         {isDC ? (
           <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-            Washington, D.C. is a single jurisdiction rather than a state made up of counties or
-            regions — coverage works the same way across the whole District.
+            Washington, D.C. constitutes a single jurisdiction rather than a state comprising
+            counties or regions — coverage is administered uniformly throughout the District.
           </p>
         ) : (
           <>
             <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-              Licensed agents and carriers serve residents throughout {state.name}, including
-              around its state capital and major metro areas:
+              Licensed agents and carriers serve residents throughout {state.name}, inclusive of
+              the state capital and principal metropolitan areas:
             </p>
             <div className="mt-6 overflow-x-auto rounded-2xl border border-mist">
               <table className="w-full min-w-[420px] border-collapse text-left">
@@ -278,19 +281,19 @@ export default async function StateCoveragePage(props: PageProps<"/coverage-by-s
         )}
 
         <h2 id="counties" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
-          Counties we serve in {state.name}
+          County-level coverage in {state.name}
         </h2>
         {isDC ? (
           <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-            Washington, D.C. is a single federal district with no county-level subdivisions —
-            coverage works the same way across the whole District.
+            Washington, D.C. constitutes a single federal district without county-level
+            subdivision — coverage is administered uniformly throughout.
           </p>
         ) : (
           <>
             <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-              Coverage is available to residents throughout every {countyTermFor(state.code).singular}{" "}
-              in {state.name} — final expense insurance isn&apos;t limited to major metro areas.
-              We currently serve all {STATE_COUNTIES[state.code]?.length ?? 0} of them:
+              Coverage extends to residents throughout every {countyTermFor(state.code).singular}{" "}
+              in {state.name}, not solely major metropolitan areas. All{" "}
+              {STATE_COUNTIES[state.code]?.length ?? 0} are currently served:
             </p>
             <div className="mt-6 columns-2 gap-x-6 sm:columns-3 lg:columns-4">
               {(STATE_COUNTIES[state.code] ?? []).map((county) => (
@@ -306,12 +309,13 @@ export default async function StateCoveragePage(props: PageProps<"/coverage-by-s
           Veterans&apos; burial benefits
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Veterans and, in many cases, their spouses may qualify for federal burial benefits
-          through the VA, including a burial allowance and eligibility for a plot in a VA national
-          cemetery — a benefit that applies no matter which state you live in. Final expense
-          insurance is separate from these benefits and is often used to cover the costs a VA
-          benefit doesn&apos;t, such as a service, viewing, or a headstone beyond what&apos;s
-          provided. A licensed agent can help you understand how the two fit together.
+          Veterans, and in certain circumstances their spouses, may qualify for federal burial
+          benefits administered through the VA, including a burial allowance and potential
+          eligibility for interment in a VA national cemetery, irrespective of state of residence.
+          Final expense insurance operates independently of these benefits and is frequently
+          utilized to address costs not covered by the VA benefit, such as a service, viewing, or
+          supplementary headstone costs. A licensed agent can clarify the interaction between
+          these two provisions.
         </p>
 
         <h2 id="faq" className="mt-14 scroll-mt-24 font-display text-2xl font-extrabold text-harbor">
@@ -333,14 +337,13 @@ export default async function StateCoveragePage(props: PageProps<"/coverage-by-s
 
         <div className="mt-14 rounded-2xl bg-canvas-alt p-7">
           <h2 className="font-display text-xl font-extrabold text-harbor">
-            Why compare multiple carriers in {displayName}
+            Rationale for multi-carrier comparison in {displayName}
           </h2>
           <p className="mt-3 text-base leading-relaxed text-charcoal/80">
-            {siteConfig.name} specializes in final expense insurance for seniors who want a
-            professional review of their options before their funeral expenses become a burden on
-            loved ones. We partner with multiple providers so we can compare plans side by side
-            for {displayName} residents, instead of pointing everyone toward a single
-            company&apos;s policy regardless of fit.
+            {siteConfig.name} specializes in final expense insurance for individuals seeking
+            assurance that funeral costs will not burden survivors. Partnerships with multiple
+            carriers enable systematic comparison for {displayName} residents, rather than
+            directing all applicants toward a single carrier's product irrespective of fit.
           </p>
         </div>
 

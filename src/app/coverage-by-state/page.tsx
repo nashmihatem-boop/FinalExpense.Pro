@@ -4,30 +4,30 @@ import { Button } from "@/components/ui/button";
 import { US_STATES } from "@/lib/us-states";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance by State",
+  title: "Final Expense Insurance: State-by-State Regulatory Reference",
   description:
-    "Final expense insurance is regulated state by state. Pick your state for a professional breakdown of how coverage works where you live, and get a free quote.",
-  openGraph: { title: "Final Expense Insurance by State", description: "Final expense insurance is regulated state by state. Pick your state for a professional breakdown of how coverage works where you live, and get a free quote." },
+    "A professional reference on state-by-state final expense insurance regulation. Select a jurisdiction for detailed information and a formal quote.",
+  openGraph: { title: "Final Expense Insurance: State-by-State Regulatory Reference", description: "A professional reference on state-by-state final expense insurance regulation. Select a jurisdiction for detailed information and a formal quote." },
 
-  twitter: { title: "Final Expense Insurance by State", description: "Final expense insurance is regulated state by state. Pick your state for a professional breakdown of how coverage works where you live, and get a free quote." },
+  twitter: { title: "Final Expense Insurance: State-by-State Regulatory Reference", description: "A professional reference on state-by-state final expense insurance regulation. Select a jurisdiction for detailed information and a formal quote." },
 };
 
 const FAQS = [
   {
-    q: "Does final expense insurance cost more in some states?",
-    a: "Insurance is regulated at the state level, so not every carrier or plan is available everywhere — but within your state, your premium is driven mainly by your age, gender, tobacco use, health, and the coverage amount you choose, not by your ZIP code.",
+    q: "Does cost vary materially by jurisdiction?",
+    a: "Insurance is regulated at the state level, so carrier and product availability differs by jurisdiction. Within a given state, however, premium is determined primarily by age, gender, tobacco use, health status, and coverage amount — not by specific address.",
   },
   {
-    q: "Will my policy still cover me if I move?",
-    a: "Yes. Final expense insurance is a whole life policy tied to you, not your address. Once it's in force, your coverage and premium stay the same no matter which state you move to later.",
+    q: "Does relocation affect an existing policy?",
+    a: "No. This constitutes a whole life policy attached to the insured individual rather than a specific address — once in force, coverage and premium remain unchanged regardless of subsequent relocation.",
   },
   {
-    q: "What's the difference between final expense and burial insurance?",
-    a: "Nothing — they're different names for the same thing. “Burial insurance,” “funeral insurance,” and “final expense insurance” all describe the same small whole life policy built to cover end-of-life costs.",
+    q: "Is there a substantive distinction between final expense and burial insurance?",
+    a: "No substantive distinction exists. \"Burial insurance,\" \"funeral insurance,\" and \"final expense insurance\" are synonymous terms referring to the same product category — a modest whole life policy structured to address end-of-life costs.",
   },
   {
-    q: "Do I need to talk to an agent licensed in my specific state?",
-    a: "Yes — agents have to be licensed in the state where you live to sell you a policy there. When you request a quote, we match you with an agent and carriers actually licensed to do business in your state.",
+    q: "Must the agent hold a license specific to my state?",
+    a: "Yes — agents are required to hold licensure in the applicant's state of residence to conduct a sale there. Upon quote request, applicants are matched with agents and carriers holding appropriate licensure in their jurisdiction.",
   },
 ];
 
@@ -37,11 +37,11 @@ export default function CoverageByStatePage() {
       <section className="bg-gradient-to-r from-harbor-deep via-harbor to-harbor-deep">
         <div className="mx-auto max-w-3xl px-5 py-16 text-center sm:px-8 sm:py-20">
           <h1 className="font-display text-3xl font-extrabold text-canvas sm:text-4xl">
-            Final expense insurance by state
+            Final expense insurance: state-by-state regulatory reference
           </h1>
           <p className="mt-4 text-lg text-canvas/75">
-            Coverage, carriers, and licensing all work state by state. Pick yours below for a
-            professional breakdown.
+            No two states apply identical rules to carrier licensure or product approval. Locate
+            the applicable jurisdiction below to proceed with an evaluation.
           </p>
           <div className="mt-8 flex justify-center">
             <Button as="link" href="/get-quote" size="lg">
@@ -54,19 +54,19 @@ export default function CoverageByStatePage() {
       <div className="mx-auto max-w-5xl px-5 py-16 sm:px-8 sm:py-20">
         <div className="rounded-2xl border border-mist bg-canvas-alt p-7">
           <p className="text-base leading-relaxed text-charcoal/80">
-            FinalExpense.Pro helps people across the country compare final expense and burial
-            insurance from multiple licensed carriers, with every recommendation reviewed by a
-            licensed professional. Select your state below to see what to expect and get matched
-            with an agent licensed to help where you live.
+            This reference exists to support systematic evaluation of burial and final expense
+            products issued by carriers licensed across all fifty states and the District.
+            Identify the applicable jurisdiction below for detailed analysis and a referral to an
+            appropriately licensed agent.
           </p>
           <p className="mt-3 text-sm leading-relaxed text-charcoal/60">
-            We&apos;re an independent agency, not a single insurance company — so you see real
-            options across carriers, with no obligation to enroll.
+            This organization operates as an independent agency rather than a single carrier,
+            providing genuine cross-carrier comparison without enrollment obligation.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Select your state
+          Select a jurisdiction
         </h2>
         <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {US_STATES.map((s) => (
