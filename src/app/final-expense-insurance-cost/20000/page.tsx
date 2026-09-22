@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { CostFactorsGrid } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "$20,000 Final Expense Insurance Cost",
+  title: "$20,000 Final Expense Insurance: The Modal Coverage Tier",
   description:
-    "A professional look at why $20,000 is one of the most commonly chosen final expense coverage amounts, what it's meant to cover, and what actually drives the price.",
-  openGraph: { title: "$20,000 Final Expense Insurance Cost", description: "A professional look at why $20,000 is one of the most commonly chosen final expense coverage amounts, what it's meant to cover, and what actually drives the price." },
+    "A professional analysis of the $20,000 coverage amount, the most frequently selected final expense tier, and its premium determinants.",
+  openGraph: { title: "$20,000 Final Expense Insurance: The Modal Coverage Tier", description: "A professional analysis of the $20,000 coverage amount, the most frequently selected final expense tier, and its premium determinants." },
 
-  twitter: { title: "$20,000 Final Expense Insurance Cost", description: "A professional look at why $20,000 is one of the most commonly chosen final expense coverage amounts, what it's meant to cover, and what actually drives the price." },
+  twitter: { title: "$20,000 Final Expense Insurance: The Modal Coverage Tier", description: "A professional analysis of the $20,000 coverage amount, the most frequently selected final expense tier, and its premium determinants." },
 };
 
 export default function TwentyThousandCostPage() {
@@ -20,67 +20,71 @@ export default function TwentyThousandCostPage() {
           <Link href="/final-expense-insurance-cost" className="hover:text-harbor">Cost by Coverage Amount</Link> / $20,000
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How much does a $20,000 final expense policy cost?
+          $20,000 final expense insurance: the modal coverage tier
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          $20,000 is consistently one of the most commonly chosen final expense coverage amounts —
-          the number a lot of applicants land on once a licensed professional has walked them
-          through what a full funeral actually involves. What it costs is individual to you; what
-          it&apos;s meant to cover is fairly consistent.
+          $20,000 represents the most frequently selected coverage amount among applicants who
+          have conducted a thorough evaluation of comprehensive funeral costs. Premium
+          determination remains individual to the applicant; however, the typical application of
+          this coverage amount is highly consistent across the applicant population.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">
-            The honest short answer
+            Direct answer
           </p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            No professional source can quote a $20,000 rate here — premiums are calculated per
-            applicant, not off a shared table. What&apos;s consistent is that this is one of the
-            most commonly chosen amounts, and why applicants land on it.
+            A $20,000 premium cannot be quoted from a published rate schedule, as determination
+            occurs on an individual basis. The consistent element is this tier's status as the
+            most frequently selected amount, addressed below.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What $20,000 is typically meant to cover
+          Typical utilization of $20,000 in coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          In many areas, $20,000 is enough for a full traditional funeral and burial — a service,
-          casket, vault, plot, and headstone — plus a cushion for the smaller costs that build up
-          around it: an obituary, flowers, a gathering afterward, or travel for family members
-          coming from out of town. Actual costs vary widely by region and the specific choices
-          made, so treat this as a general pattern rather than a guarantee for your area — the{" "}
+          In many jurisdictions, $20,000 is sufficient to fund a complete traditional funeral and
+          burial — inclusive of service, casket, vault, plot, and marker — with residual margin
+          available for ancillary costs: obituary publication, floral arrangements, a subsequent
+          gathering, or travel expenses for family members. Actual costs vary materially by region
+          and specific selections, and this figure should be regarded as a general pattern rather
+          than a jurisdiction-specific guarantee.{" "}
           <a href="https://nfda.org" className="text-harbor-mid underline">
-            National Funeral Directors Association
+            The National Funeral Directors Association
           </a>{" "}
-          publishes national median cost figures if you want to research current numbers directly.
+          publishes annual national median data for independent verification.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why it&apos;s such a common target
+          Basis for its frequent selection
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          $20,000 tends to be roughly the point where most of the core pieces of a traditional
-          funeral are accounted for without needing to trim service choices to fit a smaller
-          number — while keeping the ongoing premium meaningfully lower than doubling up at{" "}
+          $20,000 typically represents the threshold at which the principal components of a
+          traditional funeral are addressed without requiring reduction of service selections to
+          accommodate a lower coverage amount, while maintaining a materially lower premium
+          relative to{" "}
           <Link href="/final-expense-insurance-cost/40000" className="text-harbor-mid underline">
             $40,000
           </Link>
-          . That balance is why it comes up so often in professional reviews, not because
-          it&apos;s a fixed &quot;correct&quot; answer for everyone. Your own number should still
-          come down to what you actually want covered, not what&apos;s statistically common.
+          . This balance accounts for its frequent recommendation in agent consultations, rather
+          than any inherent universal appropriateness. The applicable amount should nonetheless be
+          determined by the applicant's specific coverage objectives rather than prevailing
+          selection patterns.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What actually determines your price at $20,000
+          Premium determinants at the $20,000 tier
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Popularity doesn&apos;t change the math — a $20,000 policy is priced on the same factors
-          as any other amount:
+          Frequency of selection does not alter the underlying pricing methodology — a $20,000
+          policy is priced according to the identical determinants applicable to any coverage
+          amount:
         </p>
         <CostFactorsGrid />
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A professional coverage review is the only way to see what $20,000 in coverage actually
-          costs based on your own details, with no obligation to apply.
+          A formal quote remains the only method for determining an applicant-specific premium at
+          $20,000, without obligation to proceed.
         </p>
 
         <div className="mt-14 text-center">

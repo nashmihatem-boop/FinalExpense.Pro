@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { CostFactorsGrid } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "$15,000 Final Expense Insurance Cost",
+  title: "$15,000 Final Expense Insurance: An Intermediate-Tier Analysis",
   description:
-    "A professional look at what a $15,000 final expense policy commonly covers, how it compares to $10,000 and $20,000, and what actually drives the price.",
-  openGraph: { title: "$15,000 Final Expense Insurance Cost", description: "A professional look at what a $15,000 final expense policy commonly covers, how it compares to $10,000 and $20,000, and what actually drives the price." },
+    "A professional analysis of the $15,000 intermediate coverage tier, its typical applicant profile, and premium determinants.",
+  openGraph: { title: "$15,000 Final Expense Insurance: An Intermediate-Tier Analysis", description: "A professional analysis of the $15,000 intermediate coverage tier, its typical applicant profile, and premium determinants." },
 
-  twitter: { title: "$15,000 Final Expense Insurance Cost", description: "A professional look at what a $15,000 final expense policy commonly covers, how it compares to $10,000 and $20,000, and what actually drives the price." },
+  twitter: { title: "$15,000 Final Expense Insurance: An Intermediate-Tier Analysis", description: "A professional analysis of the $15,000 intermediate coverage tier, its typical applicant profile, and premium determinants." },
 };
 
 export default function FifteenThousandCostPage() {
@@ -20,67 +20,70 @@ export default function FifteenThousandCostPage() {
           <Link href="/final-expense-insurance-cost" className="hover:text-harbor">Cost by Coverage Amount</Link> / $15,000
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How much does a $15,000 final expense policy cost?
+          $15,000 final expense insurance: an intermediate-tier analysis
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          $15,000 sits between the two amounts people search for most — $10,000 and $20,000 — and
-          tends to appeal to people who&apos;ve reviewed both and want something in the middle.
-          The price itself still depends entirely on you, not a fixed number posted on this page.
+          $15,000 occupies the interval between the two most frequently researched coverage
+          amounts, $10,000 and $20,000, and typically attracts applicants who have evaluated both
+          and determined an intermediate figure better serves their objective. Premium
+          determination remains applicant-specific rather than fixed, consistent with all coverage
+          tiers addressed in this reference.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">
-            The honest short answer
+            Direct answer
           </p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            There&apos;s no fixed price for a $15,000 policy — it&apos;s underwritten per
-            applicant. What we can say professionally is how this amount tends to be used: a step
-            up from the bare minimum, without reaching for a full traditional funeral budget.
+            No fixed premium exists for $15,000 in coverage — determination occurs on an
+            individual basis. The consistent element is functional application: an increment
+            beyond minimal coverage, without extending to full traditional-funeral budgeting.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What $15,000 is typically meant to cover
+          Typical utilization of $15,000 in coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          $15,000 generally buys more breathing room than a bare-bones cremation policy — often
-          enough for a fuller service with a viewing beforehand, or a modest burial in a
-          lower-cost area, with a bit left over for smaller bills. It&apos;s a common choice for
-          people who want more than the minimum without paying for coverage sized for a full
-          traditional funeral they don&apos;t necessarily need.
+          Relative to a minimal cremation-oriented policy, $15,000 generally provides materially
+          greater flexibility — frequently sufficient for an expanded service inclusive of a
+          viewing, or a modest burial in a lower-cost jurisdiction, with residual funds available
+          for minor obligations. This tier is commonly selected by applicants seeking coverage
+          beyond the minimum without incurring the cost structure associated with a full
+          traditional funeral that may exceed the applicant's requirements.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Why some people land in between
+          Rationale for intermediate-tier selection
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Not everyone fits neatly into &quot;cremation only&quot; or &quot;full traditional
-          funeral.&quot; Some want a hybrid — a service or viewing before cremation, say — and some
-          simply want more cushion than the smaller tiers offer without paying for coverage sized
-          for services they don&apos;t plan to use. $15,000 is often the number people settle on
-          after a professional side-by-side review of both neighbors:{" "}
+          Not all applicants align cleanly with either a cremation-only or full traditional funeral
+          category. Certain applicants prefer a hybrid arrangement — a service or viewing
+          preceding cremation, for example — while others seek additional margin beyond the lowest
+          tiers without allocating resources toward services they do not intend to utilize.
+          $15,000 frequently represents the outcome of direct comparison between{" "}
           <Link href="/final-expense-insurance-cost/10000" className="text-harbor-mid underline">
             $10,000
           </Link>{" "}
-          on one side, and{" "}
+          and{" "}
           <Link href="/final-expense-insurance-cost/20000" className="text-harbor-mid underline">
             $20,000
-          </Link>{" "}
-          on the other.
+          </Link>
+          .
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What actually determines your price at $15,000
+          Premium determinants at the $15,000 tier
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Landing in between doesn&apos;t change what sets your price — the same factors apply at
-          $15,000 as at any other amount:
+          Intermediate positioning does not alter the underlying pricing methodology — identical
+          determinants apply at $15,000 as at any other coverage amount:
         </p>
         <CostFactorsGrid />
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Reviewing your actual quote at $10,000, $15,000, and $20,000 side by side, with a
-          licensed professional, is often the fastest way to see exactly what the extra coverage
-          costs you month to month.
+          Direct comparison of applicant-specific quotes at $10,000, $15,000, and $20,000 typically
+          provides the most efficient method for evaluating incremental cost per additional
+          coverage dollar.
         </p>
 
         <div className="mt-14 text-center">

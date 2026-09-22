@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { CostFactorsGrid } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "$30,000 Final Expense Insurance Cost",
+  title: "$30,000 Final Expense Insurance: A Margin-Tier Analysis",
   description:
-    "A professional look at what a $30,000 final expense policy commonly covers, who tends to choose it, and what actually drives the price.",
-  openGraph: { title: "$30,000 Final Expense Insurance Cost", description: "A professional look at what a $30,000 final expense policy commonly covers, who tends to choose it, and what actually drives the price." },
+    "A professional analysis of the $30,000 coverage tier, its typical applicant profile, and premium determinants.",
+  openGraph: { title: "$30,000 Final Expense Insurance: A Margin-Tier Analysis", description: "A professional analysis of the $30,000 coverage tier, its typical applicant profile, and premium determinants." },
 
-  twitter: { title: "$30,000 Final Expense Insurance Cost", description: "A professional look at what a $30,000 final expense policy commonly covers, who tends to choose it, and what actually drives the price." },
+  twitter: { title: "$30,000 Final Expense Insurance: A Margin-Tier Analysis", description: "A professional analysis of the $30,000 coverage tier, its typical applicant profile, and premium determinants." },
 };
 
 export default function ThirtyThousandCostPage() {
@@ -20,62 +20,63 @@ export default function ThirtyThousandCostPage() {
           <Link href="/final-expense-insurance-cost" className="hover:text-harbor">Cost by Coverage Amount</Link> / $30,000
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How much does a $30,000 final expense policy cost?
+          $30,000 final expense insurance: a margin-tier analysis
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          $30,000 is a comfortable buffer tier — generally enough to fund a full traditional
-          funeral without tight choices, and still leave a meaningful amount behind. As with every
-          amount on this site, the actual premium depends on you, not a number posted on this page.
+          $30,000 constitutes a substantial-margin coverage tier, generally sufficient to fund a
+          complete traditional funeral without constraint, while retaining material residual
+          value. Consistent with all tiers addressed in this reference, actual premium
+          determination remains applicant-specific rather than published as a fixed figure.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">
-            The honest short answer
+            Direct answer
           </p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            There&apos;s no standard rate for $30,000 in coverage — it depends on you. What&apos;s
-            consistent is the role this amount plays: full funeral costs covered comfortably, with
-            a real amount left over.
+            No standard rate exists for $30,000 in coverage — premium determination is
+            applicant-specific. The consistent element is functional application: complete funeral
+            costs addressed comfortably, with substantial residual value.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What $30,000 is typically meant to cover
+          Typical utilization of $30,000 in coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          $30,000 generally funds a full traditional funeral and burial without needing to
-          economize on the service, casket, or plot, plus a real cushion afterward — often enough
-          to make a genuine dent in outstanding debt, whether that&apos;s medical bills, credit
-          cards, or a car loan, rather than just covering the small incidental costs around a
-          service.
+          At this tier, a complete traditional funeral and burial is generally funded without
+          requiring economy in service selection, casket, or plot — while retaining a substantial
+          residual margin frequently sufficient to materially reduce outstanding debt obligations,
+          whether medical, credit-based, or automotive-related, extending well beyond the ancillary
+          costs typically associated with the service itself.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Who tends to choose this amount
+          Applicant profiles typically selecting this tier
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          $30,000 tends to appeal to applicants carrying more significant debt that they
-          specifically don&apos;t want passed informally to a spouse or adult child, applicants
-          who reviewed{" "}
+          Applicants carrying material outstanding debt they specifically intend not to transfer
+          informally to a surviving spouse or adult child frequently select this tier. Additional
+          applicants include those who evaluated{" "}
           <Link href="/final-expense-insurance-cost/20000" className="text-harbor-mid underline">
             $20,000
           </Link>{" "}
-          but wanted less pressure on which casket, service, or plot they choose, and applicants
-          who&apos;d otherwise be juggling two smaller policies and would rather consolidate into
-          one, with a licensed professional coordinating the transition.
+          but sought reduced constraint regarding casket, service, or plot selection, along with
+          applicants who would otherwise maintain two separate lower-value policies and prefer
+          consolidation into a single instrument.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What actually determines your price at $30,000
+          Premium determinants at the $30,000 tier
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A larger amount doesn&apos;t mean a different pricing method — $30,000 is still priced
-          on the same factors as any other tier:
+          A larger coverage amount does not alter the underlying pricing methodology — $30,000 is
+          priced according to identical determinants applicable to any coverage tier:
         </p>
         <CostFactorsGrid />
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A professional coverage review is the only way to see what $30,000 in coverage actually
-          costs for you, with no obligation to apply.
+          A formal quote remains the only method for determining an applicant-specific premium at
+          $30,000, without obligation to proceed.
         </p>
 
         <div className="mt-14 text-center">

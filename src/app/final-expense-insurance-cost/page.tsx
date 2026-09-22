@@ -4,49 +4,49 @@ import { Button } from "@/components/ui/button";
 import { CostFactorsGrid } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "Final Expense Insurance Cost by Coverage Amount",
+  title: "Final Expense Insurance Cost Structure: A Professional Overview",
   description:
-    "A professional breakdown of what actually drives your final expense insurance premium, and what coverage amounts from $5,000 to $40,000 and up are typically meant to cover.",
-  openGraph: { title: "Final Expense Insurance Cost by Coverage Amount", description: "A professional breakdown of what actually drives your final expense insurance premium, and what coverage amounts from $5,000 to $40,000 and up are typically meant to cover." },
+    "A professional overview of the determinants of final expense insurance premiums and the typical application of coverage amounts from $5,000 to $40,000 and above.",
+  openGraph: { title: "Final Expense Insurance Cost Structure: A Professional Overview", description: "A professional overview of the determinants of final expense insurance premiums and the typical application of coverage amounts from $5,000 to $40,000 and above." },
 
-  twitter: { title: "Final Expense Insurance Cost by Coverage Amount", description: "A professional breakdown of what actually drives your final expense insurance premium, and what coverage amounts from $5,000 to $40,000 and up are typically meant to cover." },
+  twitter: { title: "Final Expense Insurance Cost Structure: A Professional Overview", description: "A professional overview of the determinants of final expense insurance premiums and the typical application of coverage amounts from $5,000 to $40,000 and above." },
 };
 
 const COST_TIERS = [
   {
     amount: "$5,000",
     href: "/final-expense-insurance-cost/5000",
-    blurb: "The smallest commonly offered amount — usually a supplement to savings or other coverage, not a standalone funeral budget.",
+    blurb: "The lowest face amount commonly offered — typically supplemental to existing savings or coverage rather than a comprehensive funeral budget.",
   },
   {
     amount: "$10,000",
     href: "/final-expense-insurance-cost/10000",
-    blurb: "A common starting point, often sized for a modest cremation or simple service with a little left over.",
+    blurb: "A frequently selected baseline, generally sufficient for a modest cremation or basic service with residual funds.",
   },
   {
     amount: "$15,000",
     href: "/final-expense-insurance-cost/15000",
-    blurb: "A middle step up — room for a fuller service or a modest burial, without a full traditional funeral budget.",
+    blurb: "An intermediate tier — sufficient for an expanded service or modest burial, below full traditional-funeral budgeting.",
   },
   {
     amount: "$20,000",
     href: "/final-expense-insurance-cost/20000",
-    blurb: "One of the most commonly chosen amounts — often enough for a traditional funeral and burial plus a cushion.",
+    blurb: "Among the most frequently selected amounts — typically sufficient for a traditional funeral and burial with a residual margin.",
   },
   {
     amount: "$25,000",
     href: "/final-expense-insurance-cost/25000",
-    blurb: "Beyond the funeral itself, with room for medical bills, debts, or other costs left behind.",
+    blurb: "Extends beyond funeral costs specifically, accommodating outstanding medical obligations, debt, or other residual expenses.",
   },
   {
     amount: "$30,000",
     href: "/final-expense-insurance-cost/30000",
-    blurb: "A comfortable buffer — a full traditional funeral funded without tight choices, plus a meaningful amount left over.",
+    blurb: "A substantial margin tier — funds a full traditional funeral without constraint, with material residual value.",
   },
   {
     amount: "$40,000",
     href: "/final-expense-insurance-cost/40000",
-    blurb: "Near the top of what's typically called final expense — often meant to leave something behind, not just cover a funeral.",
+    blurb: "Approaching the upper threshold of conventional final expense products — structured to provide residual value beyond funeral costs.",
   },
 ];
 
@@ -58,61 +58,62 @@ export default function FinalExpenseInsuranceCostPage() {
           Cost by Coverage Amount
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How much does final expense insurance cost?
+          Final expense insurance cost structure: a professional overview
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          There isn&apos;t a single price list a reputable source can publish here — final expense
-          insurance is underwritten individually, so the only fully accurate number is the one a
-          carrier gives you after a short application, reviewed against your own answers. What we
-          can offer is a professional breakdown of what actually moves your premium, and what
-          different coverage amounts are typically sized for, so you can walk into that
-          conversation already knowing what to ask for.
+          No standardized rate schedule can be published, as final expense insurance is
+          underwritten on an individual basis; the sole precisely accurate figure is the one a
+          carrier provides following a brief application. This overview instead addresses the
+          determinants of premium calculation and the typical utilization of various coverage
+          amounts, enabling selection of an appropriate target prior to formal engagement with a
+          carrier.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">
-            Why you won&apos;t find a price on this page
+            Rationale for omitting sample pricing
           </p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            A sample rate would have to assume an age, a gender, a health history, and a state —
-            change any one of those and the real number moves. Publishing a figure that
-            doesn&apos;t apply to you would be a disservice, not a convenience. If you want to
-            research actual funeral and cremation costs as a starting point,{" "}
+            A representative rate would require fixed assumptions regarding age, gender, health
+            history, and state of residence — altering any single variable materially changes the
+            resulting figure. Publication of a non-representative figure would introduce more risk
+            of misinterpretation than benefit. For baseline research into funeral and cremation
+            costs,{" "}
             <a href="https://nfda.org" className="text-harbor-mid underline">
               the National Funeral Directors Association
             </a>{" "}
-            publishes national median cost data each year. For what coverage actually costs you
-            specifically, a professional coverage review is the only number that counts.
+            publishes annual national median data. For a figure specific to an individual
+            applicant, a formal quote remains the only reliable source.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          What actually drives your premium
+          Determinants of premium calculation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Every carrier evaluates some version of the same handful of factors. None of them are
-          proprietary, and none of them depend on which company ultimately issues your policy:
+          Carriers uniformly evaluate a consistent set of factors. None are proprietary, and none
+          vary based on the specific carrier selected:
         </p>
         <CostFactorsGrid />
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Coverage amount is the one factor you control
+          Coverage amount: the sole applicant-controlled variable
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Age, health, and gender are fixed by the time you apply. Coverage amount is
-          different — it&apos;s a decision you make, with a direct, predictable relationship to
-          your premium: more coverage costs more, all else being equal. The professional question
-          isn&apos;t &quot;what&apos;s the cheapest policy available,&quot; it&apos;s &quot;what
-          amount actually accomplishes what I need it to.&quot; The sections below break that down
-          by amount.
+          Age, health status, and gender are fixed at the point of application. Coverage amount,
+          by contrast, remains a discretionary decision bearing a direct, predictable relationship
+          to premium — increased coverage corresponds to increased cost, all other factors held
+          constant. This reframes the relevant inquiry from minimizing premium to determining the
+          coverage amount that adequately addresses the intended purpose. The following sections
+          address this determination by specific coverage amount.
         </p>
 
         <h2 className="mt-14 font-display text-2xl font-extrabold text-harbor">
-          Explore cost by coverage amount
+          Cost analysis by coverage amount
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Each amount below is one of the tiers our own review process is built around. Select the
-          one closest to your target for a closer look at what it&apos;s typically used for.
+          Each amount below corresponds to a tier addressed directly within our quote process.
+          Select the amount most closely aligned with your objective for detailed analysis.
         </p>
         <div className="mt-6 grid gap-4 sm:grid-cols-2">
           {COST_TIERS.map((tier) => (

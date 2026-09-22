@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { CostFactorsGrid } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "$5,000 Final Expense Insurance Cost",
+  title: "$5,000 Final Expense Insurance: Cost and Utilization Analysis",
   description:
-    "A professional look at what a $5,000 final expense policy is typically meant to cover, who tends to choose this amount, and what actually determines your price.",
-  openGraph: { title: "$5,000 Final Expense Insurance Cost", description: "A professional look at what a $5,000 final expense policy is typically meant to cover, who tends to choose this amount, and what actually determines your price." },
+    "A professional analysis of the typical utilization of $5,000 in final expense coverage, applicant profiles, and premium determinants.",
+  openGraph: { title: "$5,000 Final Expense Insurance: Cost and Utilization Analysis", description: "A professional analysis of the typical utilization of $5,000 in final expense coverage, applicant profiles, and premium determinants." },
 
-  twitter: { title: "$5,000 Final Expense Insurance Cost", description: "A professional look at what a $5,000 final expense policy is typically meant to cover, who tends to choose this amount, and what actually determines your price." },
+  twitter: { title: "$5,000 Final Expense Insurance: Cost and Utilization Analysis", description: "A professional analysis of the typical utilization of $5,000 in final expense coverage, applicant profiles, and premium determinants." },
 };
 
 export default function FiveThousandCostPage() {
@@ -20,72 +20,73 @@ export default function FiveThousandCostPage() {
           <Link href="/final-expense-insurance-cost" className="hover:text-harbor">Cost by Coverage Amount</Link> / $5,000
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How much does a $5,000 final expense policy cost?
+          $5,000 final expense insurance: cost and utilization analysis
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          $5,000 is typically the smallest face amount carriers commonly offer for final expense
-          coverage. A professional review won&apos;t quote a price for it here — that&apos;s
-          calculated per applicant — but this amount usually plays a specific, limited role:
-          filling a gap, not funding an entire funeral on its own.
+          $5,000 typically represents the lowest face amount available among carriers offering
+          final expense products. No fixed premium can be quoted here, as pricing is determined on
+          an individual basis; however, the functional role of this amount is reasonably
+          consistent across applicants — it typically serves a supplemental function rather than
+          constituting a comprehensive funeral budget.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">
-            The honest short answer
+            Direct answer
           </p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            A $5,000 premium depends on your age, health, gender, tobacco use, and state — no
-            responsible source publishes one number and calls it accurate. What we can tell you
-            professionally is that this is usually a supplemental amount, not a full funeral
-            budget on its own.
+            A $5,000 premium is contingent on age, health status, gender, tobacco use, and state of
+            residence, precluding responsible publication of a fixed figure. What can be stated
+            with confidence: this amount typically supplements an existing arrangement rather than
+            constituting the sole funeral provision.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What $5,000 is typically meant to cover
+          Typical utilization of $5,000 in coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          In most areas, $5,000 rarely funds a full traditional funeral on its own. It&apos;s more
-          commonly used to cover a portion of a simple cremation, or to sit alongside money
-          that&apos;s already set aside — savings, a pre-need arrangement with a funeral home, or
-          an existing life insurance policy that isn&apos;t quite large enough by itself. Some
-          applicants choose it deliberately as a &quot;just in case&quot; layer on top of other
-          plans, rather than as their entire plan.
+          In most jurisdictions, $5,000 is insufficient to fund a complete traditional funeral
+          independently. More commonly, this amount addresses a portion of a basic cremation, or
+          functions alongside pre-existing financial provisions — savings, a preneed funeral home
+          arrangement, or an existing life insurance policy of insufficient magnitude on its own.
+          Certain applicants select this amount deliberately as a contingency layer supplementing
+          an existing plan, rather than as the primary coverage mechanism.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Who tends to choose this amount
+          Applicant profiles typically selecting this amount
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          $5,000 tends to appeal to people easing into coverage for the first time who want to
-          keep the monthly commitment as low as possible, people who&apos;ve already funded most
-          of their funeral plans another way and just want a smaller amount to cover the gap, and
-          people on a fixed income who&apos;d rather have something in force today than wait while
-          they decide on a bigger number. Starting smaller doesn&apos;t lock you out of adding more
-          later — though a new policy down the road means underwriting again at whatever age and
-          health you are at that point, which a licensed professional should walk through with you
-          if you think you&apos;ll want more coverage eventually.
+          Three applicant categories predominate. The first consists of applicants obtaining
+          initial coverage who prioritize minimizing ongoing premium obligation. The second
+          consists of applicants who have already substantially funded funeral arrangements
+          through alternative means and require only supplemental coverage for a residual gap. The
+          third consists of fixed-income applicants who prefer immediate coverage in force over
+          delayed decision-making regarding a larger amount. Selection of a lower initial amount
+          does not preclude subsequent supplementation; however, any additional policy requires
+          independent underwriting reflecting age and health status at that later date, a factor
+          warranting consideration for applicants anticipating future coverage needs.
         </p>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          If you&apos;re not sure $5,000 goes far enough for what you have in mind, it&apos;s
-          worth reviewing it against a{" "}
+          Where $5,000 appears insufficient for the intended purpose, direct comparison against a{" "}
           <Link href="/final-expense-insurance-cost/10000" className="text-harbor-mid underline">
             $10,000 policy
           </Link>{" "}
-          side by side before you decide.
+          is advisable prior to a final determination.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What actually determines your price at $5,000
+          Premium determinants at the $5,000 tier
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Even at the smallest commonly offered amount, your price is set by the same factors as
-          any other policy:
+          Notwithstanding the lower face amount, pricing is determined by the identical factors
+          applicable to any coverage tier:
         </p>
         <CostFactorsGrid />
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The only way to know what $5,000 in coverage actually costs for you is a professional
-          coverage review — it takes about two minutes and comes with no obligation to apply.
+          A formal quote, requiring approximately two minutes and carrying no obligation, remains
+          the only reliable method for determining an applicant-specific premium at $5,000.
         </p>
 
         <div className="mt-14 text-center">

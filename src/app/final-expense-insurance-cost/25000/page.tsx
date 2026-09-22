@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { CostFactorsGrid } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "$25,000 Final Expense Insurance Cost",
+  title: "$25,000 Final Expense Insurance: Beyond Funeral Cost Coverage",
   description:
-    "A professional look at what a $25,000 final expense policy is meant to cover beyond the funeral itself, and what actually drives the price.",
-  openGraph: { title: "$25,000 Final Expense Insurance Cost", description: "A professional look at what a $25,000 final expense policy is meant to cover beyond the funeral itself, and what actually drives the price." },
+    "A professional analysis of the $25,000 coverage tier and its typical application to obligations beyond funeral costs, plus premium determinants.",
+  openGraph: { title: "$25,000 Final Expense Insurance: Beyond Funeral Cost Coverage", description: "A professional analysis of the $25,000 coverage tier and its typical application to obligations beyond funeral costs, plus premium determinants." },
 
-  twitter: { title: "$25,000 Final Expense Insurance Cost", description: "A professional look at what a $25,000 final expense policy is meant to cover beyond the funeral itself, and what actually drives the price." },
+  twitter: { title: "$25,000 Final Expense Insurance: Beyond Funeral Cost Coverage", description: "A professional analysis of the $25,000 coverage tier and its typical application to obligations beyond funeral costs, plus premium determinants." },
 };
 
 export default function TwentyFiveThousandCostPage() {
@@ -20,39 +20,39 @@ export default function TwentyFiveThousandCostPage() {
           <Link href="/final-expense-insurance-cost" className="hover:text-harbor">Cost by Coverage Amount</Link> / $25,000
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          How much does a $25,000 final expense policy cost?
+          $25,000 final expense insurance: beyond funeral cost coverage
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          $25,000 goes a step past covering the funeral itself. It&apos;s the tier where
-          applicants often start thinking, with professional guidance, about what else they&apos;d
-          rather not leave behind for family to sort out — though, as with every amount, the
-          actual price is individual to you.
+          $25,000 represents a coverage tier extending beyond funeral costs specifically. At this
+          level, applicants typically begin evaluating additional financial obligations they
+          prefer not to leave for surviving family members to resolve. As with every tier
+          addressed in this reference, actual premium determination remains applicant-specific.
         </p>
 
         <div className="mt-8 rounded-2xl border border-mist bg-canvas-alt p-6">
           <p className="text-sm font-bold tracking-wide text-harbor uppercase">
-            The honest short answer
+            Direct answer
           </p>
           <p className="mt-2 text-sm leading-relaxed text-charcoal/75">
-            A $25,000 premium is set individually, the same as any other amount. What&apos;s worth
-            knowing upfront is that applicants at this tier are usually budgeting for more than
-            just the funeral.
+            A $25,000 premium is established on an individual basis, consistent with all coverage
+            amounts addressed here. Notably, applicants selecting this tier typically budget for
+            considerations beyond the funeral itself.
           </p>
         </div>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What $25,000 is typically meant to cover
+          Typical utilization of $25,000 in coverage
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          $25,000 comfortably covers a traditional funeral and burial in most areas with room to
-          spare, which is why applicants at this tier are often planning for more than the service
-          alone — a remaining medical bill, a credit card balance, a car payment, or simply a
-          buffer so a family member isn&apos;t the one absorbing whatever&apos;s left after the
-          funeral home is paid.
+          In most jurisdictions, $25,000 comfortably funds a traditional funeral and burial with
+          substantial residual margin — accounting for its association with planning beyond the
+          service alone: an outstanding medical obligation, a credit card balance, an automobile
+          loan, or simply a financial buffer ensuring no family member independently absorbs
+          residual costs following settlement with the funeral provider.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          The shift from covering the funeral to covering the aftermath
+          The transition from funeral coverage to post-funeral obligations
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
           At{" "}
@@ -63,24 +63,24 @@ export default function TwentyFiveThousandCostPage() {
           <Link href="/final-expense-insurance-cost/20000" className="text-harbor-mid underline">
             $20,000
           </Link>
-          , most applicants are thinking primarily about the service itself. By $25,000, a
-          professional review often shifts the conversation toward what happens in the weeks
-          after — final bills that keep arriving, a lease or mortgage payment due before an estate
-          settles, that kind of thing. It&apos;s not a hard line anyone draws on purpose, just a
-          common pattern in how applicants describe why they landed on this amount.
+          , applicant focus is predominantly on the service itself. At $25,000, consideration
+          frequently expands to encompass the subsequent period — ongoing financial obligations,
+          housing payments due prior to estate settlement, and comparable considerations. No
+          formal threshold governs this transition; it reflects an observed pattern in applicant
+          rationale for this specific tier.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          What actually determines your price at $25,000
+          Premium determinants at the $25,000 tier
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          The factors that set your price at $25,000 are the same ones that apply at every other
-          amount:
+          The determinants establishing premium at $25,000 are identical to those applicable at
+          every other coverage tier:
         </p>
         <CostFactorsGrid />
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A professional coverage review is the only way to see what $25,000 in coverage actually
-          costs based on your own age, health, and state.
+          A formal quote remains the only method for determining an applicant-specific premium at
+          $25,000, based on individual age, health status, and state of residence.
         </p>
 
         <div className="mt-14 text-center">
