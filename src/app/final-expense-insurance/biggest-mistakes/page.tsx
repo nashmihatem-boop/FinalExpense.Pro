@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 import { PolicyTypesTable } from "@/components/final-expense/policy-types-table";
 
 export const metadata: Metadata = {
-  title: "Biggest Mistakes Shopping for Final Expense Insurance",
+  title: "Procurement Errors in Final Expense Insurance: A Professional Analysis",
   description:
-    "A professional breakdown of common, avoidable mistakes people make when shopping for final expense insurance, from comparing only one carrier to letting a policy lapse.",
-  openGraph: { title: "Biggest Mistakes Shopping for Final Expense Insurance", description: "A professional breakdown of common, avoidable mistakes people make when shopping for final expense insurance, from comparing only one carrier to letting a policy lapse." },
+    "A professional analysis of common, avoidable errors in final expense insurance procurement, from single-carrier comparison to lapse risk.",
+  openGraph: { title: "Procurement Errors in Final Expense Insurance: A Professional Analysis", description: "A professional analysis of common, avoidable errors in final expense insurance procurement, from single-carrier comparison to lapse risk." },
 
-  twitter: { title: "Biggest Mistakes Shopping for Final Expense Insurance", description: "A professional breakdown of common, avoidable mistakes people make when shopping for final expense insurance, from comparing only one carrier to letting a policy lapse." },
+  twitter: { title: "Procurement Errors in Final Expense Insurance: A Professional Analysis", description: "A professional analysis of common, avoidable errors in final expense insurance procurement, from single-carrier comparison to lapse risk." },
 };
 
 export default function BiggestMistakesPage() {
@@ -20,64 +20,64 @@ export default function BiggestMistakesPage() {
           <Link href="/final-expense-insurance" className="hover:text-harbor">Final Expense Insurance</Link> / Biggest Mistakes
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
-          The biggest mistakes people make shopping for final expense insurance
+          Procurement errors in final expense insurance: a professional analysis
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-charcoal/80">
-          Most of these are avoidable with a little professional awareness upfront. None of them
-          are complicated once you know to look out for them — here are four that come up again
-          and again.
+          Each of the following errors is readily avoidable with appropriate advance awareness.
+          None require specialized expertise to circumvent — the following four represent the
+          most frequently observed errors among applicants.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Getting only one quote
+          Error 1: reliance on a single quotation
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Stopping at the first carrier or agent you talk to, instead of getting a professional
-          comparison, is the most common mistake on this list. Carriers set their own health
-          questions, their own look-back periods, and their own pricing — the same person can get
-          a meaningfully different answer from one company to the next.{" "}
+          The most frequently observed error involves accepting the first carrier or agent
+          consulted without comparative evaluation. Each carrier establishes independent health
+          questions, look-back periods, and pricing structures — an identical applicant profile
+          may yield materially different outcomes across carriers.{" "}
           <Link href="/pre-existing-conditions#why-carriers-differ" className="text-harbor-mid underline">
-            See why the same condition can get different answers from different carriers
+            The analysis of inter-carrier variation
           </Link>{" "}
-          before settling on the first offer you hear.
+          addresses this dynamic prior to accepting an initial offer as definitive.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Buying guaranteed issue when simplified issue was available
+          Error 2: guaranteed-issue selection where simplified issue was available
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Guaranteed issue skips health questions entirely, but it costs more for the same
-          coverage and comes with a waiting period. Some people default to it out of assumption,
-          or because it&apos;s what they were offered first, without a professional ever checking
-          whether they&apos;d actually qualify for simplified issue instead — which is typically
-          cheaper and starts full coverage on day one.
+          Guaranteed issue eliminates health questions but carries a materially higher cost for
+          equivalent coverage, in addition to a waiting period. Certain applicants select this
+          structure by default assumption, or because it was the initial offering presented,
+          without determining whether simplified issue — generally lower cost and effective
+          immediately — was in fact available.
         </p>
         <PolicyTypesTable />
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Not disclosing health information accurately
+          Error 3: inaccurate health disclosure
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          Understating or leaving out a condition to get a better rate, or to avoid a decline, can
-          feel tempting in the moment — but it risks a real problem later. If a claim is filed
-          during the contestability period, the early stretch of the policy when an insurer can
-          still review your original answers against your medical and prescription records, a
-          mismatch can lead to a denied claim or a reduced payout at the exact moment your family
-          needs the money most. Answering honestly the first time protects the coverage you&apos;re
-          paying for.
+          Understating or omitting a health condition to secure a more favorable rate or avoid
+          decline presents a substantive downstream risk. Should a claim arise during the
+          contestability period — during which a carrier retains authority to verify disclosed
+          information against medical and prescription records — a discrepancy identified at that
+          juncture may result in claim denial or reduced benefit payment, at the point of greatest
+          financial need for survivors. Accurate initial disclosure preserves the coverage for
+          which premiums are paid.
         </p>
 
         <h2 className="mt-14 font-display text-xl font-extrabold text-harbor">
-          Letting a policy lapse over a missed payment
+          Error 4: policy lapse following a missed payment
         </h2>
         <p className="mt-4 text-base leading-relaxed text-charcoal/80">
-          A single missed premium doesn&apos;t have to mean losing coverage. Policies include a
-          grace period — a set window, commonly around 30 days, though it varies by carrier and
-          state — after a missed due date to catch up before the policy actually lapses. The real
-          mistake isn&apos;t missing a payment occasionally; it&apos;s assuming the policy is
-          already gone and not contacting the carrier or your licensed professional in time to fix
-          it. Keeping payment information current, and reaching out right away if a payment
-          fails, protects coverage you&apos;ve already been paying for.
+          A single missed premium payment does not necessarily result in coverage termination.
+          Policies incorporate a grace period — typically approximately 30 days, subject to
+          variation by carrier and jurisdiction — during which payment may be remitted prior to
+          formal lapse. The substantive error is not the missed payment itself, but rather the
+          assumption that coverage has terminated without contacting the carrier or agent within
+          the applicable grace period. Maintaining current payment information and promptly
+          addressing payment failures preserves previously funded coverage.
         </p>
 
         <div className="mt-14 text-center">
@@ -86,12 +86,12 @@ export default function BiggestMistakesPage() {
           </Button>
           <p className="mt-4 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance/buy-online" className="font-semibold text-harbor-mid hover:underline">
-              What actually happens after you get a quote →
+              The post-quotation process →
             </Link>
           </p>
           <p className="mt-2 text-sm text-charcoal/60">
             <Link href="/final-expense-insurance" className="font-semibold text-harbor-mid hover:underline">
-              ← Back to the full guide
+              ← Return to the complete reference
             </Link>
           </p>
         </div>
