@@ -138,22 +138,23 @@ export default function GuidesPage() {
     <div className="bg-canvas">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
         <p className="font-sans text-sm font-semibold tracking-[0.14em] text-brass uppercase">
-          Resource Library
+          Professional Resource Library
         </p>
         <h1 className="mt-3 font-display text-3xl font-extrabold text-harbor sm:text-4xl">
           Every guide, professionally researched
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-relaxed text-charcoal/80">
-          Final expense insurance touches a lot of decisions beyond just picking a coverage
-          amount. Browse by topic below, or use{" "}
+          Selecting final expense coverage involves considerably more than settling on a
+          face amount — each consideration below is addressed on its own terms. For a
+          specific circumstance, consult{" "}
           <Link href="/coverage-by-state" className="text-harbor-mid underline">
             Coverage by State
           </Link>{" "}
-          and{" "}
+          or{" "}
           <Link href="/pre-existing-conditions" className="text-harbor-mid underline">
             Pre-Existing Conditions
           </Link>{" "}
-          to jump straight to your specific situation.
+          directly.
         </p>
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

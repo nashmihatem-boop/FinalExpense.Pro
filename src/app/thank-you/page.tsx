@@ -18,11 +18,11 @@ export default function ThankYouPage() {
       </h1>
       <p className="mt-4 max-w-md text-lg leading-relaxed text-charcoal/75">
         A licensed professional will call you at the number you provided with
-        a reviewed recommendation of your options. In the meantime, keep an
-        eye on your email for a copy of what you submitted.
+        a reviewed recommendation of your options. A copy of what you
+        submitted is on its way to your inbox as well.
       </p>
       <p className="mt-3 max-w-md text-base text-charcoal/60">
-        Need to talk to someone sooner? Call us directly.
+        Prefer to speak with someone now? Call the number below.
       </p>
       <Button as="link" href={siteConfig.supportPhoneHref} variant="outline" size="lg" className="mt-7">
         Call {siteConfig.supportPhoneDisplay}
